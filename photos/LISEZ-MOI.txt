@@ -1,0 +1,51 @@
+
+PHOTOS À PLACER DANS CE DOSSIER
+=================================
+
+Renomme chaque photo exactement comme indiqué ci-dessous,
+puis dépose-la dans ce dossier. Le site les chargera automatiquement.
+
+LOGO
+----
+logo.png           → Le logo CPL MED (cœur + microscope, fond blanc)
+
+DR DJIEKA
+---------
+dr-portrait-souriant.jpg   → Dr Djieka souriant, stéthoscope violet, bureau
+                             (utilisé dans : Hero + section Équipe)
+dr-portrait-pro.jpg        → Dr Djieka sérieux, lunettes sans monture, bureau
+dr-bureau.jpg              → Dr Djieka pensif, main au menton
+                             (utilisé dans : Blog article Hormones)
+dr-panneau.jpg             → Dr Djieka devant le panneau extérieur
+
+ÉQUIPE
+------
+equipe-bleu.jpg            → Équipe en t-shirts bleus CPL + casquettes
+                             (utilisé dans : section "Pourquoi nous choisir" + section Équipe)
+equipe-inauguration.jpg    → Photo d'équipe à l'inauguration (WELCOME, blouses)
+                             (utilisé dans : section Équipe)
+equipe-bureau.jpg          → Équipe joyeuse au bureau (le Dr + staff)
+
+TECHNICIENS EN ACTION
+---------------------
+technicienne-microscope.jpg    → Technicienne au microscope, vue de côté (bonnet bleu)
+                                 (utilisé dans : Campagne Fertilité)
+technicienne-microscope-2.jpg  → Technicienne au microscope, vue de profil/dos
+                                 (utilisé dans : Blog article Fertilité)
+prise-de-sang.jpg              → Technicienne prenant du sang (gants bleus)
+                                 (utilisé dans : Campagne Santé femme)
+
+LOCAUX
+------
+accueil-1.jpg              → Salle d'accueil (agents au comptoir, mur vert)
+                             (utilisé dans : Blog article Prévention)
+panneau-exterieur.jpg      → Enseigne "Le Clair de la Plume SARL" extérieure
+
+ÉQUIPEMENTS
+-----------
+labo-equipements.jpg       → Paillasse avec analyseurs (hématologue numérique)
+                             (utilisé dans : Campagne Diabète/HTA)
+
+FORMATS ACCEPTÉS : .jpg, .jpeg, .png, .webp
+RECOMMANDÉ : Compresser les photos avant upload (max 300 Ko par image)
+             via tinypng.com ou squoosh.app

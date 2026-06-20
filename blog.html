@@ -1,0 +1,834 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Blog Santé - Le Clair de la Plume. Articles médicaux rédigés par le Dr Yannick Yvan Djieka : fertilité, bilans, infections, prévention à Douala, Cameroun.">
+  <title>Blog Santé | Le Clair de la Plume — Douala, Cameroun</title>
+  <link rel="canonical" href="https://leclairdelaplume-labo.com/blog.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://leclairdelaplume-labo.com/blog.html">
+  <meta property="og:title" content="Blog Santé | Le Clair de la Plume">
+  <meta property="og:description" content="Conseils médicaux, analyses et prévention par le Dr Yannick Yvan Djieka — Laboratoire Le Clair de la Plume, Douala.">
+  <meta property="og:image" content="https://leclairdelaplume-labo.com/photos/accueil-1.jpg">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Blog Santé — Le Clair de la Plume",
+    "url": "https://leclairdelaplume-labo.com/blog.html",
+    "publisher": {"@type": "MedicalOrganization", "name": "Le Clair de la Plume", "url": "https://leclairdelaplume-labo.com"}
+  }
+  </script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-H3MRLLW9RM"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-H3MRLLW9RM');</script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"></noscript>
+
+  <style>
+    :root {
+      --primary: #1A3A5C; --primary-light: #2A5080; --secondary: #2EAA76;
+      --accent: #C8A84B; --white: #FFFFFF; --light: #F8FAFC; --light-green: #E8F7F1;
+      --gray: #64748B; --gray-light: #CBD5E1; --dark: #1E293B;
+      --shadow: 0 4px 20px rgba(0,0,0,0.10); --radius: 14px;
+    }
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; color: var(--dark); line-height: 1.75; background: var(--white); overflow-x: hidden; }
+    a { text-decoration: none; color: inherit; }
+    img { max-width: 100%; display: block; }
+
+    /* NAVBAR */
+    .navbar { position: sticky; top: 0; z-index: 100; background: white; border-bottom: 1px solid var(--gray-light); padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; }
+    .nav-logo { display: flex; align-items: center; gap: 10px; font-weight: 800; color: var(--primary); font-size: 1rem; }
+    .nav-back { display: flex; align-items: center; gap: 8px; color: var(--secondary); font-size: .9rem; font-weight: 600; }
+    .nav-back:hover { color: var(--primary); }
+    .nav-cta { background: var(--secondary); color: white; padding: 8px 18px; border-radius: 50px; font-size: .85rem; font-weight: 600; }
+    .nav-cta:hover { background: var(--primary); }
+
+    /* HERO */
+    .blog-hero { background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%); padding: 60px 24px 50px; text-align: center; color: white; }
+    .blog-hero h1 { font-size: clamp(1.8rem, 3vw, 2.6rem); font-weight: 800; margin-bottom: 12px; }
+    .blog-hero p { font-size: 1.05rem; opacity: .8; max-width: 560px; margin: 0 auto; }
+    .blog-count { display: inline-block; background: rgba(255,255,255,.15); border-radius: 50px; padding: 6px 18px; font-size: .85rem; font-weight: 600; margin-top: 16px; }
+
+    /* CONTROLS */
+    .blog-controls { background: var(--light); border-bottom: 1px solid var(--gray-light); padding: 24px; position: sticky; top: 72px; z-index: 90; }
+    .blog-controls-inner { max-width: 1180px; margin: 0 auto; display: flex; flex-direction: column; gap: 16px; }
+    .search-wrap { position: relative; }
+    .search-wrap input { width: 100%; padding: 12px 16px 12px 44px; border: 2px solid var(--gray-light); border-radius: 50px; font-size: .95rem; font-family: 'Inter', sans-serif; outline: none; transition: border-color .2s; }
+    .search-wrap input:focus { border-color: var(--secondary); }
+    .search-wrap i { position: absolute; left: 16px; top: 50%; transform: translateY(-50%); color: var(--gray); }
+    .filter-btns { display: flex; flex-wrap: wrap; gap: 8px; }
+    .filter-btn { background: white; border: 2px solid var(--gray-light); color: var(--gray); padding: 6px 16px; border-radius: 50px; font-size: .82rem; font-weight: 600; cursor: pointer; font-family: 'Inter', sans-serif; transition: all .2s; white-space: nowrap; }
+    .filter-btn:hover { border-color: var(--secondary); color: var(--secondary); }
+    .filter-btn.active { background: var(--secondary); border-color: var(--secondary); color: white; }
+
+    /* GRID */
+    .blog-main { max-width: 1180px; margin: 0 auto; padding: 40px 24px; }
+    .blog-results { font-size: .88rem; color: var(--gray); margin-bottom: 24px; }
+    .blog-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+    .blog-card { background: white; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--gray-light); transition: transform .2s, box-shadow .2s; display: block; color: inherit; cursor: pointer; }
+    .blog-card:hover { transform: translateY(-6px); box-shadow: var(--shadow); border-color: transparent; }
+    .blog-img { height: 200px; background-size: cover; background-position: center; }
+    .blog-meta { display: flex; justify-content: space-between; align-items: center; padding: 14px 18px 0; }
+    .blog-cat { background: var(--light-green); color: var(--secondary); font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; padding: 3px 10px; border-radius: 50px; }
+    .blog-date { font-size: .78rem; color: var(--gray); }
+    .blog-body { padding: 12px 18px 18px; }
+    .blog-body h3 { font-size: .95rem; font-weight: 700; color: var(--primary); line-height: 1.45; margin-bottom: 8px; }
+    .blog-body p { font-size: .84rem; color: var(--gray); line-height: 1.6; margin-bottom: 10px; }
+    .blog-link { color: var(--secondary); font-size: .82rem; font-weight: 600; display: inline-flex; align-items: center; gap: 6px; }
+
+    /* PAGINATION */
+    .pagination { display: flex; justify-content: center; align-items: center; gap: 8px; margin-top: 48px; flex-wrap: wrap; }
+    .page-btn { background: white; border: 2px solid var(--gray-light); color: var(--gray); width: 40px; height: 40px; border-radius: 10px; font-size: .9rem; font-weight: 600; cursor: pointer; font-family: 'Inter', sans-serif; display: flex; align-items: center; justify-content: center; transition: all .2s; }
+    .page-btn:hover { border-color: var(--secondary); color: var(--secondary); }
+    .page-btn.active { background: var(--secondary); border-color: var(--secondary); color: white; }
+    .page-btn:disabled { opacity: .4; cursor: default; }
+    .page-btn.wide { width: auto; padding: 0 14px; }
+
+    /* EMPTY STATE */
+    .empty-state { text-align: center; padding: 60px 24px; color: var(--gray); }
+    .empty-state i { font-size: 3rem; margin-bottom: 16px; opacity: .4; }
+    .empty-state p { font-size: 1rem; }
+
+    /* FOOTER */
+    .blog-footer { background: var(--primary); color: white; text-align: center; padding: 30px 24px; font-size: .85rem; margin-top: 60px; }
+    .blog-footer a { color: var(--secondary); font-weight: 600; }
+
+    /* RESPONSIVE */
+    @media (max-width: 1024px) { .blog-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 768px) {
+      .blog-controls { top: 60px; }
+      .blog-grid { grid-template-columns: 1fr; }
+      .nav-cta { display: none; }
+    }
+    @media (max-width: 480px) {
+      .blog-hero { padding: 40px 16px 36px; }
+      .blog-main { padding: 28px 16px; }
+      .blog-controls { padding: 16px; }
+    }
+  </style>
+
+  <!-- OneSignal Web Push -->
+  <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+  <script>
+    window.OneSignalDeferred = window.OneSignalDeferred || [];
+    OneSignalDeferred.push(async function(OneSignal) {
+      await OneSignal.init({
+        appId: "a011806e-bfdc-406a-ad7c-510ef3909261",
+        welcomeNotification: {
+          title: "Le Clair de la Plume",
+          message: "Merci ! Vous recevrez nos nouveaux articles de sante.",
+        },
+        promptOptions: {
+          slidedown: {
+            prompts: [
+              {
+                type: "push",
+                autoPrompt: true,
+                text: {
+                  actionMessage: "Recevez nos nouveaux articles sante directement sur votre appareil.",
+                  acceptButton: "S'abonner",
+                  cancelButton: "Non merci",
+                },
+                delay: {
+                  timeDelay: 5,
+                  pageViews: 1,
+                },
+              },
+            ],
+          },
+        },
+      });
+    });
+  </script>
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="index.html" class="nav-logo">
+    <img src="photos/logo.png" alt="CPL MED" width="32" height="32" style="border-radius:8px;" onerror="this.style.display='none'">
+    Le Clair de la Plume
+  </a>
+  <a href="index.html" class="nav-back">
+    <i class="fas fa-arrow-left"></i> Retour au site
+  </a>
+  <a href="https://wa.me/237683258315?text=Bonjour%2C%20je%20voudrais%20prendre%20rendez-vous%20au%20Laboratoire%20Le%20Clair%20de%20la%20Plume." target="_blank" class="nav-cta">
+    <i class="fab fa-whatsapp"></i> Prendre RDV
+  </a>
+</nav>
+
+<div class="blog-hero">
+  <span style="display:inline-block;background:rgba(255,255,255,.15);border-radius:50px;padding:5px 14px;font-size:.78rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;margin-bottom:16px;">Blog Santé</span>
+  <h1>Informations &amp; conseils médicaux</h1>
+  <p>Articles rédigés par le Dr Yannick Yvan Djieka pour mieux comprendre votre santé.</p>
+  <span class="blog-count" id="totalCount">Chargement...</span>
+</div>
+
+<div class="blog-controls">
+  <div class="blog-controls-inner">
+    <div class="search-wrap">
+      <i class="fas fa-search"></i>
+      <input type="text" id="searchInput" placeholder="Rechercher un article, un examen, un symptôme..." autocomplete="off">
+    </div>
+    <div class="filter-btns" id="filterBtns">
+      <button class="filter-btn active" data-cat="tous">Toutes les catégories</button>
+      <button class="filter-btn" data-cat="Fertilité">Fertilité</button>
+      <button class="filter-btn" data-cat="Prévention">Prévention</button>
+      <button class="filter-btn" data-cat="Infections">Infections</button>
+      <button class="filter-btn" data-cat="Analyses">Analyses</button>
+      <button class="filter-btn" data-cat="Hormones">Hormones</button>
+      <button class="filter-btn" data-cat="Santé femme">Santé femme</button>
+      <button class="filter-btn" data-cat="Santé homme">Santé homme</button>
+      <button class="filter-btn" data-cat="Urgence">Urgence</button>
+      <button class="filter-btn" data-cat="Grossesse">Grossesse</button>
+      <button class="filter-btn" data-cat="Bilan biologique">Bilan biologique</button>
+    </div>
+  </div>
+</div>
+
+<main class="blog-main">
+  <p class="blog-results" id="blogResults"></p>
+
+  <div class="blog-grid" id="blogGrid">
+    <!-- BLOG_GRID_START -->
+      <a class="blog-card" data-cat="Bilan biologique" href="article-ionogramme.html">
+        <div class="blog-img" style="background-image:url('photos/article-ionogramme-sanguin.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Bilan biologique</span>
+          <span class="blog-date">19 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>Ionogramme sanguin : sodium, potassium, chlore — à quoi ça sert ?</h3>
+          <p>L'ionogramme mesure les électrolytes du sang. Crampres, faiblesse, palpitations : ces symptômes peuvent révéler un déséquilibre ionique.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Bilan biologique" href="article-crp-inflammation.html">
+        <div class="blog-img" style="background-image:url('photos/article-crp-marqueur-inflammation.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Bilan biologique</span>
+          <span class="blog-date">19 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>CRP et VS : les marqueurs biologiques de l'inflammation et de l'infection</h3>
+          <p>Fièvre, douleurs, fatigue inexpliquée : la CRP et la VS sont les premières analyses prescrites pour détecter une inflammation ou une infection.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Bilan biologique" href="article-inr-anticoagulants.html">
+        <div class="blog-img" style="background-image:url('photos/article-inr-anticoagulants-surveillance.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Bilan biologique</span>
+          <span class="blog-date">18 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>INR et anticoagulants : surveiller votre traitement au laboratoire</h3>
+          <p>Si vous êtes sous anticoagulant (Sintrom, Coumadine), l'INR doit être contrôlé régulièrement pour éviter saignements et thromboses.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Bilan biologique" href="article-groupe-sanguin.html">
+        <div class="blog-img" style="background-image:url('photos/article-groupe-sanguin-rhesus.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Bilan biologique</span>
+          <span class="blog-date">17 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>Groupe sanguin et rhésus : importance avant chirurgie et grossesse</h3>
+          <p>Connaître son groupe sanguin et son rhésus est indispensable avant toute chirurgie ou grossesse. Voici pourquoi et comment ce test est réalisé.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Fertilité" href="article-amh-reserve-ovarienne.html">
+        <div class="blog-img" style="background-image:url('photos/article-amh-reserve-ovarienne.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Fertilité</span>
+          <span class="blog-date">17 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>AMH et réserve ovarienne : comprendre votre capital fertilité</h3>
+          <p>L'hormone anti-müllérienne (AMH) mesure votre réserve d'ovocytes. C'est l'examen de référence pour évaluer votre fertilité avant de commencer un projet bébé.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Prévention" href="article-bilan-cardiaque.html">
+        <div class="blog-img" style="background-image:url('photos/article-bilan-cardiaque-complet.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Prévention</span>
+          <span class="blog-date">16 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>Bilan cardiaque : quels examens biologiques protègent votre cœur ?</h3>
+          <p>Les maladies cardiovasculaires sont la première cause de décès au monde. Un bilan biologique cardiaque régulier peut vous sauver la vie.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Infections" href="article-dengue.html">
+        <div class="blog-img" style="background-image:url('photos/article-dengue-diagnostic-douala.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Infections</span>
+          <span class="blog-date">16 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>Dengue au Cameroun : diagnostic, TDR et prise en charge</h3>
+          <p>La dengue est présente à Douala. Souvent confondue avec le paludisme, elle nécessite un diagnostic précis car son traitement est différent.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Infections" href="article-meningite.html">
+        <div class="blog-img" style="background-image:url('photos/article-meningite-diagnostic-urgence.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Infections</span>
+          <span class="blog-date">16 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>Méningite : reconnaître les signes d'urgence et le diagnostic biologique</h3>
+          <p>La méningite peut tuer en quelques heures. Fièvre brutale, maux de tête violents, raideur de la nuque : ces signes imposent des soins immédiats.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Infections" href="article-tuberculose.html">
+        <div class="blog-img" style="background-image:url('photos/article-tuberculose-diagnostic.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Infections</span>
+          <span class="blog-date">15 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>Tuberculose au Cameroun : diagnostic biologique, IDR et QuantiFERON</h3>
+          <p>Le Cameroun reste un pays à forte prévalence de tuberculose. Voici comment se fait le diagnostic au laboratoire et quels signes doivent alerter.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Prévention" href="article-obesite-bilan.html">
+        <div class="blog-img" style="background-image:url('photos/article-obesite-bilan-metabolique.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Prévention</span>
+          <span class="blog-date">14 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>Obésité et surpoids : le bilan biologique métabolique essentiel</h3>
+          <p>L'obésité n'est pas juste une question d'esthétique. Elle impacte profondément votre biologie. Voici les examens à faire absolument.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Fertilité" href="article-varicocele.html">
+        <div class="blog-img" style="background-image:url('photos/article-varicocele-fertilite-masculine.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Fertilité</span>
+          <span class="blog-date">14 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>Varicocèle : impact sur la fertilité masculine et diagnostic</h3>
+          <p>La varicocèle est la cause la plus fréquente et la plus corrigible d'infertilité masculine. Voici comment elle est diagnostiquée et traitée.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Santé homme" href="article-testosterone-homme.html">
+        <div class="blog-img" style="background-image:url('photos/article-testosterone-homme.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Santé homme</span>
+          <span class="blog-date">13 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>Testostérone basse chez l'homme : signes, dosage et traitement</h3>
+          <p>Fatigue chronique, baisse de libido, prise de masse graisseuse : ces signes peuvent trahir un déficit en testostérone. Un dosage simple le confirme.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Hormones" href="article-prolactine.html">
+        <div class="blog-img" style="background-image:url('photos/article-prolactine-hyperprolactinemie.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Hormones</span>
+          <span class="blog-date">13 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>Prolactine élevée : hyperprolactinémie, galactorrhée et fertilité</h3>
+          <p>Une prolactine trop élevée peut bloquer l'ovulation et provoquer un écoulement lacté hors grossesse. Diagnostic simple, traitement efficace.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Santé femme" href="article-amenorrhee.html">
+        <div class="blog-img" style="background-image:url('photos/article-amenorrhee-causes-bilan.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Santé femme</span>
+          <span class="blog-date">12 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>Aménorrhée : absence de règles, causes hormonales et bilan</h3>
+          <p>Les règles absentes depuis plus de 3 mois méritent une investigation. Stress, hormones, SOPK ou autre cause : voici le bilan à faire.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Infections" href="article-chlamydia.html">
+        <div class="blog-img" style="background-image:url('photos/dr-bureau.jpg');background-size:cover;background-position:top center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Infections</span>
+          <span class="blog-date">11 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>Chlamydia : l'infection silencieuse qui menace la fertilité</h3>
+          <p>La chlamydia est souvent asymptomatique mais peut obstruer les trompes et provoquer l'infertilité féminine. Un dépistage simple suffit.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Infections" href="article-gonorrhee.html">
+        <div class="blog-img" style="background-image:url('photos/technicienne-microscope-2.jpg');background-size:cover;background-position:top center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Infections</span>
+          <span class="blog-date">11 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>Gonorrhée (blennorragie) : symptômes, ECBU et traitement à Douala</h3>
+          <p>La gonorrhée est l'IST bactérienne la plus fréquente. Elle peut devenir résistante aux antibiotiques. Voici comment la détecter et la traiter.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Grossesse" href="article-rubeole-toxoplasmose.html">
+        <div class="blog-img" style="background-image:url('photos/accueil-1.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Grossesse</span>
+          <span class="blog-date">10 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>Rubéole et toxoplasmose en grossesse : risques et sérologies</h3>
+          <p>Deux infections qui peuvent gravement affecter votre bébé à naître. Voici comment les détecter et s'en protéger pendant la grossesse.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Grossesse" href="article-pre-eclampsie.html">
+        <div class="blog-img" style="background-image:url('photos/dr-bureau.jpg');background-size:cover;background-position:top center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Grossesse</span>
+          <span class="blog-date">9 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>Pré-éclampsie : signes d'alarme pendant la grossesse et surveillance</h3>
+          <p>La pré-éclampsie est une urgence obstétricale qui tue encore beaucoup de femmes en Afrique. Les signes sont détectables avec une surveillance régulière.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Grossesse" href="article-bilan-preconceptionnel.html">
+        <div class="blog-img" style="background-image:url('photos/technicienne-microscope-2.jpg');background-size:cover;background-position:top center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Grossesse</span>
+          <span class="blog-date">9 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>Bilan préconceptionnel : se préparer médicalement à la grossesse</h3>
+          <p>Avant de tomber enceinte, certains examens permettent d'éviter des complications graves. Voici le bilan préconceptionnel idéal pour les couples.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Maladies chroniques" href="article-steatose-hepatique.html">
+        <div class="blog-img" style="background-image:url('photos/accueil-1.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Maladies chroniques</span>
+          <span class="blog-date">9 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>Stéatose hépatique (foie gras) : causes, bilan ASAT/ALAT et prévention</h3>
+          <p>Le foie gras non alcoolique touche 25% des adultes en Afrique. Il évolue en silence vers la cirrhose. Un bilan hépatique simple suffit à le détecter.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Santé homme" href="article-bilan-homme-40-ans.html">
+        <div class="blog-img" style="background-image:url('photos/dr-bureau.jpg');background-size:cover;background-position:top center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Santé homme</span>
+          <span class="blog-date">9 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>Bilan de santé de l'homme après 40 ans : les examens à ne pas manquer</h3>
+          <p>Après 40 ans, certains examens deviennent indispensables pour l'homme. Voici le bilan complet recommandé pour détecter précocement les risques.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Infections" href="article-syphilis.html">
+        <div class="blog-img" style="background-image:url('photos/technicienne-microscope-2.jpg');background-size:cover;background-position:top center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Infections</span>
+          <span class="blog-date">9 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>Syphilis à Douala : signes, dépistage VDRL/TPHA et traitement</h3>
+          <p>La syphilis est en recrudescence en Afrique centrale. Elle se guérit totalement avec de la pénicilline si elle est détectée tôt.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Santé homme" href="article-ejaculation-precoce.html">
+        <div class="blog-img" style="background-image:url('photos/dr-bureau.jpg');background-size:cover;background-position:top center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Santé homme</span>
+          <span class="blog-date">6 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>Éjaculation précoce : causes biologiques, bilan et traitement à Douala</h3>
+          <p>1 homme sur 3 est concerné. Un bilan biologique ciblé peut tout changer. Découvrez les vraies causes et les solutions médicales disponibles à Douala.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Santé femme" href="article-endometriose.html">
+        <div class="blog-img" style="background-image:url('photos/dr-bureau.jpg');background-size:cover;background-position:top center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Santé femme</span>
+          <span class="blog-date">6 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>Endométriose : règles douloureuses, fertilité et prise en charge</h3>
+          <p>L'endométriose touche 10% des femmes en âge de procréer. Des règles extrêmement douloureuses ne sont pas normales. Voici quand consulter.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Fertilité" href="article-sopk.html">
+        <div class="blog-img" style="background-image:url('photos/technicienne-microscope-2.jpg');background-size:cover;background-position:top center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Fertilité</span>
+          <span class="blog-date">5 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>SOPK : syndrome des ovaires polykystiques, diagnostic et fertilité</h3>
+          <p>Le SOPK est la première cause d'infertilité féminine. Il touche 1 femme sur 10 et se traite efficacement quand il est diagnostiqué à temps.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Bilan biologique" href="article-acide-urique-goutte.html">
+        <div class="blog-img" style="background-image:url('photos/accueil-1.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Bilan biologique</span>
+          <span class="blog-date">5 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>Acide urique et crise de goutte : bilan, alimentation et traitement</h3>
+          <p>La goutte est la forme d'arthrite la plus douloureuse. Elle est pourtant très facile à détecter avec un simple dosage de l'acide urique.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Maladies chroniques" href="article-hba1c.html">
+        <div class="blog-img" style="background-image:url('photos/dr-bureau.jpg');background-size:cover;background-position:top center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Maladies chroniques</span>
+          <span class="blog-date">4 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>HbA1c : l'examen clé pour surveiller votre diabète sur 3 mois</h3>
+          <p>L'hémoglobine glyquée (HbA1c) révèle votre équilibre glycémique des 3 derniers mois. Un chiffre indispensable pour tout diabétique traité.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Santé masculine" href="article-dysfonction-erectile.html">
+        <div class="blog-img" style="background-image:url('photos/dr-bureau.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Sant&eacute; masculine</span>
+          <span class="blog-date">4 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>Dysfonction &eacute;rectile : causes, bilan hormonal et traitement &agrave; Douala</h3>
+          <p>1 homme sur 3 apr&egrave;s 40 ans en souffre. 70% des cas ont une cause organique trouvable par bilan sanguin.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Bilan biologique" href="article-acide-urique-goutte.html">
+        <div class="blog-img" style="background-image:url('photos/accueil-1.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Bilan biologique</span>
+          <span class="blog-date">4 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>Acide urique et crise de goutte : bilan, alimentation et traitement</h3>
+          <p>La goutte est la forme d'arthrite la plus douloureuse. Elle est pourtant très facile à détecter avec un simple dosage de l'acide urique.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Maladies chroniques" href="article-hba1c.html">
+        <div class="blog-img" style="background-image:url('photos/dr-bureau.jpg');background-size:cover;background-position:top center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Maladies chroniques</span>
+          <span class="blog-date">4 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>HbA1c : l'examen clé pour surveiller votre diabète sur 3 mois</h3>
+          <p>L'hémoglobine glyquée (HbA1c) révèle votre équilibre glycémique des 3 derniers mois. Un chiffre indispensable pour tout diabétique traité.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Maladies chroniques" href="article-glycemie-diabete.html">
+        <div class="blog-img" style="background-image:url('photos/technicienne-microscope-2.jpg');background-size:cover;background-position:top center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Maladies chroniques</span>
+          <span class="blog-date">3 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>Glycémie et diabète de type 2 : comprendre, prévenir, surveiller</h3>
+          <p>Le diabète de type 2 s'installe sur des années sans bruit. Une glycémie à jeun suffit à détecter un pré-diabète avant qu'il ne devienne irréversible.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Prévention" href="article-vitamine-d.html">
+        <div class="blog-img" style="background-image:url('photos/article-vitamine-d-carence.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Prévention</span>
+          <span class="blog-date">2 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>Carence en vitamine D : symptômes, dosage sanguin et supplémentation</h3>
+          <p>Paradoxalement, même sous le soleil africain, la carence en vitamine D est fréquente. Fatigue, douleurs osseuses, immunité faible : reconnaissez les signes.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" data-cat="Santé femme" href="article-menopause.html">
+        <div class="blog-img" style="background-image:url('photos/article-menopause-bilan-hormonal.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta">
+          <span class="blog-cat">Santé femme</span>
+          <span class="blog-date">2 juin 2026</span>
+        </div>
+        <div class="blog-body">
+          <h3>Ménopause : signes, bilan hormonal et accompagnement médical</h3>
+          <p>Bouffées de chaleur, troubles du sommeil, prise de poids : la ménopause se vit mieux avec un bilan hormonal adapté et un accompagnement médical.</p>
+          <span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="blog-card" href="article-vih-sida.html" data-cat="Infections">
+        <div class="blog-img" style="background-image:url('photos/article-vih-sida-depistage-traitement.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta"><span class="blog-cat">Infections</span><span class="blog-date">1 juin 2026</span></div>
+        <div class="blog-body"><h3>VIH/SIDA à Douala : dépistage, traitement ARV et vie avec le VIH</h3><p>Avec un traitement ARV adapté, une personne vivant avec le VIH peut avoir une espérance de vie normale. Le dépistage précoce est la clé.</p><span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+      <a class="blog-card" href="article-hepatite-c.html" data-cat="Infections">
+        <div class="blog-img" style="background-image:url('photos/article-hepatite-c-depistage.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta"><span class="blog-cat">Infections</span><span class="blog-date">1 juin 2026</span></div>
+        <div class="blog-body"><h3>Hépatite C : dépistage, symptômes et traitement à Douala</h3><p>L'hépatite C se guérit aujourd'hui à plus de 95%. Mais des millions de personnes l'ignorent. Voici ce qu'il faut savoir sur le dépistage.</p><span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+      <a class="blog-card" href="article-creatinine-bilan-renal.html" data-cat="Bilan biologique">
+        <div class="blog-img" style="background-image:url('photos/article-creatinine-bilan-renal.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta"><span class="blog-cat">Bilan biologique</span><span class="blog-date">1 juin 2026</span></div>
+        <div class="blog-body"><h3>Créatinine et bilan rénal : comprendre et protéger vos reins</h3><p>Les reins filtrent 200 litres de sang par jour en silence. Un simple dosage de la créatinine suffit à détecter une insuffisance rénale débutante.</p><span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+      <a class="blog-card" href="article-tension-arterielle.html" data-cat="Prévention">
+        <div class="blog-img" style="background-image:url('photos/accueil-1.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta"><span class="blog-cat">Prévention</span><span class="blog-date">1 juin 2026</span></div>
+        <div class="blog-body"><h3>Tension artérielle : comprendre vos chiffres et prévenir l'hypertension</h3><p>L'hypertension touche 1 adulte sur 3 au Cameroun sans symptômes. Découvrez comment lire vos chiffres et agir avant les complications.</p><span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+      <a class="blog-card" href="article-bilan-preopertaoire.html" data-cat="Chirurgie">
+        <div class="blog-img" style="background-image:url('photos/equipe-bleu.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta"><span class="blog-cat">Chirurgie</span><span class="blog-date">30 mai 2026</span></div>
+        <div class="blog-body"><h3>Bilan pré-opératoire à Douala : quels examens faire avant une opération ?</h3><p>NFS, groupe sanguin, coagulation, créatinine : tout ce qu'il faut faire avant une chirurgie.</p><span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+      <a class="blog-card" href="article-psa-prostate.html" data-cat="Santé homme">
+        <div class="blog-img" style="background-image:url('photos/dr-portrait-pro.jpg');background-size:cover;background-position:top center;"></div>
+        <div class="blog-meta"><span class="blog-cat">Santé homme</span><span class="blog-date">30 mai 2026</span></div>
+        <div class="blog-body"><h3>PSA et cancer de la prostate à Douala : dépistage, valeurs normales et quand s'inquiéter</h3><p>Tout homme africain dès 40 ans devrait faire un PSA. Guide complet du dépistage à Douala.</p><span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+      <a class="blog-card" href="article-hepatite-b-suivi.html" data-cat="Foie">
+        <div class="blog-img" style="background-image:url('photos/equipe-inauguration.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta"><span class="blog-cat">Foie</span><span class="blog-date">30 mai 2026</span></div>
+        <div class="blog-body"><h3>Hépatite B à Douala : suivi biologique, vaccination et traitement antiviral</h3><p>Ag HBs, Ac anti-HBs, charge virale : tout comprendre sur l'hépatite B et son suivi au Cameroun.</p><span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+      <a class="blog-card" href="article-typhoide.html" data-cat="Urgence">
+        <div class="blog-img" style="background-image:url('photos/technicienne-microscope.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta"><span class="blog-cat">Urgence</span><span class="blog-date">30 mai 2026</span></div>
+        <div class="blog-body"><h3>Typhoïde à Douala : symptômes, test Widal, hémoculture et traitement</h3><p>Comment distinguer la typhoïde du paludisme ? Guide complet sur le diagnostic et le traitement.</p><span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+      <a class="blog-card" href="article-cholesterol-bilan-lipidique.html" data-cat="Prévention">
+        <div class="blog-img" style="background-image:url('photos/labo-equipements.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta"><span class="blog-cat">Prévention</span><span class="blog-date">30 mai 2026</span></div>
+        <div class="blog-body"><h3>Cholestérol et bilan lipidique à Douala : LDL, HDL, triglycérides expliqués</h3><p>Tout comprendre sur le cholestérol, les valeurs normales et comment protéger votre cœur à Douala.</p><span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+      <a class="blog-card" href="article-infection-urinaire-ecbu.html" data-cat="Analyses">
+        <div class="blog-img" style="background-image:url('photos/technicienne-microscope-2.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta"><span class="blog-cat">Analyses</span><span class="blog-date">30 mai 2026</span></div>
+        <div class="blog-body"><h3>Infection urinaire à Douala : ECBU, symptômes, traitement et prévention</h3><p>Brûlures urinaires, envies fréquentes : comment confirmer une infection urinaire et choisir le bon antibiotique.</p><span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+      <a class="blog-card" href="article-anemie-carence-fer.html" data-cat="Analyses">
+        <div class="blog-img" style="background-image:url('photos/prise-de-sang.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta"><span class="blog-cat">Analyses</span><span class="blog-date">30 mai 2026</span></div>
+        <div class="blog-body"><h3>Anémie et carence en fer à Douala : symptômes, diagnostic et traitement</h3><p>Fatigue, pâleur, essoufflement : ferritine, NFS et fer sérique pour confirmer une carence en fer.</p><span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+      <a class="blog-card" href="article-drepanocytose.html" data-cat="Génétique">
+        <div class="blog-img" style="background-image:url('photos/labo-equipements.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta"><span class="blog-cat">Génétique</span><span class="blog-date">30 mai 2026</span></div>
+        <div class="blog-body"><h3>Drépanocytose au Cameroun : comprendre, dépister et protéger ses enfants</h3><p>Profils AA, AS, SS, SC : tout comprendre sur la drépanocytose et l'électrophorèse de l'hémoglobine.</p><span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+      <a class="blog-card" href="article-bilan-thyroidien.html" data-cat="Hormones">
+        <div class="blog-img" style="background-image:url('photos/dr-bureau.jpg');background-size:cover;background-position:top center;"></div>
+        <div class="blog-meta"><span class="blog-cat">Hormones</span><span class="blog-date">30 mai 2026</span></div>
+        <div class="blog-body"><h3>Bilan thyroïdien à Douala : TSH, T3, T4 et tout comprendre sur la thyroïde</h3><p>Fatigue, prise de poids, palpitations : votre thyroïde est peut-être en cause. Guide complet.</p><span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+      <a class="blog-card" href="article-cancer-col-frottis.html" data-cat="Santé femme">
+        <div class="blog-img" style="background-image:url('photos/dr-portrait-pro.jpg');background-size:cover;background-position:top center;"></div>
+        <div class="blog-meta"><span class="blog-cat">Santé femme</span><span class="blog-date">29 mai 2026</span></div>
+        <div class="blog-body"><h3>Cancer du col de l'utérus et frottis à Douala : tout ce que les femmes doivent savoir</h3><p>HPV, frottis cervico-vaginal, résultats et prévention : le guide complet pour protéger votre santé.</p><span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+      <a class="blog-card" href="article-nfs-bilan-sanguin.html" data-cat="Analyses">
+        <div class="blog-img" style="background-image:url('photos/prise-de-sang.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta"><span class="blog-cat">Analyses</span><span class="blog-date">29 mai 2026</span></div>
+        <div class="blog-body"><h3>Comprendre sa NFS (prise de sang) à Douala : guide complet des résultats</h3><p>Globules rouges, blancs, plaquettes, hémoglobine : tout comprendre sur les résultats de votre bilan sanguin.</p><span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+      <a class="blog-card" href="article-paludisme.html" data-cat="Urgence">
+        <div class="blog-img" style="background-image:url('photos/technicienne-microscope.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta"><span class="blog-cat">Urgence</span><span class="blog-date">29 mai 2026</span></div>
+        <div class="blog-body"><h3>Paludisme à Douala : diagnostic, tests et quand s'inquiéter</h3><p>TDR, goutte épaisse, signes de gravité : tout savoir sur le diagnostic du paludisme à Douala.</p><span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+      <a class="blog-card" href="article-diabete-hta.html" data-cat="Prévention">
+        <div class="blog-img" style="background-image:url('photos/labo-equipements.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta"><span class="blog-cat">Prévention</span><span class="blog-date">29 mai 2026</span></div>
+        <div class="blog-body"><h3>Diabète et hypertension à Douala : dépistage, bilans et suivi biologique</h3><p>Glycémie, HbA1c, créatinine, cholestérol : tout savoir sur le dépistage et le suivi du diabète et de l'hypertension.</p><span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+      <a class="blog-card" href="article-analyses-grossesse.html" data-cat="Grossesse">
+        <div class="blog-img" style="background-image:url('photos/dr-portrait-souriant.jpg');background-size:cover;background-position:top center;"></div>
+        <div class="blog-meta"><span class="blog-cat">Grossesse</span><span class="blog-date">29 mai 2026</span></div>
+        <div class="blog-body"><h3>Analyses pendant la grossesse à Douala : le guide complet par trimestre</h3><p>NFS, glycémie, toxoplasmose, hépatite B, VIH, diabète gestationnel : tous les examens prénataux expliqués.</p><span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+      <a class="blog-card" href="article-depistage-ist.html" data-cat="Santé sexuelle">
+        <div class="blog-img" style="background-image:url('photos/prise-de-sang.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta"><span class="blog-cat">Santé sexuelle</span><span class="blog-date">29 mai 2026</span></div>
+        <div class="blog-body"><h3>Dépistage IST à Douala : qui doit se faire tester, quand et comment ?</h3><p>VIH, syphilis, chlamydia, hépatites, gonorrhée : tout savoir sur le dépistage des IST à Douala.</p><span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+      <a class="blog-card" href="article-fertilite-feminine.html" data-cat="Fertilité">
+        <div class="blog-img" style="background-image:url('photos/technicienne-microscope.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta"><span class="blog-cat">Fertilité</span><span class="blog-date">29 mai 2026</span></div>
+        <div class="blog-body"><h3>Fertilité féminine à Douala : bilan, causes d'infertilité et solutions</h3><p>AMH, bilan ovarien, trompes, SOPK : tout comprendre sur l'infertilité féminine et les examens à faire.</p><span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+      <a class="blog-card" href="article-bilan-prenuptial.html" data-cat="Mariage &amp; Santé">
+        <div class="blog-img" style="background-image:url('photos/equipe-inauguration.jpg');background-size:cover;background-position:top center;"></div>
+        <div class="blog-meta"><span class="blog-cat">Mariage &amp; Santé</span><span class="blog-date">29 mai 2026</span></div>
+        <div class="blog-body"><h3>Bilan prénuptial à Douala : tout ce qu'il faut analyser avant le mariage</h3><p>Groupe sanguin, drépanocytose, IST, hépatites, VIH : les examens essentiels pour se marier en toute sérénité.</p><span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+      <a class="blog-card" href="article-spermogramme.html" data-cat="Fertilité">
+        <div class="blog-img" style="background-image:url('photos/technicienne-microscope-2.jpg');background-size:cover;background-position:top center;"></div>
+        <div class="blog-meta"><span class="blog-cat">Fertilité</span><span class="blog-date">22 mai 2026</span></div>
+        <div class="blog-body"><h3>Tout comprendre sur le spermogramme : normes, interprétation et solutions</h3><p>Le spermogramme est l'examen de référence pour évaluer la fertilité masculine. Voici ce que chaque paramètre signifie.</p><span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+      <a class="blog-card" href="article-bilan-sante.html" data-cat="Prévention">
+        <div class="blog-img" style="background-image:url('photos/accueil-1.jpg');background-size:cover;background-position:center;"></div>
+        <div class="blog-meta"><span class="blog-cat">Prévention</span><span class="blog-date">18 mai 2026</span></div>
+        <div class="blog-body"><h3>5 bilans de santé essentiels à faire après 35 ans</h3><p>La prévention commence par un bilan régulier. Voici les 5 examens prioritaires à ne pas négliger passé 35 ans.</p><span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+      <a class="blog-card" href="article-hormonal.html" data-cat="Hormones">
+        <div class="blog-img" style="background-image:url('photos/dr-bureau.jpg');background-size:cover;background-position:top center;"></div>
+        <div class="blog-meta"><span class="blog-cat">Hormones</span><span class="blog-date">14 mai 2026</span></div>
+        <div class="blog-body"><h3>Déséquilibre hormonal : signes à reconnaître et quand consulter</h3><p>Fatigue, prise de poids, troubles du sommeil... Ces symptômes peuvent signaler un déséquilibre hormonal.</p><span class="blog-link">Lire l'article <i class="fas fa-arrow-right"></i></span></div>
+      </a>
+    <!-- BLOG_GRID_END -->
+  </div>
+
+  <div class="pagination" id="pagination"></div>
+</main>
+
+<footer class="blog-footer">
+  <p>&copy; 2026 Le Clair de la Plume &mdash; Ndokoti, Douala, Cameroun &mdash; <a href="tel:+237683258315">+237 683 258 315</a></p>
+  <p style="margin-top:6px;"><a href="index.html">Retour au site principal</a> &mdash; <a href="https://wa.me/237683258315" target="_blank">Prendre rendez-vous</a></p>
+</footer>
+
+<script>
+  const PER_PAGE = 9;
+  let currentPage = 1;
+  let activeCat = 'tous';
+  let searchQuery = '';
+
+  function getCards() {
+    return Array.from(document.querySelectorAll('#blogGrid .blog-card'));
+  }
+
+  function filterCards() {
+    return getCards().filter(card => {
+      const cat = card.getAttribute('data-cat') || '';
+      const text = card.innerText.toLowerCase();
+      const matchCat = activeCat === 'tous' || cat === activeCat;
+      const matchSearch = !searchQuery || text.includes(searchQuery.toLowerCase());
+      return matchCat && matchSearch;
+    });
+  }
+
+  function render() {
+    const filtered = filterCards();
+    const total = filtered.length;
+    const totalPages = Math.max(1, Math.ceil(total / PER_PAGE));
+    if (currentPage > totalPages) currentPage = 1;
+    const start = (currentPage - 1) * PER_PAGE;
+    const end = start + PER_PAGE;
+
+    getCards().forEach(c => c.style.display = 'none');
+    filtered.forEach((c, i) => {
+      c.style.display = (i >= start && i < end) ? 'block' : 'none';
+    });
+
+    document.getElementById('blogResults').textContent =
+      total === 0 ? 'Aucun article trouvé.' :
+      `${total} article${total > 1 ? 's' : ''} — page ${currentPage}/${totalPages}`;
+
+    document.getElementById('totalCount').textContent =
+      `${getCards().length} articles publiés`;
+
+    renderPagination(totalPages);
+  }
+
+  function renderPagination(totalPages) {
+    const p = document.getElementById('pagination');
+    p.innerHTML = '';
+    if (totalPages <= 1) return;
+
+    const prev = document.createElement('button');
+    prev.className = 'page-btn wide';
+    prev.innerHTML = '<i class="fas fa-chevron-left"></i>';
+    prev.disabled = currentPage === 1;
+    prev.onclick = () => { currentPage--; render(); scrollTo({top:0,behavior:'smooth'}); };
+    p.appendChild(prev);
+
+    for (let i = 1; i <= totalPages; i++) {
+      if (totalPages > 7 && Math.abs(i - currentPage) > 2 && i !== 1 && i !== totalPages) {
+        if (i === currentPage - 3 || i === currentPage + 3) {
+          const dots = document.createElement('span');
+          dots.style.cssText = 'display:flex;align-items:center;color:#94a3b8;padding:0 4px;';
+          dots.textContent = '...';
+          p.appendChild(dots);
+        }
+        continue;
+      }
+      const btn = document.createElement('button');
+      btn.className = 'page-btn' + (i === currentPage ? ' active' : '');
+      btn.textContent = i;
+      btn.onclick = ((page) => () => { currentPage = page; render(); scrollTo({top:0,behavior:'smooth'}); })(i);
+      p.appendChild(btn);
+    }
+
+    const next = document.createElement('button');
+    next.className = 'page-btn wide';
+    next.innerHTML = '<i class="fas fa-chevron-right"></i>';
+    next.disabled = currentPage === totalPages;
+    next.onclick = () => { currentPage++; render(); scrollTo({top:0,behavior:'smooth'}); };
+    p.appendChild(next);
+  }
+
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeCat = btn.getAttribute('data-cat');
+      currentPage = 1;
+      render();
+    });
+  });
+
+  let searchTimer;
+  document.getElementById('searchInput').addEventListener('input', e => {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => {
+      searchQuery = e.target.value.trim();
+      currentPage = 1;
+      render();
+    }, 200);
+  });
+
+  render();
+</script>
+
+</body>
+</html>

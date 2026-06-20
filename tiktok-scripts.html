@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Scripts TikTok - Dr Yannick</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0f0f0f;
+      color: #f0f0f0;
+      padding: 16px;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    h1 {
+      font-size: 1.2rem;
+      color: #ff4444;
+      text-align: center;
+      margin-bottom: 8px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #333;
+    }
+    .subtitle {
+      text-align: center;
+      color: #888;
+      font-size: 0.85rem;
+      margin-bottom: 24px;
+    }
+    .nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 28px;
+      justify-content: center;
+    }
+    .nav a {
+      background: #1a1a1a;
+      color: #ff4444;
+      padding: 6px 12px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 0.8rem;
+      border: 1px solid #333;
+    }
+    .script-card {
+      background: #1a1a1a;
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 20px;
+      border: 1px solid #2a2a2a;
+    }
+    .script-num {
+      font-size: 0.75rem;
+      color: #ff4444;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    .hook {
+      background: #ff4444;
+      color: white;
+      padding: 12px 16px;
+      border-radius: 10px;
+      font-size: 0.95rem;
+      font-weight: 700;
+      margin-bottom: 16px;
+      line-height: 1.4;
+    }
+    .hook-label {
+      font-size: 0.7rem;
+      opacity: 0.8;
+      display: block;
+      margin-bottom: 4px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .body-text {
+      color: #ddd;
+      font-size: 0.95rem;
+      line-height: 1.7;
+      margin-bottom: 16px;
+      white-space: pre-line;
+    }
+    .cta {
+      background: #1e3a1e;
+      border-left: 3px solid #4caf50;
+      padding: 10px 14px;
+      border-radius: 0 8px 8px 0;
+      color: #81c784;
+      font-size: 0.88rem;
+      font-weight: 600;
+    }
+    .cta-label {
+      font-size: 0.7rem;
+      color: #4caf50;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+    .timer {
+      display: inline-block;
+      background: #2a2a2a;
+      color: #888;
+      font-size: 0.75rem;
+      padding: 4px 10px;
+      border-radius: 12px;
+      margin-bottom: 12px;
+    }
+    .rules {
+      background: #111;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 16px;
+      margin-top: 8px;
+    }
+    .rules h2 {
+      color: #ff4444;
+      font-size: 0.95rem;
+      margin-bottom: 12px;
+    }
+    .rules li {
+      color: #bbb;
+      font-size: 0.88rem;
+      margin-bottom: 8px;
+      list-style: none;
+      padding-left: 20px;
+      position: relative;
+    }
+    .rules li::before {
+      content: "→";
+      position: absolute;
+      left: 0;
+      color: #ff4444;
+    }
+    .planning {
+      background: #1a1a1a;
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 20px;
+    }
+    .planning h2 {
+      color: #ff4444;
+      font-size: 0.95rem;
+      margin-bottom: 12px;
+    }
+    .day-row {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 8px;
+      align-items: center;
+      font-size: 0.85rem;
+    }
+    .day-name {
+      color: #888;
+      width: 80px;
+      flex-shrink: 0;
+    }
+    .day-scripts {
+      color: #ddd;
+    }
+    .badge {
+      display: inline-block;
+      background: #ff4444;
+      color: white;
+      font-size: 0.7rem;
+      padding: 2px 7px;
+      border-radius: 10px;
+      margin-right: 4px;
+    }
+    .top { text-align: center; margin-bottom: 20px; }
+    .top a {
+      color: #ff4444;
+      font-size: 0.8rem;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<h1>🎬 Scripts TikTok - Phase Relance</h1>
+<p class="subtitle">@docteurdryd · 14 vidéos · 7 jours</p>
+
+<!-- NAVIGATION -->
+<div class="nav">
+  <a href="#v1">V1</a><a href="#v2">V2</a><a href="#v3">V3</a><a href="#v4">V4</a>
+  <a href="#v5">V5</a><a href="#v6">V6</a><a href="#v7">V7</a><a href="#v8">V8</a>
+  <a href="#v9">V9</a><a href="#v10">V10</a><a href="#v11">V11</a><a href="#v12">V12</a>
+  <a href="#v13">V13</a><a href="#v14">V14</a>
+</div>
+
+<!-- PLANNING -->
+<div class="planning">
+  <h2>📅 Planning de publication</h2>
+  <div class="day-row"><span class="day-name">Lundi</span><span class="day-scripts"><span class="badge">7h</span>V1 <span class="badge">19h</span>V2</span></div>
+  <div class="day-row"><span class="day-name">Mardi</span><span class="day-scripts"><span class="badge">7h</span>V3 <span class="badge">19h</span>V4</span></div>
+  <div class="day-row"><span class="day-name">Mercredi</span><span class="day-scripts"><span class="badge">7h</span>V5 <span class="badge">19h</span>V6</span></div>
+  <div class="day-row"><span class="day-name">Jeudi</span><span class="day-scripts"><span class="badge">7h</span>V7 <span class="badge">19h</span>V8</span></div>
+  <div class="day-row"><span class="day-name">Vendredi</span><span class="day-scripts"><span class="badge">7h</span>V9 <span class="badge">19h</span>V10</span></div>
+  <div class="day-row"><span class="day-name">Samedi</span><span class="day-scripts"><span class="badge">7h</span>V11 <span class="badge">19h</span>V12</span></div>
+  <div class="day-row"><span class="day-name">Dimanche</span><span class="day-scripts"><span class="badge">7h</span>V13 <span class="badge">19h</span>V14</span></div>
+</div>
+
+<!-- SCRIPT 1 -->
+<div class="script-card" id="v1">
+  <div class="script-num">Vidéo 1 · Lundi 7h</div>
+  <span class="timer">⏱ 60-75 sec</span>
+  <div class="hook"><span class="hook-label">🎯 Hook — dis ça en premier</span>Deux parents O+ peuvent avoir un enfant O-. Et ce n'est pas une erreur.</div>
+  <div class="body-text">Deux parents O+... enfant O-.
+
+La famille dit que c'est impossible. Que l'enfant n'est pas de l'homme.
+Des mariages ont explosé à cause de ça.
+
+Pourtant c'est de la biologie pure.
+
+Voici pourquoi.
+
+Le groupe sanguin O+, le "+" c'est le rhésus. Le rhésus peut être dominant ou récessif.
+Un parent O+ peut porter le gène rhésus négatif sans le savoir.
+Si les deux parents portent ce gène récessif, leur enfant peut naître O-.
+Pas de tromperie. Pas de miracle. Juste de la génétique.
+
+C'est la même logique que deux parents à peau claire qui ont un enfant plus foncé.
+Les gènes ne mentent pas, mais ils surprennent.
+
+Avant d'accuser votre femme ou votre mari, faites un test ADN ou une électrophorèse.
+La vérité est dans le sang, pas dans les suppositions.</div>
+  <div class="cta"><div class="cta-label">✅ CTA final</div>Si tu ne savais pas ça, partage cette vidéo à quelqu'un qui en a besoin.</div>
+</div>
+
+<!-- SCRIPT 2 -->
+<div class="script-card" id="v2">
+  <div class="script-num">Vidéo 2 · Lundi 19h</div>
+  <span class="timer">⏱ 60-75 sec</span>
+  <div class="hook"><span class="hook-label">🎯 Hook</span>Ton foie est peut-être en train de lâcher en ce moment. Et tu n'as aucune douleur.</div>
+  <div class="body-text">Le foie ne fait pas mal quand il est malade.
+C'est pour ça que les maladies du foie tuent en silence.
+
+Voici 5 signes que ton foie souffre sans que tu le saches :
+
+Un. Tu te fatigues pour rien. Tu dors bien mais tu te réveilles épuisé.
+
+Deux. Tes yeux sont légèrement jaunes. Regarde-toi dans un miroir en plein jour.
+
+Trois. Ton urine est foncée, comme du thé. Même quand tu bois assez d'eau.
+
+Quatre. Ta peau gratte sans raison. Sans allergie, sans changement de savon.
+
+Cinq. Tu as des nausées fréquentes après les repas. Surtout les repas gras.
+
+Si tu as deux de ces signes, ton foie t'envoie un message.
+
+Le bilan hépatique, ça prend 30 minutes et ça coûte moins cher que l'ignorance.</div>
+  <div class="cta"><div class="cta-label">✅ CTA final</div>Lequel de ces signes tu avais sans savoir que c'était le foie ? Dis-moi dans les commentaires.</div>
+</div>
+
+<!-- SCRIPT 3 -->
+<div class="script-card" id="v3">
+  <div class="script-num">Vidéo 3 · Mardi 7h</div>
+  <span class="timer">⏱ 60-75 sec</span>
+  <div class="hook"><span class="hook-label">🎯 Hook</span>Les femmes qui mangent du kaolin pendant la grossesse font quelque chose de très dangereux.</div>
+  <div class="body-text">Je sais que c'est une tradition. Grand-mère l'a fait, maman l'a fait.
+Mais en 2026, on sait ce que ça fait au corps.
+
+Le kaolin, l'argile blanche, le kalaba... c'est la même chose.
+
+Voici ce qu'il fait concrètement.
+
+Il se colle dans l'intestin et empêche le fer d'être absorbé.
+Résultat : tu fais une anémie. Ton bébé manque d'oxygène.
+
+Il abîme les reins progressivement. Des femmes se retrouvent en insuffisance rénale à 35 ans sans comprendre pourquoi.
+
+Il peut bloquer partiellement l'intestin. Des cas d'obstruction intestinale ont été documentés chez des femmes enceintes.
+
+Et pour la fertilité : l'anémie chronique dérègle les hormones. Ça peut provoquer des cycles irréguliers, des fausses couches répétées.
+
+Ce n'est pas moi qui invente. C'est dans les études médicales publiées.
+
+La grossesse mérite mieux que ça.</div>
+  <div class="cta"><div class="cta-label">✅ CTA final</div>Si tu connais une femme enceinte qui mange du kaolin, envoie-lui cette vidéo. C'est peut-être la chose la plus importante qu'elle verra aujourd'hui.</div>
+</div>
+
+<!-- SCRIPT 4 -->
+<div class="script-card" id="v4">
+  <div class="script-num">Vidéo 4 · Mardi 19h</div>
+  <span class="timer">⏱ 60-75 sec</span>
+  <div class="hook"><span class="hook-label">🎯 Hook</span>Un spermogramme ne sert pas juste à compter les spermatozoïdes. Il révèle des choses que même l'homme ne soupçonne pas.</div>
+  <div class="body-text">La plupart des hommes pensent qu'un spermogramme c'est pour savoir si on est fertile ou pas.
+
+C'est beaucoup plus que ça.
+
+Premier point. Il révèle s'il y a une infection dans les voies génitales.
+Une infection que l'homme peut transmettre à sa femme sans avoir aucun symptôme.
+Ça s'appelle une spermoculture.
+
+Deuxième point. Il révèle si le problème vient des hormones.
+Si les spermatozoïdes sont trop peu nombreux ou trop lents, on dose la testostérone, la FSH, la LH.
+Parfois un simple traitement hormonal règle tout.
+
+Troisième point. Il peut détecter un problème anatomique.
+Varicocèle, obstruction, infection chronique.
+Des problèmes qui se traitent quand on les connaît à temps.
+
+Un homme qui refuse ce test par fierté pendant que sa femme enchaîne les bilans...
+ce n'est pas de la force. C'est de l'ignorance.
+
+La fertilité, c'est un travail d'équipe.</div>
+  <div class="cta"><div class="cta-label">✅ CTA final</div>Hommes, posez-vous la question honnêtement. Vous avez déjà fait un spermogramme ?</div>
+</div>
+
+<!-- SCRIPT 5 -->
+<div class="script-card" id="v5">
+  <div class="script-num">Vidéo 5 · Mercredi 7h</div>
+  <span class="timer">⏱ 60-75 sec</span>
+  <div class="hook"><span class="hook-label">🎯 Hook</span>Si tu as ces 3 signes après tes règles, ne laisse pas passer ça.</div>
+  <div class="body-text">Après les règles, le corps est censé retrouver son calme.
+Si ce n'est pas le cas, quelque chose se passe.
+
+Signe numéro un. Des douleurs pelviennes qui durent plus de 5 jours après la fin des règles.
+Ce n'est pas normal. Ça peut être de l'endométriose ou une infection pelvienne.
+
+Signe numéro deux. Des saignements entre deux règles.
+Pas beaucoup, juste quelques taches. Mais ça ne devrait pas exister.
+Ça peut être une infection du col, un polype, ou autre chose.
+
+Signe numéro trois. Des pertes avec une odeur inhabituelle juste après les règles.
+L'infection bactérienne a une odeur caractéristique.
+Si tu la remarques, c'est le bon moment pour faire un PCV avec antibiogramme.
+
+Ces trois signes réunis méritent un bilan sans tarder.
+
+Une infection pelvienne non traitée peut provoquer des adhérences sur les trompes.
+Et des trompes abîmées, ça complique fortement la grossesse.
+
+Agis tôt. Pas dans trois mois.</div>
+  <div class="cta"><div class="cta-label">✅ CTA final</div>Partage ça à une femme que tu aimes.</div>
+</div>
+
+<!-- SCRIPT 6 -->
+<div class="script-card" id="v6">
+  <div class="script-num">Vidéo 6 · Mercredi 19h</div>
+  <span class="timer">⏱ 60-75 sec</span>
+  <div class="hook"><span class="hook-label">🎯 Hook</span>Est-ce que le stérilet rend infertile ? La vraie réponse médicale.</div>
+  <div class="body-text">Cette question revient tout le temps dans les commentaires.
+Alors voici la réponse honnête.
+
+Le stérilet seul ne rend pas infertile.
+
+Quand on retire un DIU, la fertilité revient en général très rapidement.
+Des femmes tombent enceintes le mois suivant le retrait.
+
+Mais voici ce que personne ne te dit.
+
+Le stérilet au cuivre augmente les risques d'infection pelvienne si tu attrapes une IST pendant que tu le portes.
+
+Chlamydia + stérilet = infection qui remonte jusqu'aux trompes.
+Trompes infectées et non traitées = cicatrices = obstruction.
+Et une trompe obstruée, ça ne s'ouvre pas comme ça.
+
+Donc ce n'est pas le stérilet qui rend infertile directement.
+C'est le stérilet + une IST non dépistée + pas de traitement = dégâts.
+
+C'est pour ça que je recommande à toutes les femmes qui portent un stérilet de faire un dépistage IST une fois par an minimum.</div>
+  <div class="cta"><div class="cta-label">✅ CTA final</div>Tu avais cette information ? Dis-moi dans les commentaires.</div>
+</div>
+
+<!-- SCRIPT 7 -->
+<div class="script-card" id="v7">
+  <div class="script-num">Vidéo 7 · Jeudi 7h</div>
+  <span class="timer">⏱ 60-75 sec</span>
+  <div class="hook"><span class="hook-label">🎯 Hook</span>Si tu as fait plus d'une fausse couche, ce n'est pas de la malchance. C'est une cause médicale qu'on peut trouver.</div>
+  <div class="body-text">Deux fausses couches de suite, on appelle ça des fausses couches à répétition.
+Ce n'est pas une malédiction. Ce n'est pas la volonté de Dieu contre toi.
+C'est un corps qui envoie un signal qu'on peut décoder.
+
+Les vraies causes médicales :
+
+Première cause. Des anomalies chromosomiques. L'embryon n'est pas viable.
+Ça peut venir des deux parents. Un caryotype permet de le savoir.
+
+Deuxième cause. Un problème utérin. Fibrome, cloison utérine, polype.
+Une échographie bien faite le révèle.
+
+Troisième cause. Un problème hormonal. Progestérone insuffisante, thyroïde qui dérègle.
+Un dosage hormonal règle ça.
+
+Quatrième cause. La thrombophilie. Le sang coagule trop vite, coupe l'alimentation du placenta.
+Un bilan de coagulation le détecte.
+
+Toutes ces causes sont traitables quand on les trouve.
+
+La femme qui enchaîne les fausses couches sans faire de bilan complet attend un miracle que la médecine peut déjà lui donner.</div>
+  <div class="cta"><div class="cta-label">✅ CTA final</div>Si tu traverses ça, tu n'es pas seule. Et il y a une réponse médicale qui t'attend.</div>
+</div>
+
+<!-- SCRIPT 8 -->
+<div class="script-card" id="v8">
+  <div class="script-num">Vidéo 8 · Jeudi 19h</div>
+  <span class="timer">⏱ 60-75 sec</span>
+  <div class="hook"><span class="hook-label">🎯 Hook</span>L'AMH, c'est le chiffre le plus important pour une femme qui veut un enfant. Et la plupart ne le connaissent pas.</div>
+  <div class="body-text">L'AMH, hormone anti-müllérienne.
+
+C'est le marqueur qui mesure combien d'ovules il te reste.
+Ta réserve ovarienne.
+
+Et voici ce que les femmes ne savent pas.
+
+Cette réserve baisse avec l'âge. Rapidement à partir de 35 ans.
+Mais certaines femmes de 28 ans ont déjà une réserve très basse.
+Et certaines femmes de 38 ans ont encore une bonne réserve.
+
+L'âge ne suffit pas. Il faut le chiffre.
+
+Norme : au-dessus de 2 ng/mL c'est bien.
+Entre 1 et 2, c'est moyen, à surveiller.
+En dessous de 0,5, c'est très faible.
+
+L'avantage de l'AMH : on peut le doser n'importe quel jour du cycle.
+Pas besoin d'attendre le 3ème jour des règles.
+
+Si tu as plus de 30 ans et que tu n'as pas encore dosé ton AMH, tu ne connais pas l'état réel de ta fertilité.</div>
+  <div class="cta"><div class="cta-label">✅ CTA final</div>Quelle est ton AMH ? Si tu ne le sais pas, c'est peut-être le moment de faire ce bilan.</div>
+</div>
+
+<!-- SCRIPT 9 -->
+<div class="script-card" id="v9">
+  <div class="script-num">Vidéo 9 · Vendredi 7h</div>
+  <span class="timer">⏱ 60-75 sec</span>
+  <div class="hook"><span class="hook-label">🎯 Hook</span>Ces 4 infections n'ont aucun symptôme. Et elles détruisent la fertilité en silence.</div>
+  <div class="body-text">Les infections les plus dangereuses pour la fertilité sont celles qu'on ne sent pas.
+
+Numéro un. La Chlamydia.
+70% des femmes infectées n'ont aucun symptôme.
+Elle remonte dans les trompes et provoque des adhérences silencieuses.
+
+Numéro deux. Le Mycoplasma genitalium.
+Encore moins connu. Encore plus silencieux.
+Il détruit la muqueuse utérine progressivement.
+
+Numéro trois. L'Hépatite B.
+Chronique, silencieuse pendant des années.
+Transmissible à l'enfant au moment de l'accouchement.
+
+Numéro quatre. L'HPV.
+Il peut évoluer vers un cancer du col sans signe avant-coureur.
+Le frottis cervical le détecte.
+
+Ces 4 infections sont dépistables avec un simple bilan.
+Et toutes sont traitables ou contrôlables quand on les détecte tôt.
+
+Le problème n'est pas l'infection.
+Le problème, c'est de ne pas savoir qu'on l'a.</div>
+  <div class="cta"><div class="cta-label">✅ CTA final</div>Quand tu as fait ton dernier dépistage IST complet ? Sois honnête avec toi-même.</div>
+</div>
+
+<!-- SCRIPT 10 -->
+<div class="script-card" id="v10">
+  <div class="script-num">Vidéo 10 · Vendredi 19h</div>
+  <span class="timer">⏱ 60-75 sec</span>
+  <div class="hook"><span class="hook-label">🎯 Hook</span>Rhésus négatif et grossesse. Ce que personne ne t'a expliqué clairement.</div>
+  <div class="body-text">Si tu es Rh négatif et que ton mari est Rh positif, écoute bien.
+
+Pendant la grossesse, le sang de ton bébé peut être Rh positif.
+
+Si une toute petite quantité de ce sang entre en contact avec le tien pendant l'accouchement, ton corps fabrique des anticorps contre le Rh positif.
+
+Première grossesse : souvent rien. Le bébé naît bien.
+
+Mais deuxième grossesse : ces anticorps attaquent les globules rouges du bébé.
+Anémie sévère, jaunisse grave, risque de mort fœtale dans les cas non traités.
+
+La solution existe et elle est simple.
+
+Une injection d'immunoglobulines anti-D dans les 72 heures après l'accouchement.
+Cette injection efface les anticorps avant qu'ils ne se forment.
+
+Le problème : beaucoup de femmes Rh négatif ne le savent même pas.
+Et beaucoup n'ont jamais reçu cette injection.
+
+Connais ton groupe sanguin. C'est la base.</div>
+  <div class="cta"><div class="cta-label">✅ CTA final</div>Tu connais ton groupe sanguin et ton rhésus ? Dis-moi dans les commentaires.</div>
+</div>
+
+<!-- SCRIPT 11 -->
+<div class="script-card" id="v11">
+  <div class="script-num">Vidéo 11 · Samedi 7h</div>
+  <span class="timer">⏱ 60-75 sec</span>
+  <div class="hook"><span class="hook-label">🎯 Hook</span>40% des problèmes de fertilité viennent de l'homme. Mais l'homme ne veut pas le savoir.</div>
+  <div class="body-text">Je vais être direct.
+
+Quand un couple n'arrive pas à avoir un enfant, la femme fait tous les examens.
+Bilans hormonaux, échographies, hystéroscopies.
+
+L'homme, lui, dit qu'il n'a pas de problème. Qu'il est fort.
+
+Et pendant ce temps, on traite la mauvaise personne.
+
+Dans 40 à 50% des cas d'infertilité de couple, le problème vient de l'homme.
+Pas forcément seul. Souvent les deux. Mais l'homme en fait partie.
+
+Virilité et fertilité, ce n'est pas la même chose.
+
+Un homme peut avoir des rapports sexuels normaux et avoir un spermogramme catastrophique.
+Les deux choses n'ont aucun lien.
+
+Un spermogramme, c'est 30 minutes. C'est indolore. Et ça change tout.
+
+L'orgueil d'un homme qui refuse ce test pendant 2 ou 3 ans d'essai bébé...
+ce n'est pas de la force. C'est de la peur déguisée en fierté.
+
+Ta femme mérite que tu fasses ta part.</div>
+  <div class="cta"><div class="cta-label">✅ CTA final</div>Messieurs, partagez cette vidéo à quelqu'un qui en a besoin. Anonymement si nécessaire.</div>
+</div>
+
+<!-- SCRIPT 12 -->
+<div class="script-card" id="v12">
+  <div class="script-num">Vidéo 12 · Samedi 19h</div>
+  <span class="timer">⏱ 60-75 sec</span>
+  <div class="hook"><span class="hook-label">🎯 Hook</span>La glycémie normale, c'est 1 g/L ou 1,10 g/L ? La plupart des gens ne connaissent pas la bonne valeur.</div>
+  <div class="body-text">Je vais clarifier quelque chose qui crée beaucoup de confusion.
+
+La glycémie à jeun normale, c'est inférieur à 1,10 g/L.
+
+Entre 1,10 et 1,26 g/L, tu es en prédiabète.
+Pas encore diabétique, mais sur la route.
+
+Au-dessus de 1,26 g/L à deux reprises : c'est le diabète.
+
+Pourquoi c'est important ?
+
+Parce que le prédiabète n'a aucun symptôme.
+Et le diabète peut être là depuis des années avant que tu te sentes mal.
+
+Pendant ces années silencieuses, il abîme tes reins, tes yeux, tes nerfs, ton cœur.
+
+Un Camerounais sur cinq de plus de 40 ans est diabétique ou prédiabétique.
+La majorité ne le sait pas.
+
+Le dépistage, c'est une simple prise de sang à jeun.
+
+Ne laisse pas le diabète travailler en silence pendant que tu attends des symptômes.</div>
+  <div class="cta"><div class="cta-label">✅ CTA final</div>Tu connais ta glycémie ? Si non, c'est le moment de vérifier.</div>
+</div>
+
+<!-- SCRIPT 13 -->
+<div class="script-card" id="v13">
+  <div class="script-num">Vidéo 13 · Dimanche 7h</div>
+  <span class="timer">⏱ 60-75 sec</span>
+  <div class="hook"><span class="hook-label">🎯 Hook</span>Ton ventre gonfle après chaque repas. Ce n'est pas normal. Voici les 3 vraies causes.</div>
+  <div class="body-text">Beaucoup de gens vivent avec un ventre gonflé tous les jours après manger.
+On dit que c'est les gaz. On passe à autre chose.
+
+Mais répété chaque jour, c'est un signal.
+
+Cause numéro un : la parasitose intestinale.
+Au Cameroun, c'est la cause la plus fréquente et la moins dépistée.
+Amibes, giardias, ascaris. Ils fermentent les aliments dans l'intestin et produisent des gaz.
+Un examen coproparasitologique le révèle.
+
+Cause numéro deux : l'intolérance au lactose.
+Le corps ne digère plus les produits laitiers correctement.
+Si le gonflement survient surtout après le lait, les yaourts ou les fromages, c'est lui.
+
+Cause numéro trois : le SIBO, pullulation bactérienne de l'intestin grêle.
+Des bactéries là où elles ne devraient pas être.
+Gonflement, douleurs, diarrhée ou constipation alternées.
+
+Le ventre gonflé n'est pas une fatalité.
+C'est un symptôme avec une cause. Et la cause se trouve.</div>
+  <div class="cta"><div class="cta-label">✅ CTA final</div>Tu vis avec ça depuis combien de temps ? Dis-moi dans les commentaires.</div>
+</div>
+
+<!-- SCRIPT 14 -->
+<div class="script-card" id="v14">
+  <div class="script-num">Vidéo 14 · Dimanche 19h</div>
+  <span class="timer">⏱ 60-75 sec</span>
+  <div class="hook"><span class="hook-label">🎯 Hook</span>La syphilis a un secret que peu de gens connaissent. Et ce secret tue.</div>
+  <div class="body-text">La syphilis a une réputation d'ancienne maladie.
+Comme si elle avait disparu.
+
+Elle n'a pas disparu. Elle revient fortement en Afrique.
+
+Voici son secret dangereux.
+
+Au début, elle provoque une petite plaie. Indolore. Sur les organes génitaux, dans la bouche.
+Cette plaie disparaît toute seule au bout de 3 semaines.
+
+Et là, la personne pense qu'elle est guérie.
+
+Elle n'est pas guérie. La bactérie est dans le sang.
+
+Quelques semaines plus tard, éruption cutanée sur tout le corps, fièvre, ganglions.
+Ça disparaît aussi.
+
+Et puis silence pendant des années.
+
+En silence, elle attaque le cœur, le cerveau, les yeux, les os.
+
+Chez la femme enceinte, elle traverse le placenta et peut tuer le bébé ou provoquer des malformations graves.
+
+Un VDRL/TPHA, c'est un simple test sanguin.
+Et la syphilis se guérit à la pénicilline.
+
+Le problème n'est pas la maladie. C'est l'ignorance.</div>
+  <div class="cta"><div class="cta-label">✅ CTA final</div>Fais partie de ton bilan prénuptial si tu es marié ou en projet de mariage.</div>
+</div>
+
+<!-- RÈGLES -->
+<div class="rules">
+  <h2>📋 Règles de la phase relance</h2>
+  <ul>
+    <li>Publier exactement à 7h et 19h</li>
+    <li>Répondre aux 20 premiers commentaires dans la première heure</li>
+    <li>Ne pas mentionner le labo dans ces 14 vidéos</li>
+    <li>Tourner en moins de 3 prises, ton naturel est ton avantage</li>
+    <li>Hashtags : #SantéAfrique #DrYannickDjieka #MédecinDouala + sujet</li>
+    <li>Bon éclairage face à toi, fond neutre</li>
+  </ul>
+</div>
+
+<div class="top" style="margin-top:24px;padding-top:16px;border-top:1px solid #333;">
+  <p style="color:#555;font-size:0.75rem;">Page privée · Non indexée · @docteurdryd 2026</p>
+</div>
+
+</body>
+</html>
