@@ -1,5 +1,13 @@
 ﻿[
     {
+        "filename":  "article-bilan-immuno.html",
+        "title":  "Bilan immunologique : infections répétées, allergies et déficit immunitaire",
+        "category":  "Bilan biologique",
+        "date":  "27 juin 2026",
+        "image":  "photos/article-bilan-immunologique.jpg",
+        "summary":  "Infections qui reviennent souvent, allergies sévères, guérison lente : votre système immunitaire envoie des signaux. Un bilan peut en expliquer la cause."
+    },
+    {
         "filename":  "article-diabete-gestationnel.html",
         "title":  "Diabète gestationnel : dépistage, glycémie et risques pour mère et bébé",
         "category":  "Grossesse",
