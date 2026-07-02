@@ -22,9 +22,9 @@
     "@type": "MedicalWebPage",
     "name": "Ménopause : signes, bilan hormonal et accompagnement médical",
     "url": "https://leclairdelaplume-labo.com/article-menopause.html",
-    "datePublished": "2026-06-02",
-    "dateModified": "2026-06-02",
-    {"author": {"@type": "Person", "name": "Dr Yannick Djieka", "jobTitle": "Médecin spécialiste en fertilité et reproduction humaine", "description": "Master en Ingénierie des systèmes d'information en santé, Médecin Chercheur, N° ONMC 7222/14"}},
+    "datePublished": "2026-07-02",
+    "dateModified": "2026-07-02",
+    "author": {"@type": "Person", "name": "Dr Yannick Djieka", "jobTitle": "Médecin spécialiste en fertilité et reproduction humaine", "description": "Master en Ingénierie des systèmes d’information en santé (EISIS), Médecin Chercheur, N° ONMC 7222/14"},
     "publisher": {"@type": "MedicalOrganization", "name": "Le Clair de la Plume", "url": "https://leclairdelaplume-labo.com"},
     "breadcrumb": {
       "@type": "BreadcrumbList",
@@ -113,54 +113,23 @@
     .related-card-body .cat { font-size: .75rem; color: var(--secondary); font-weight: 700; text-transform: uppercase; margin-bottom: 8px; }
     .related-card-body h3 { font-size: .9rem; font-weight: 700; color: var(--primary); line-height: 1.4; margin-bottom: 10px; }
     .related-card-body a { font-size: .82rem; color: var(--secondary); font-weight: 600; }
-        .author-card { display: flex; align-items: flex-start; gap: 20px; background: var(--light); border: 1px solid var(--gray-light); border-radius: var(--radius); padding: 24px; margin: 40px 0 10px; }
+    .author-card { display: flex; align-items: flex-start; gap: 20px; background: var(--light); border: 1px solid var(--gray-light); border-radius: var(--radius); padding: 24px; margin: 40px 0 10px; }
     .author-avatar { flex-shrink: 0; width: 80px; height: 80px; border-radius: 50%; overflow: hidden; border: 3px solid var(--secondary); }
     .author-avatar img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
     .author-info h4 { font-size: 1rem; font-weight: 800; color: var(--primary); margin-bottom: 4px; }
     .author-title { font-size: .85rem; color: var(--secondary); font-weight: 600; margin-bottom: 8px; }
     .author-credentials { list-style: none; margin: 0 0 10px 0; padding: 0; }
     .author-credentials li { font-size: .8rem; color: var(--gray); margin-bottom: 3px; }
+    .author-credentials li::before { content: ""; margin-right: 6px; }
     .author-bio { font-size: .82rem; color: var(--gray); margin: 0; font-style: italic; }
-    @media (max-width: 640px) {
-      .author-card { flex-direction: column; align-items: center; text-align: center; }
-    }
     @media (max-width: 640px) {
       .article-hero { padding: 40px 16px 36px; }
       .article-wrap { padding: 40px 16px; }
       .article-img { height: 220px; }
       .nav-cta { display: none; }
+      .author-card { flex-direction: column; align-items: center; text-align: center; }
     }
-      .lire-aussi {
-      background: #F8FAFC;
-      border-top: 3px solid #2EAA76;
-      padding: 36px 0;
-      margin: 40px 0 0;
-    }
-    .lire-aussi-inner { max-width: 760px; margin: 0 auto; padding: 0 24px; }
-    .lire-aussi-title {
-      font-size: 1rem; font-weight: 800; color: #1A3A5C;
-      margin-bottom: 18px; display: flex; align-items: center; gap: 8px;
-    }
-    .lire-aussi-title i { color: #2EAA76; }
-    .lire-aussi-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 12px; }
-    .lire-aussi-card {
-      background: white; border-radius: 12px; padding: 16px;
-      text-decoration: none; border: 1px solid #E2E8F0;
-      display: block; transition: box-shadow .2s, transform .2s;
-    }
-    .lire-aussi-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,.10); transform: translateY(-2px); }
-    .lire-aussi-label { display: block; font-size: .72rem; font-weight: 700; color: #2EAA76; text-transform: uppercase; letter-spacing: .5px; margin-bottom: 4px; }
-    .lire-aussi-desc { font-size: .82rem; color: #475569; line-height: 1.4; }
-    .lire-aussi-arrow { display: inline-block; margin-top: 8px; font-size: .75rem; color: #2EAA76; font-weight: 600; }
-    @media (max-width:600px) { .lire-aussi-grid { grid-template-columns: 1fr; } }
-    /* Cross-link VitaTransform237 */
-    .cross-v237 { background: #FDF1E4; border-left: 4px solid #E08E45; border-radius: 14px; padding: 24px 28px; margin: 36px auto; max-width: 780px; display: flex; align-items: flex-start; gap: 18px; }
-    .cross-v237-icon { flex-shrink: 0; width: 48px; height: 48px; border-radius: 12px; background: #E08E45; color: white; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; }
-    .cross-v237-body h4 { font-size: 1rem; font-weight: 800; color: #1A3A5C; margin: 0 0 8px; }
-    .cross-v237-body p { font-size: .87rem; color: #64748B; margin: 0 0 14px; line-height: 1.6; }
-    .cross-v237-link { display: inline-flex; align-items: center; gap: 7px; background: #E08E45; color: white; padding: 9px 18px; border-radius: 50px; font-size: .82rem; font-weight: 700; transition: all .3s; }
-    .cross-v237-link:hover { background: #F4A261; transform: translateY(-1px); }
-    @media (max-width: 600px) { .cross-v237 { flex-direction: column; } .cross-v237-icon { margin: 0 auto; } }</style>
+  </style>
 
   <!-- OneSignal Web Push -->
   <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
@@ -181,7 +150,7 @@
                 autoPrompt: true,
                 text: {
                   actionMessage: "Recevez nos nouveaux articles sante directement sur votre appareil.",
-                  acceptButton: "S'abonner",
+                  acceptButton: "S abonner",
                   cancelButton: "Non merci",
                 },
                 delay: {
@@ -215,7 +184,7 @@
   <div class="breadcrumb">
     <a href="index.html">Accueil</a>
     <span>/</span>
-    <a href="index.html#blog">Blog Santé</a>
+    <a href="index.html#blog">Blog Sant&eacute;</a>
     <span>/</span>
     Santé femme
   </div>
@@ -223,7 +192,7 @@
   <h1>Ménopause : signes, bilan hormonal et accompagnement médical</h1>
   <div class="article-meta">
     <span><i class="fas fa-user-md"></i> Dr Yannick Yvan Djieka</span>
-    <span><i class="fas fa-calendar"></i> 2 juin 2026</span>
+    <span><i class="fas fa-calendar"></i> 2 juillet 2026</span>
     <span><i class="fas fa-clock"></i> 6 min de lecture</span>
   </div>
 </div>
@@ -232,118 +201,125 @@
   <img src="photos/article-menopause-bilan-hormonal.jpg" alt="Ménopause : signes, bilan hormonal et accompagnement médical - Laboratoire Le Clair de la Plume Douala" class="article-img" fetchpriority="high">
 
   <div class="article-body">
-<h2>La ménopause : une transition naturelle à accompagner</h2>
+<h2>Ménopause : signes, bilan hormonal et accompagnement médical</h2>
 
-<p>La ménopause est une étape biologique inévitable dans la vie de toute femme, marquant la fin de la période reproductive. En Afrique centrale, notamment au Cameroun, cette transition affecte environ 8 millions de femmes en âge de ménopause, selon les données démographiques régionales. Bien qu'il s'agisse d'un phénomène naturel et non d'une maladie, l'accompagnement médical adéquat permet de gérer efficacement les symptômes et d'améliorer la qualité de vie. Cet article vous présente les signes d'alerte, les examens hormonaux essentiels et les stratégies thérapeutiques adaptées à notre contexte.</p>
-
-<h2>Reconnaître les signes de la ménopause</h2>
-
-<p>La ménopause survient généralement entre 45 et 55 ans, avec une durée moyenne de 7 à 10 ans incluant la périménopause. Les symptômes varient considérablement d'une femme à l'autre et peuvent être invalidants pour certaines. Dans nos populations camerounaises, où le contexte socio-économique peut amplifier certaines manifestations, il est crucial de les identifier précocement.</p>
-
-<p><strong>Les signes caractéristiques incluent :</strong></p>
-
-<ul>
-<li><strong>Les bouffées de chaleur :</strong> sensation soudaine de chaleur intense, souvent accompagnée de sueurs nocturnes abondantes perturbant le sommeil</li>
-<li><strong>Les troubles du cycle menstruel :</strong> irrégularités progressives, durée variable des cycles, flux augmenté ou diminué</li>
-<li><strong>Les troubles métaboliques :</strong> prise de poids (2-3 kg en moyenne), accumulation préférentielle au niveau abdominal</li>
-<li><strong>Les symptômes vasomoteurs :</strong> palpitations, migraines, étourdissements</li>
-<li><strong>Les troubles de l'humeur :</strong> irritabilité, dépression légère, anxiété, labilité émotionnelle</li>
-<li><strong>Les troubles de la sexualité :</strong> sécheresse vaginale, diminution de la libido, dyspareunie</li>
-<li><strong>Les troubles du sommeil :</strong> insomnie, réveils nocturnes fréquents</li>
-<li><strong>Les troubles cognitifs :</strong> difficultés de concentration, trous de mémoire transitoires</li>
-</ul>
+<p>La ménopause est une étape naturelle de la vie de chaque femme, marquée par l'arrêt progressif de la production d'hormones féminines. Au Cameroun comme dans toute l'Afrique centrale, cette transition concernera environ 400 millions de femmes dans les années à venir. Comprendre ce phénomène biologique et savoir comment l'accompagner médicalement est essentiel pour maintenir une qualité de vie optimale durant cette période.</p>
 
 <div class="info-box">
-<p><strong>À retenir :</strong> L'absence de menstruations pendant 12 mois consécutifs est le diagnostic définitif de la ménopause. Ne confondez pas ménopause (arrêt physiologique) et hysterectomie (ablation chirurgicale), qui produit une ménopause chirurgicale plus brusque.</p>
+  <p><strong>À savoir :</strong> La ménopause est un processus naturel, non une maladie. Cependant, les symptômes associés justifient un suivi médical approprié pour améliorer le bien-être et prévenir certaines complications à long terme.</p>
 </div>
 
-<h2>Le bilan hormonal : interprétation et valeurs de référence</h2>
+<h2>Les signes et symptômes de la ménopause</h2>
 
-<p>Le dosage des hormones est essentiel pour confirmer le diagnostic de ménopause et adapter le traitement. Au Cameroun, ces analyses sont disponibles dans les laboratoires agréés et permettent de distinguer la périménopause de la ménopause confirmée. Les trois hormones clés à doser sont l'estradiol (E2), la progestérone et l'hormone folliculo-stimulante (FSH).</p>
+<p>La ménopause survient généralement entre 45 et 55 ans, avec une moyenne d'environ 50 ans en Afrique. Elle est précédée par une période appelée <strong>périménopause</strong>, pouvant durer 4 à 10 ans, durant laquelle les cycles menstruels deviennent irréguliers.</p>
+
+<p>Les principaux signes de la ménopause incluent :</p>
+
+<ul>
+  <li><strong>Bouffées de chaleur</strong> : sensations soudaines et intensives de chaleur, affectant 75 % des femmes ménopausées</li>
+  <li><strong>Troubles du sommeil</strong> : insomnie et réveils nocturnes fréquents</li>
+  <li><strong>Sécheresse vaginale</strong> : inconfort et gêne durant les rapports sexuels</li>
+  <li><strong>Changements d'humeur</strong> : irritabilité, anxiété, ou dépression légère</li>
+  <li><strong>Prise de poids</strong> : généralement 2 à 3 kg, liée au ralentissement métabolique</li>
+  <li><strong>Douleurs articulaires et musculaires</strong> : raideurs, notamment au niveau des genoux et du dos</li>
+  <li><strong>Problèmes de concentration</strong> : "brouillard mental" temporaire</li>
+</ul>
+
+<p>L'intensité de ces symptômes varie considérablement d'une femme à l'autre et dépend de facteurs génétiques, du mode de vie et de l'état de santé global. En Afrique centrale, où l'accès aux soins de santé peut être limité, il est crucial de consulter un professionnel dès l'apparition de signes persistants.</p>
+
+<h2>Le bilan hormonal : comprendre vos résultats</h2>
+
+<p>Le diagnostic de ménopause repose essentiellement sur l'analyse des hormones sexuelles. Les tests hormonaux permettent de confirmer l'arrêt graduel de la production d'œstrogène et de progestérone, tout en vérifiant que d'autres glandes (thyroïde, hypophyse) fonctionnent correctement.</p>
+
+<p><strong>Les trois hormones essentielles à analyser :</strong></p>
 
 <div class="table-wrap">
-<table>
-<thead>
-<tr>
-<th>Hormone</th>
-<th>Phase fertile (Norme)</th>
-<th>Périménopause</th>
-<th>Ménopause confirmée</th>
-<th>Unité</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>FSH (Hormone folliculo-stimulante)</strong></td>
-<td>5-25 mIU/mL</td>
-<td class="warn">25-100 mIU/mL</td>
-<td class="good">&gt; 40 mIU/mL</td>
-<td>mIU/mL</td>
-</tr>
-<tr>
-<td><strong>Estradiol (E2)</strong></td>
-<td>30-400 pg/mL</td>
-<td class="warn">15-30 pg/mL</td>
-<td class="good">&lt; 15 pg/mL</td>
-<td>pg/mL</td>
-</tr>
-<tr>
-<td><strong>Progestérone</strong></td>
-<td class="good">5-20 ng/mL (phase lutéale)</td>
-<td class="warn">&lt; 1 ng/mL</td>
-<td class="good">Indétectable</td>
-<td>ng/mL</td>
-</tr>
-<tr>
-<td><strong>LH (Lutéinisante)</strong></td>
-<td>2-15 mIU/mL</td>
-<td class="warn">20-100 mIU/mL</td>
-<td class="good">&gt; 30 mIU/mL</td>
-<td>mIU/mL</td>
-</tr>
-</tbody>
-</table>
+  <table>
+    <tr>
+      <th>Hormone</th>
+      <th>Rôle physiologique</th>
+      <th>Valeur normale (femme fertile)</th>
+      <th>Valeur ménopause</th>
+    </tr>
+    <tr>
+      <td><strong>FSH (Hormone folliculo-stimulante)</strong></td>
+      <td>Stimule les ovaires à produire des ovules</td>
+      <td>5-20 mUI/mL</td>
+      <td class="good">&gt; 40 mUI/mL (diagnostic)</td>
+    </tr>
+    <tr>
+      <td><strong>Œstradiol</strong></td>
+      <td>Hormone sexuelle féminine principale</td>
+      <td>30-100 pg/mL (moyenne du cycle)</td>
+      <td class="warn">&lt; 15 pg/mL</td>
+    </tr>
+    <tr>
+      <td><strong>Progestérone</strong></td>
+      <td>Stabilise le cycle menstruel</td>
+      <td>5-20 ng/mL (phase lutéale)</td>
+      <td class="warn">&lt; 1 ng/mL</td>
+    </tr>
+  </table>
 </div>
 
-<p>L'interprétation doit toujours être contextuelle, basée sur la clinique et les dosages répétés, car les valeurs peuvent fluctuer significativement en périménopause. Une FSH élevée associée à un estradiol bas confirme généralement le diagnostic.</p>
+<p>Au Laboratoire Le Clair de la Plume, nous recommandons également de vérifier la <strong>TSH (thyroïde)</strong> et la <strong>prolactine</strong>, car certains symptômes de ménopause peuvent être confondus avec des troubles thyroïdiens ou une hyperprolactinémie, conditions fréquentes dans notre région.</p>
 
-<h2>L'accompagnement médical : stratégies thérapeutiques adaptées</h2>
+<h3>Quand réaliser ce bilan ?</h3>
 
-<p>L'accompagnement de la ménopause combine des mesures hygiéno-diététiques et, si nécessaire, des traitements médicamenteux. Au Cameroun, où l'accès aux hormonothérapies substitutives peut être limité dans certaines régions, une prise en charge globale et progressive est privilégiée.</p>
+<p>Il est préférable de faire le prélèvement entre le 3e et le 5e jour du cycle menstruel si vous en avez encore, ou à tout moment si vos règles sont absentes depuis plus de 3 mois. Le matin à jeun est idéal pour une meilleure fiabilité des résultats.</p>
 
-<p><strong>Les mesures non pharmacologiques :</strong></p>
+<h2>Accompagnement médical et prise en charge</h2>
 
-<ul>
-<li>Activité physique régulière (30 min/jour, 5 j/semaine) : marche, natation, yoga, adapté au contexte climatique tropical</li>
-<li>Alimentation équilibrée riche en phytoestrogènes (soja, légumineuses locales, courges)</li>
-<li>Supplémentation en calcium (1000-1200 mg/j) et vitamine D (prévention ostéoporose)</li>
-<li>Gestion du stress et techniques de relaxation (méditation, respiration profonde)</li>
-<li>Maintien d'une vie sexuelle active (bénéfices physiques et psychologiques)</li>
-<li>Limitation de la caféine et l'alcool (déclencheurs de bouffées de chaleur)</li>
-<li>Vêtements légers et amples adaptés au climat chaud</li>
-</ul>
+<p>Une fois la ménopause diagnostiquée, plusieurs approches thérapeutiques peuvent être envisagées en fonction de la sévérité des symptômes et des antécédents personnels et familiaux.</p>
 
-<p><strong>Les traitements médicamenteux :</strong></p>
+<h3>Approches non-hormonales</h3>
 
-<p>Le <strong>traitement hormonal de la ménopause (THM)</strong> à base d'estrogènes et/ou progestérone reste la solution la plus efficace pour les symptômes modérés à sévères. Au Cameroun, il doit être prescrit selon le profil individuel de chaque patiente, après bilan de santé complet, en pesant les bénéfices et risques. Les <strong>traitements non hormonaux</strong> comme les inhibiteurs sélectifs de la recapture de la sérotonine (ISRS) offrent une alternative pour les femmes contre-indiquées au THM.</p>
-
-<h2>Pourquoi effectuer votre bilan au Laboratoire Le Clair de la Plume ?</h2>
-
-<p>Au <strong>Laboratoire Le Clair de la Plume</strong>, situé à Ndokoti, Douala, nous mettons à votre disposition une équipe médicale expérimentée et des équipements diagnostiques de dernière génération. Notre approche privilégie l'écoute, le respect de votre intimité et la qualité des résultats.</p>
+<p>Ces stratégies doivent toujours être privilégiées en premier lieu :</p>
 
 <ul>
-<li><strong>Dosages hormonaux précis :</strong> FSH, estradiol, LH et progestérone avec accréditation et traçabilité</li>
-<li><strong>Prélèvement sans douleur :</strong> par des techniciens formés et expérimentés</li>
-<li><strong>Délais rapides :</strong> résultats disponibles en 24-48 heures</li>
-<li><strong>Interprétation médicale :</strong> consultation avec notre équipe pour une prise en charge adaptée</li>
-<li><strong>Tarifs compétitifs :</strong> accessibles aux familles camerounaises</li>
-<li><strong>Confidentialité absolue :</strong> respect total de vos données médicales</li>
+  <li><strong>Hygiène de vie :</strong> exercice régulier (30 min, 5 jours/semaine), alimentation équilibrée riche en calcium et fruits/légumes</li>
+  <li><strong>Gestion du stress :</strong> relaxation, méditation, ou pratiques traditionnelles comme le yoga</li>
+  <li><strong>Vêtements légers :</strong> tissus naturels pour minimiser les bouffées de chaleur</li>
+  <li><strong>Suppléments naturels :</strong> phytoestrogènes du soja, isoflavones (efficacité variable selon les études)</li>
+  <li><strong>Traitement des troubles du sommeil :</strong> hygiène du sommeil, si nécessaire consultation d'un neurologue</li>
 </ul>
 
-<p>La ménopause n'est pas une fin, mais un nouveau chapitre de votre vie. Avec un accompagnement médical approprié et une bonne compréhension des changements physiologiques, vous pouvez vivre cette transition sereinement. <strong>Contactez-nous dès aujourd'hui</strong> pour organiser votre consultation et votre bilan hormonal au Laboratoire Le Clair de la Plume.</p>
+<h3>Traitement hormonal substitutif (THS)</h3>
+
+<p>Le THS peut être envisagé pour les symptômes sévères qui affectent la qualité de vie. Il existe sous plusieurs formes (comprimés, patchs, gels) et associe généralement œstrogènes et progestérone. <strong>En Afrique centrale, le THS n'est pas toujours accessible ou abordable</strong> ; votre médecin discutera avec vous des alternatives.</p>
+
+<h3>Suivi préventif</h3>
+
+<p>La ménopause augmente les risques de :</p>
+
+<ul>
+  <li>Ostéoporose (perte osseuse accélérée)</li>
+  <li>Maladies cardiovasculaires</li>
+  <li>Surpoids et diabète</li>
+</ul>
+
+<p>Un dépistage régulier par <strong>densitométrie osseuse</strong> (après 60 ans), <strong>bilan lipidique</strong>, et <strong>glycémie</strong> est fortement recommandé.</p>
+
+<div class="info-box">
+  <p><strong>Conseil pratique :</strong> L'apport en calcium (1200 mg/jour) et en vitamine D (800-1000 UI/jour) est capital. Au Cameroun, intégrez dans votre alimentation des aliments locaux riches en calcium : feuilles de manioc, sardines, produits laitiers, et assurez-vous une exposition modérée au soleil pour la synthèse de vitamine D.</p>
+</div>
+
+<h2>Pourquoi faire cet examen au Clair de la Plume ?</h2>
+
+<p>Au <strong>Laboratoire Le Clair de la Plume</strong> à Ndokoti, Douala, nous nous engageons à offrir un accompagnement complet et humanisé :</p>
+
+<ul>
+  <li><strong>Expertise locale :</strong> Nos techniciens et biologistes comprennent les spécificités de la santé féminine en Afrique centrale</li>
+  <li><strong>Analyse précise :</strong> Utilisation d'équipements de dernière génération pour des dosages hormonaux fiables et reproductibles</li>
+  <li><strong>Résultats rapides :</strong> Résultats disponibles en 24-48 heures, avec interprétation détaillée</li>
+  <li><strong>Conseil médical :</strong> Consultation avec nos spécialistes pour discuter des options de prise en charge adaptées à votre situation</li>
+  <li><strong>Accessibilité :</strong> Tarifs justes et adaptés au contexte camerounais, sans compromettre la qualité</li>
+  <li><strong>Confidentialité et respect :</strong> Environnement bienveillant où vos préoccupations sont écoutées et traitées avec professionnalisme</li>
+</ul>
+
+<p>La ménopause est une transition, non une fin. Avec un diagnostic précoce, un suivi médical adapté et des ajustements de mode de vie, cette période peut se vivre sereinement. Nous vous invitons à consulter dès maintenant pour établir votre bilan hormonal et bénéficier des recommandations personnalisées de nos experts.</p>
   </div>
 
-  
   <div class="author-card">
     <div class="author-avatar">
       <img src="photos/dr-bureau.jpg" alt="Dr Yannick Djieka" loading="lazy">
@@ -359,6 +335,7 @@
       <p class="author-bio">Fondateur du Laboratoire Le Clair de la Plume &agrave; Ndokoti, Douala. Dr Yannick Djieka accompagne les patients dans leur parcours de sant&eacute; reproductive et pr&eacute;ventive depuis 2014.</p>
     </div>
   </div>
+
   <div class="article-cta">
     <h3>Faites votre bilan hormonal ménopause</h3>
     <p>FSH, LH, oestradiol, progestérone : bilan complet le jour même. Douala.</p>
@@ -369,39 +346,9 @@
 
 </div>
 
-
-<div class="cross-v237">
-  <div class="cross-v237-icon"><i class="fas fa-leaf"></i></div>
-  <div class="cross-v237-body">
-    <h4>Optimisez avec les bons compl&eacute;ments</h4>
-    <p>Votre bilan vous a donn&eacute; des r&eacute;ponses. Pour aller plus loin, <strong>VitaTransform237</strong> propose des compl&eacute;ments alimentaires s&eacute;lectionn&eacute;s par un professionnel de sant&eacute;, disponibles et livr&eacute;s &agrave; Douala.</p>
-    <a href="https://vitatransform237.com/recommandations.html" target="_blank" rel="noopener" class="cross-v237-link"><i class="fas fa-box-open"></i> Voir les recommandations</a>
-  </div>
-</div><section class="lire-aussi">
-  <div class="lire-aussi-inner">
-    <h3 class="lire-aussi-title"><i class="fas fa-book-open"></i> A lire aussi</h3>
-    <div class="lire-aussi-grid">
-      <a href="article-amenorrhee.html" class="lire-aussi-card">
-        <span class="lire-aussi-label">Aménorrhée</span>
-        <span class="lire-aussi-desc">Pourquoi vos regles ont disparu - causes et bilan</span>
-        <span class="lire-aussi-arrow">Lire l'article &#8594;</span>
-      </a>
-      <a href="article-prolactine.html" class="lire-aussi-card">
-        <span class="lire-aussi-label">Prolactine élevée</span>
-        <span class="lire-aussi-desc">Hyperprolactinemie et impact sur la fertilite</span>
-        <span class="lire-aussi-arrow">Lire l'article &#8594;</span>
-      </a>
-      <a href="article-vitamine-d.html" class="lire-aussi-card">
-        <span class="lire-aussi-label">Vitamine D</span>
-        <span class="lire-aussi-desc">Carence, symptomes et dosage sanguin a Douala</span>
-        <span class="lire-aussi-arrow">Lire l'article &#8594;</span>
-      </a>
-    </div>
-  </div>
-</section>
 <section class="related">
   <div class="related-inner">
-    <h2>Articles qui pourraient vous intéresser</h2>
+    <h2>Articles qui pourraient vous int&eacute;resser</h2>
     <div class="related-grid" id="relatedGrid">
       <p style="color:#94a3b8;font-size:.9rem;grid-column:1/-1;">Chargement...</p>
     </div>
