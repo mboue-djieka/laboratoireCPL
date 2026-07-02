@@ -22,9 +22,9 @@
     "@type": "MedicalWebPage",
     "name": "Hépatite C : dépistage, symptômes et traitement à Douala",
     "url": "https://leclairdelaplume-labo.com/article-hepatite-c.html",
-    "datePublished": "2026-06-01",
-    "dateModified": "2026-06-01",
-    {"author": {"@type": "Person", "name": "Dr Yannick Djieka", "jobTitle": "Médecin spécialiste en fertilité et reproduction humaine", "description": "Master en Ingénierie des systèmes d'information en santé, Médecin Chercheur, N° ONMC 7222/14"}},
+    "datePublished": "2026-07-02",
+    "dateModified": "2026-07-02",
+    "author": {"@type": "Person", "name": "Dr Yannick Djieka", "jobTitle": "Médecin spécialiste en fertilité et reproduction humaine", "description": "Master en Ingénierie des systèmes d’information en santé (EISIS), Médecin Chercheur, N° ONMC 7222/14"},
     "publisher": {"@type": "MedicalOrganization", "name": "Le Clair de la Plume", "url": "https://leclairdelaplume-labo.com"},
     "breadcrumb": {
       "@type": "BreadcrumbList",
@@ -113,46 +113,23 @@
     .related-card-body .cat { font-size: .75rem; color: var(--secondary); font-weight: 700; text-transform: uppercase; margin-bottom: 8px; }
     .related-card-body h3 { font-size: .9rem; font-weight: 700; color: var(--primary); line-height: 1.4; margin-bottom: 10px; }
     .related-card-body a { font-size: .82rem; color: var(--secondary); font-weight: 600; }
-        .author-card { display: flex; align-items: flex-start; gap: 20px; background: var(--light); border: 1px solid var(--gray-light); border-radius: var(--radius); padding: 24px; margin: 40px 0 10px; }
+    .author-card { display: flex; align-items: flex-start; gap: 20px; background: var(--light); border: 1px solid var(--gray-light); border-radius: var(--radius); padding: 24px; margin: 40px 0 10px; }
     .author-avatar { flex-shrink: 0; width: 80px; height: 80px; border-radius: 50%; overflow: hidden; border: 3px solid var(--secondary); }
     .author-avatar img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
     .author-info h4 { font-size: 1rem; font-weight: 800; color: var(--primary); margin-bottom: 4px; }
     .author-title { font-size: .85rem; color: var(--secondary); font-weight: 600; margin-bottom: 8px; }
     .author-credentials { list-style: none; margin: 0 0 10px 0; padding: 0; }
     .author-credentials li { font-size: .8rem; color: var(--gray); margin-bottom: 3px; }
+    .author-credentials li::before { content: ""; margin-right: 6px; }
     .author-bio { font-size: .82rem; color: var(--gray); margin: 0; font-style: italic; }
-    @media (max-width: 640px) {
-      .author-card { flex-direction: column; align-items: center; text-align: center; }
-    }
     @media (max-width: 640px) {
       .article-hero { padding: 40px 16px 36px; }
       .article-wrap { padding: 40px 16px; }
       .article-img { height: 220px; }
       .nav-cta { display: none; }
+      .author-card { flex-direction: column; align-items: center; text-align: center; }
     }
-      .lire-aussi {
-      background: #F8FAFC;
-      border-top: 3px solid #2EAA76;
-      padding: 36px 0;
-      margin: 40px 0 0;
-    }
-    .lire-aussi-inner { max-width: 760px; margin: 0 auto; padding: 0 24px; }
-    .lire-aussi-title {
-      font-size: 1rem; font-weight: 800; color: #1A3A5C;
-      margin-bottom: 18px; display: flex; align-items: center; gap: 8px;
-    }
-    .lire-aussi-title i { color: #2EAA76; }
-    .lire-aussi-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 12px; }
-    .lire-aussi-card {
-      background: white; border-radius: 12px; padding: 16px;
-      text-decoration: none; border: 1px solid #E2E8F0;
-      display: block; transition: box-shadow .2s, transform .2s;
-    }
-    .lire-aussi-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,.10); transform: translateY(-2px); }
-    .lire-aussi-label { display: block; font-size: .72rem; font-weight: 700; color: #2EAA76; text-transform: uppercase; letter-spacing: .5px; margin-bottom: 4px; }
-    .lire-aussi-desc { font-size: .82rem; color: #475569; line-height: 1.4; }
-    .lire-aussi-arrow { display: inline-block; margin-top: 8px; font-size: .75rem; color: #2EAA76; font-weight: 600; }
-    @media (max-width:600px) { .lire-aussi-grid { grid-template-columns: 1fr; } }</style>
+  </style>
 
   <!-- OneSignal Web Push -->
   <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
@@ -173,7 +150,7 @@
                 autoPrompt: true,
                 text: {
                   actionMessage: "Recevez nos nouveaux articles sante directement sur votre appareil.",
-                  acceptButton: "S'abonner",
+                  acceptButton: "S abonner",
                   cancelButton: "Non merci",
                 },
                 delay: {
@@ -207,7 +184,7 @@
   <div class="breadcrumb">
     <a href="index.html">Accueil</a>
     <span>/</span>
-    <a href="index.html#blog">Blog Santé</a>
+    <a href="index.html#blog">Blog Sant&eacute;</a>
     <span>/</span>
     Infections
   </div>
@@ -215,7 +192,7 @@
   <h1>Hépatite C : dépistage, symptômes et traitement à Douala</h1>
   <div class="article-meta">
     <span><i class="fas fa-user-md"></i> Dr Yannick Yvan Djieka</span>
-    <span><i class="fas fa-calendar"></i> 1 juin 2026</span>
+    <span><i class="fas fa-calendar"></i> 2 juillet 2026</span>
     <span><i class="fas fa-clock"></i> 6 min de lecture</span>
   </div>
 </div>
@@ -224,135 +201,127 @@
   <img src="photos/article-hepatite-c-depistage.jpg" alt="Hépatite C : dépistage, symptômes et traitement à Douala - Laboratoire Le Clair de la Plume Douala" class="article-img" fetchpriority="high">
 
   <div class="article-body">
-<h2>L'Hépatite C : une menace silencieuse en Afrique centrale</h2>
+<h2>Hépatite C : Dépistage, Symptômes et Traitement à Douala</h2>
 
-<p>L'hépatite C est une infection virale qui affecte le foie et représente un enjeu majeur de santé publique en Afrique subsaharienne, particulièrement au Cameroun. Selon l'Organisation mondiale de la santé (OMS), environ <strong>71 millions de personnes</strong> vivent avec l'hépatite C chronique dans le monde, et l'Afrique centrale enregistre des taux de prévalence alarmants. Au Cameroun, la prévalence estimée varie entre <strong>5 à 7 % de la population générale</strong>, ce qui représente un véritable problème de santé publique.</p>
+<p>L'hépatite C est une infection virale du foie qui constitue un problème de santé publique majeur en Afrique centrale. Au Cameroun, selon les données épidémiologiques récentes, la prévalence de l'hépatite C varie entre 4 et 9% dans la population générale, avec des taux plus élevés chez les populations à risque. Cette infection silencieuse peut évoluer pendant des années sans symptômes apparents, d'où l'importance capitale du dépistage précoce. Le Laboratoire Le Clair de la Plume à Douala vous propose une prise en charge complète pour le diagnostic et le suivi de cette maladie.</p>
 
-<p>La particularité de l'hépatite C est qu'elle peut rester longtemps silencieuse. De nombreuses personnes infectées ignorent leur statut et risquent de développer des complications graves du foie après 10 à 20 ans d'infection. C'est pourquoi le dépistage précoce, accessible à Douala et dans toute la région, est crucial pour interrompre la transmission et prévenir les cirrhoses.</p>
+<h2>Qu'est-ce que l'hépatite C ?</h2>
+
+<p>L'hépatite C est une maladie infectieuse causée par le virus de l'hépatite C (VHC). Ce virus se propage principalement par contact avec le sang contaminé. En Afrique centrale, les principaux modes de transmission incluent : les transfusions sanguines (particulièrement avant 2000), le partage d'aiguilles chez les consommateurs de drogues injectables, les procédures médicales ou dentaires non sécurisées, et les accidents d'exposition sanguine chez le personnel de santé.</p>
+
+<p>Le virus attaque les cellules hépatiques, provoquant une inflammation progressive du foie. Contrairement à l'hépatite B, l'hépatite C ne possède pas de vaccin préventif. Cependant, les traitements antiviraux modernes offrent un taux de guérison dépassant les 95%, ce qui rend le dépistage et le traitement précoce essentiels.</p>
+
+<p>L'infection par le VHC peut être soit aiguë (les trois premiers mois) soit chronique (persistant au-delà de six mois). Environ 15 à 25% des personnes infectées éliminent naturellement le virus, tandis que 75 à 85% développent une infection chronique pouvant mener à la cirrhose et au cancer du foie si non traitée.</p>
+
+<h2>Symptômes et Signes d'Alerte</h2>
+
+<p>La caractéristique principale de l'hépatite C est son évolution souvent silencieuse. La majorité des patients infectés ne présentent aucun symptôme pendant de nombreuses années. Cependant, lorsque des symptômes apparaissent, ils peuvent inclure :</p>
+
+<ul>
+<li>Fatigue persistante et épuisement inhabituels</li>
+<li>Douleurs articulaires et musculaires diffuses</li>
+<li>Nausées et perte d'appétit</li>
+<li>Douleurs abdominales, particulièrement au niveau du foie (région supérieure droite)</li>
+<li>Jaunisse (coloration jaune de la peau et des yeux)</li>
+<li>Urine foncée et selles pâles</li>
+<li>Démangeaisons cutanées intenses</li>
+<li>Troubles cognitifs légers (encéphalopathie hépatique en cas de cirrhose)</li>
+</ul>
 
 <div class="info-box">
-<p><strong>⚠️ Fait important :</strong> L'hépatite C se transmet principalement par contact sanguin. Contrairement à l'hépatite A ou B, elle <strong>ne se transmet pas</strong> par l'eau contaminée, les aliments ou l'allaitement. La bonne nouvelle : l'hépatite C est maintenant <strong>curable</strong> avec les antiviraux d'action directe (AAD), avec des taux de guérison dépassant 95 %.</p>
+<p><strong>Alerte importante :</strong> Près de 80% des personnes infectées par l'hépatite C ne présentent aucun symptôme. C'est pourquoi le dépistage systématique est recommandé, particulièrement si vous avez reçu une transfusion sanguine avant 2000, avez des antécédents d'exposition à du matériel médical non stérile, ou présentez des facteurs de risque identifiés.</p>
 </div>
 
-<h2>Les symptômes et le dépistage : ne pas rester dans l'ignorance</h2>
+<h2>Le Dépistage de l'Hépatite C à Douala</h2>
 
-<p>L'une des raisons pour lesquelles l'hépatite C progresse silencieusement au Cameroun et en Afrique centrale est l'absence de symptômes évidents au début de l'infection. Beaucoup de personnes infectées découvrent leur statut par hasard, lors d'un test sanguin de routine ou à l'occasion d'une complication.</p>
+<p>Le dépistage de l'hépatite C repose sur une approche en deux étapes pour assurer la précision du diagnostic. Au Laboratoire Le Clair de la Plume, nous utilisons les techniques les plus fiables et conformes aux normes internationales.</p>
 
-<h3>Symptômes possibles (quand ils surviennent)</h3>
+<p><strong>Première étape : Test sérologique</strong> - Un simple prélèvement sanguin permet de détecter les anticorps dirigés contre le virus de l'hépatite C (test anti-VHC). Ce test peut être positif même après la guérison spontanée du virus, car les anticorps persistent à vie.</p>
 
-<ul>
-<li><strong>Fatigue intense</strong> et sensation générale de faiblesse</li>
-<li>Douleurs articulaires et musculaires</li>
-<li>Nausées et perte d'appétit</li>
-<li>Jaunisse (coloration jaune de la peau et des yeux) – signe tardif</li>
-<li>Urine foncée et selles pâles</li>
-<li>Douleur ou gêne dans l'abdomen supérieur droit</li>
-<li>Troubles de la concentration et de la mémoire (troubles cognitifs)</li>
-</ul>
+<p><strong>Deuxième étape : Test de confirmation</strong> - Si le premier test est positif, un test RT-PCR (réaction en chaîne par polymérase en temps réel) est effectué pour confirmer la présence du virus et déterminer la charge virale. Ce test est crucial car il distingue l'infection active de l'exposition antérieure.</p>
 
-<p>Au Cameroun, où le VIH et le paludisme sont également prévalents, les symptômes de l'hépatite C peuvent être confondus avec d'autres infections. C'est pourquoi <strong>un diagnostic sérologique précis est indispensable</strong>. Le dépistage se fait par un simple test sanguin qui recherche les anticorps anti-VHC (virus de l'hépatite C).</p>
-
-<h2>Qui devrait se faire dépister à Douala ?</h2>
-
-<p>Le dépistage de l'hépatite C est fortement recommandé pour les populations à risque. Au Cameroun, cela inclut :</p>
-
-<ul>
-<li>Les <strong>donneurs et receveurs de sang</strong> (même ancien)</li>
-<li>Les <strong>professionnels de santé</strong> (piqûres accidentelles)</li>
-<li>Les personnes ayant reçu des <strong>transfusions sanguines avant 1992</strong> ou dans des contextes non sécurisés</li>
-<li>Les patients <strong>co-infectés VIH/VHC</strong> (très courant en Afrique centrale)</li>
-<li>Les personnes ayant un partenaire atteint d'hépatite C</li>
-<li>Les prisonniers et résidents d'institutions fermées</li>
-<li>Les personnes ayant des antécédents de <strong>tatouage ou piercing</strong> en contexte non-stérile</li>
-<li><strong>Tous les adultes</strong> (au moins une fois dans la vie) – recommandation OMS depuis 2022</li>
-</ul>
+<p>Après confirmation de l'infection, d'autres tests sont recommandés pour évaluer l'atteinte hépatique : les tests de fonction hépatique (transaminases, bilirubine, albumine), le test de fibrose (FibroTest ou Score FIB-4), et dans certains cas, une élastographie transient.</p>
 
 <div class="table-wrap">
 <table>
-<thead>
 <tr>
-<th>Type de test</th>
-<th>Ce qu'il détecte</th>
-<th>Sensibilité</th>
-<th>Interprétation</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Anti-VHC (Sérologie)</strong></td>
-<td>Anticorps du virus</td>
-<td class="good">99 %</td>
-<td>Indique exposition antérieure ou actuelle</td>
+<th>Test</th>
+<th>Valeur normale</th>
+<th>Valeur anormale</th>
+<th>Délai de résultat</th>
 </tr>
 <tr>
-<td><strong>ARN VHC (Charge virale)</strong></td>
-<td>Virus actif (ARN)</td>
-<td class="good">99 %</td>
-<td>Confirme infection active</td>
+<td><strong>Anti-VHC (sérologie)</strong></td>
+<td class="good">Négatif</td>
+<td class="warn">Positif</td>
+<td>24-48 heures</td>
 </tr>
 <tr>
-<td><strong>Génotypage</strong></td>
-<td>Type/souche du virus</td>
-<td class="good">100 %</td>
-<td>Guides le choix du traitement</td>
+<td><strong>ARN-VHC (PCR)</strong></td>
+<td class="good">&lt; 15 UI/mL (non détectable)</td>
+<td class="warn">&gt; 15 UI/mL</td>
+<td>48-72 heures</td>
 </tr>
 <tr>
-<td><strong>Tests de fibrose (FibroTest)</strong></td>
-<td>État du foie</td>
-<td class="warn">80-90 %</td>
-<td>Évalue les dommages hépatiques</td>
+<td><strong>ALAT (transaminases)</strong></td>
+<td class="good">&lt; 40 UI/L</td>
+<td class="warn">&gt; 40 UI/L</td>
+<td>24 heures</td>
 </tr>
-</tbody>
+<tr>
+<td><strong>ASAT (transaminases)</strong></td>
+<td class="good">&lt; 35 UI/L</td>
+<td class="warn">&gt; 35 UI/L</td>
+<td>24 heures</td>
+</tr>
+<tr>
+<td><strong>Bilirubine totale</strong></td>
+<td class="good">0,3 - 1,2 mg/dL</td>
+<td class="warn">&gt; 1,2 mg/dL</td>
+<td>24 heures</td>
+</tr>
 </table>
 </div>
 
-<h2>Le traitement : une révolution thérapeutique</h2>
+<h2>Traitement et Prise en Charge</h2>
 
-<p>La prise en charge de l'hépatite C a radicalement changé au cours de la dernière décennie. Les <strong>antiviraux d'action directe (AAD)</strong> ont révolutionné le traitement, offrant des taux de guérison de <strong>95 à 99 %</strong>, contrairement aux anciens traitements (interféron) qui n'avaient que 40-50 % de succès et causaient d'importants effets secondaires.</p>
+<p>La bonne nouvelle concernant l'hépatite C est que les traitements antiviraux à action directe (AAD) offrent un taux de guérison exceptionnellement élevé. Ces médicaments ciblent directement le virus et permettent sa suppression rapide chez plus de 95% des patients infectés.</p>
 
-<h3>Principes du traitement moderne</h3>
+<p>Le traitement typique dure entre 8 et 12 semaines, selon le génotype viral et l'état du foie. Les combinaisons les plus couramment utilisées incluent : sofosbuvir + lédipasvir, sofosbuvir + velpatasvir, ou glécapévir + pibrentasvir. Ces traitements sont généralement bien tolérés avec peu d'effets secondaires graves, contrairement aux traitements plus anciens à base d'interféron.</p>
 
-<ul>
-<li><strong>Durée courte</strong> : 8 à 12 semaines seulement (contre 12 mois autrefois)</li>
-<li><strong>Peu d'effets secondaires</strong> : bien toléré, prise orale quotidienne</li>
-<li><strong>Efficacité quasi-universelle</strong> : fonctionne sur tous les génotypes</li>
-<li><strong>Réponse rapide</strong> : charge virale indétectable après 4 semaines</li>
-</ul>
+<p>Au Cameroun et en Afrique centrale, l'accès à ces traitements s'est considérablement amélioré grâce aux programmes d'accès universel et aux prix négociés. Le Laboratoire Le Clair de la Plume peut vous orienter vers les structures spécialisées en hépatologie à Douala pour l'initiation et le suivi du traitement.</p>
 
-<p>Au Cameroun et dans les pays de la région, l'accès aux AAD s'améliore progressivement, mais reste limité par les coûts et les contraintes logistiques. Les gouvernements et organismes internationaux s'engagent à élargir l'accès, notamment via des programmes d'action comme ceux soutenus par l'OMS.</p>
+<p>Après la fin du traitement, une évaluation de la réponse virologique soutenue (RVS) est effectuée 12 semaines après la fin du traitement. Une RVS négative signifie que le virus a été éradiqué et que vous êtes guéri de l'hépatite C.</p>
 
-<p><strong>Important :</strong> Le traitement doit être accompagné par une équipe médicale qualifiée. Une visite chez un hépatologue ou un praticien expérimenté est nécessaire pour établir le diagnostic, évaluer l'état du foie et choisir le régime thérapeutique adapté.</p>
-
-<h2>Prévention et transmission : les gestes essentiels</h2>
-
-<p>Bien que l'hépatite C soit guérissable, la prévention reste la meilleure approche. Voici les mesures clés pour protéger la santé au Cameroun :</p>
+<h2>Recommandations Pratiques de Prévention</h2>
 
 <ul>
-<li><strong>Sécurité transfusionnelle :</strong> assurer le dépistage systématique de tous les dons de sang</li>
-<li><strong>Hygiène en milieu médical :</strong> utilisation de matériel stérile et à usage unique</li>
-<li><strong>Tatouages et piercings :</strong> privilégier les studios sérieux avec autoclaves certifiés</li>
-<li><strong>Pratiques sexuelles :</strong> protection si lésions muqueuses ou menstruations</li>
-<li><strong>Partage d'objets :</strong> ne pas partager brosse à dents, rasoirs ou instruments de manucure</li>
-<li><strong>Dépistage des femmes enceintes :</strong> pour prévenir la transmission mère-enfant (très rare mais possible)</li>
+<li><strong>Dépistage régulier :</strong> Si vous présentez des facteurs de risque, un dépistage tous les 1 à 2 ans est recommandé</li>
+<li><strong>Hygiène et sécurité :</strong> Évitez le partage d'objets personnels pouvant causer des blessures (rasoirs, brosses à dents, ciseaux)</li>
+<li><strong>Pratiques médicales sûres :</strong> Assurez-vous que les injections, les transfusions et les actes dentaires utilisent du matériel stérile</li>
+<li><strong>Réduction des risques :</strong> Si vous consommez des drogues injectables, utilisez des seringues stériles et évitez le partage</li>
+<li><strong>Suivi médical :</strong> Une fois diagnostiquée, maintenez un suivi régulier avec votre médecin ou spécialiste</li>
+<li><strong>Vaccination supplémentaire :</strong> Si vous êtes infecté par l'hépatite C, une vaccination contre l'hépatite A et B est recommandée</li>
+<li><strong>Alcool et foie :</strong> Réduisez ou éliminez la consommation d'alcool pour préserver la fonction hépatique</li>
 </ul>
 
-<h2>Pourquoi faire dépister et traiter l'hépatite C au Clair de la Plume ?</h2>
+<h2>Pourquoi Faire Cet Examen au Clair de la Plume ?</h2>
 
-<p>Au <strong>Laboratoire Le Clair de la Plume</strong>, situé à Ndokoti, Douala, nous mettons à disposition une expertise complète et un accompagnement humanisé pour la prise en charge de l'hépatite C :</p>
+<p>Le Laboratoire Le Clair de la Plume, situé à Ndokoti (Douala), offre une prise en charge de qualité pour le dépistage de l'hépatite C avec les standards internationaux. Nous mettons à votre disposition :</p>
 
 <ul>
-<li><strong>Tests de dépistage fiables :</strong> sérologies anti-VHC de dernière génération, avec résultats rapides</li>
-<li><strong>Confirmations diagnostiques :</strong> charge virale et génotypage en cas de positivité</li>
-<li><strong>Suivi biologique :</strong> tests de fonction hépatique et fibrose pour adapter le traitement</li>
-<li><strong>Accueil bienveillant :</strong> consultations confidentielles dans un cadre respectueux</li>
-<li><strong>Partenariats médicaux :</strong> réseau de spécialistes (hépatologue, infectiologue) pour le traitement</li>
-<li><strong>Transparence tarifaire :</strong> tarifs compatibles avec le contexte local camerounais</li>
+<li>Des équipements modernes et certifiés ISO pour une fiabilité garantie des résultats</li>
+<li>Une équipe médicale qualifiée avec expertise en virologie et maladies infectieuses</li>
+<li>Un délai de résultat rapide (48-72 heures maximum) pour débuter le traitement sans délai</li>
+<li>Un accueil professionnel et confidentiel respectant votre vie privée</li>
+<li>Des tarifs compétitifs adaptés au contexte camerounais</li>
+<li>Une orientation vers les spécialistes en hépatologie partenaires pour la prise en charge thérapeutique</li>
+<li>Un suivi personnalisé et un conseil médical avant et après le dépistage</li>
 </ul>
 
-<p>Ne laissez pas l'hépatite C progresser silencieusement. <strong>Faites-vous dépister aujourd'hui.</strong> Une détection précoce et un traitement moderne peuvent vous guérir et vous redonner une santé hépatique optimale. Contactez le Laboratoire Le Clair de la Plume pour prendre rendez-vous ou poser vos questions – nous sommes là pour vous.</p>
+<p>Ne laissez pas l'hépatite C évoluer silencieusement. Une détection précoce peut sauver votre foie et votre vie. Contactez dès aujourd'hui le Laboratoire Le Clair de la Plume pour prendre rendez-vous et effectuer votre dépistage.</p>
   </div>
 
-  
   <div class="author-card">
     <div class="author-avatar">
       <img src="photos/dr-bureau.jpg" alt="Dr Yannick Djieka" loading="lazy">
@@ -368,6 +337,7 @@
       <p class="author-bio">Fondateur du Laboratoire Le Clair de la Plume &agrave; Ndokoti, Douala. Dr Yannick Djieka accompagne les patients dans leur parcours de sant&eacute; reproductive et pr&eacute;ventive depuis 2014.</p>
     </div>
   </div>
+
   <div class="article-cta">
     <h3>Dépistez l'hépatite C dès aujourd'hui</h3>
     <p>Résultat en 30 minutes. Confidentiel. Laboratoire Le Clair de la Plume, Ndokoti, Douala.</p>
@@ -378,32 +348,9 @@
 
 </div>
 
-
-<section class="lire-aussi">
-  <div class="lire-aussi-inner">
-    <h3 class="lire-aussi-title"><i class="fas fa-book-open"></i> A lire aussi</h3>
-    <div class="lire-aussi-grid">
-      <a href="article-vih-sida.html" class="lire-aussi-card">
-        <span class="lire-aussi-label">VIH/SIDA</span>
-        <span class="lire-aussi-desc">Dépistage, traitement ARV et vie avec le VIH</span>
-        <span class="lire-aussi-arrow">Lire l'article &#8594;</span>
-      </a>
-      <a href="article-syphilis.html" class="lire-aussi-card">
-        <span class="lire-aussi-label">Syphilis</span>
-        <span class="lire-aussi-desc">Dépistage VDRL/TPHA et traitement a Douala</span>
-        <span class="lire-aussi-arrow">Lire l'article &#8594;</span>
-      </a>
-      <a href="article-steatose-hepatique.html" class="lire-aussi-card">
-        <span class="lire-aussi-label">Foie gras (stéatose)</span>
-        <span class="lire-aussi-desc">Bilan ASAT/ALAT et prévention</span>
-        <span class="lire-aussi-arrow">Lire l'article &#8594;</span>
-      </a>
-    </div>
-  </div>
-</section>
 <section class="related">
   <div class="related-inner">
-    <h2>Articles qui pourraient vous intéresser</h2>
+    <h2>Articles qui pourraient vous int&eacute;resser</h2>
     <div class="related-grid" id="relatedGrid">
       <p style="color:#94a3b8;font-size:.9rem;grid-column:1/-1;">Chargement...</p>
     </div>
@@ -413,7 +360,7 @@
 (function(){
   var CURRENT=document.querySelector('link[rel="canonical"]');
   var currentFile=CURRENT?CURRENT.href.split('/').pop():'';
-  var CATEGORY=document.querySelector('.article-cat')||document.querySelector('.blog-cat');
+  var CATEGORY=document.querySelector('.article-cat');
   var currentCat=CATEGORY?CATEGORY.textContent.trim():'';
   fetch('articles.json')
     .then(function(r){return r.json();})
@@ -433,11 +380,11 @@
           +'</div></div>';
       }).join('');
     })
-    .catch(function(){
-      document.getElementById('relatedGrid').innerHTML='';
-    });
+    .catch(function(){document.getElementById('relatedGrid').innerHTML='';});
 })();
-</script><footer class="article-footer">
+</script>
+
+<footer class="article-footer">
   <p>&copy; 2026 Le Clair de la Plume &mdash; Ndokoti, Douala, Cameroun &mdash; <a href="tel:+237683258315">+237 683 258 315</a></p>
   <p style="margin-top:6px;"><a href="index.html">Retour au site principal</a></p>
 </footer>
