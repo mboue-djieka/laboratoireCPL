@@ -22,9 +22,9 @@
     "@type": "MedicalWebPage",
     "name": "VIH/SIDA à Douala : dépistage, traitement ARV et vie avec le VIH",
     "url": "https://leclairdelaplume-labo.com/article-vih-sida.html",
-    "datePublished": "2026-06-01",
-    "dateModified": "2026-06-01",
-    {"author": {"@type": "Person", "name": "Dr Yannick Djieka", "jobTitle": "Médecin spécialiste en fertilité et reproduction humaine", "description": "Master en Ingénierie des systèmes d'information en santé, Médecin Chercheur, N° ONMC 7222/14"}},
+    "datePublished": "2026-07-02",
+    "dateModified": "2026-07-02",
+    "author": {"@type": "Person", "name": "Dr Yannick Djieka", "jobTitle": "Médecin spécialiste en fertilité et reproduction humaine", "description": "Master en Ingénierie des systèmes d’information en santé (EISIS), Médecin Chercheur, N° ONMC 7222/14"},
     "publisher": {"@type": "MedicalOrganization", "name": "Le Clair de la Plume", "url": "https://leclairdelaplume-labo.com"},
     "breadcrumb": {
       "@type": "BreadcrumbList",
@@ -113,46 +113,23 @@
     .related-card-body .cat { font-size: .75rem; color: var(--secondary); font-weight: 700; text-transform: uppercase; margin-bottom: 8px; }
     .related-card-body h3 { font-size: .9rem; font-weight: 700; color: var(--primary); line-height: 1.4; margin-bottom: 10px; }
     .related-card-body a { font-size: .82rem; color: var(--secondary); font-weight: 600; }
-        .author-card { display: flex; align-items: flex-start; gap: 20px; background: var(--light); border: 1px solid var(--gray-light); border-radius: var(--radius); padding: 24px; margin: 40px 0 10px; }
+    .author-card { display: flex; align-items: flex-start; gap: 20px; background: var(--light); border: 1px solid var(--gray-light); border-radius: var(--radius); padding: 24px; margin: 40px 0 10px; }
     .author-avatar { flex-shrink: 0; width: 80px; height: 80px; border-radius: 50%; overflow: hidden; border: 3px solid var(--secondary); }
     .author-avatar img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
     .author-info h4 { font-size: 1rem; font-weight: 800; color: var(--primary); margin-bottom: 4px; }
     .author-title { font-size: .85rem; color: var(--secondary); font-weight: 600; margin-bottom: 8px; }
     .author-credentials { list-style: none; margin: 0 0 10px 0; padding: 0; }
     .author-credentials li { font-size: .8rem; color: var(--gray); margin-bottom: 3px; }
+    .author-credentials li::before { content: ""; margin-right: 6px; }
     .author-bio { font-size: .82rem; color: var(--gray); margin: 0; font-style: italic; }
-    @media (max-width: 640px) {
-      .author-card { flex-direction: column; align-items: center; text-align: center; }
-    }
     @media (max-width: 640px) {
       .article-hero { padding: 40px 16px 36px; }
       .article-wrap { padding: 40px 16px; }
       .article-img { height: 220px; }
       .nav-cta { display: none; }
+      .author-card { flex-direction: column; align-items: center; text-align: center; }
     }
-      .lire-aussi {
-      background: #F8FAFC;
-      border-top: 3px solid #2EAA76;
-      padding: 36px 0;
-      margin: 40px 0 0;
-    }
-    .lire-aussi-inner { max-width: 760px; margin: 0 auto; padding: 0 24px; }
-    .lire-aussi-title {
-      font-size: 1rem; font-weight: 800; color: #1A3A5C;
-      margin-bottom: 18px; display: flex; align-items: center; gap: 8px;
-    }
-    .lire-aussi-title i { color: #2EAA76; }
-    .lire-aussi-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 12px; }
-    .lire-aussi-card {
-      background: white; border-radius: 12px; padding: 16px;
-      text-decoration: none; border: 1px solid #E2E8F0;
-      display: block; transition: box-shadow .2s, transform .2s;
-    }
-    .lire-aussi-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,.10); transform: translateY(-2px); }
-    .lire-aussi-label { display: block; font-size: .72rem; font-weight: 700; color: #2EAA76; text-transform: uppercase; letter-spacing: .5px; margin-bottom: 4px; }
-    .lire-aussi-desc { font-size: .82rem; color: #475569; line-height: 1.4; }
-    .lire-aussi-arrow { display: inline-block; margin-top: 8px; font-size: .75rem; color: #2EAA76; font-weight: 600; }
-    @media (max-width:600px) { .lire-aussi-grid { grid-template-columns: 1fr; } }</style>
+  </style>
 
   <!-- OneSignal Web Push -->
   <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
@@ -173,7 +150,7 @@
                 autoPrompt: true,
                 text: {
                   actionMessage: "Recevez nos nouveaux articles sante directement sur votre appareil.",
-                  acceptButton: "S'abonner",
+                  acceptButton: "S abonner",
                   cancelButton: "Non merci",
                 },
                 delay: {
@@ -207,7 +184,7 @@
   <div class="breadcrumb">
     <a href="index.html">Accueil</a>
     <span>/</span>
-    <a href="index.html#blog">Blog Santé</a>
+    <a href="index.html#blog">Blog Sant&eacute;</a>
     <span>/</span>
     Infections
   </div>
@@ -215,7 +192,7 @@
   <h1>VIH/SIDA à Douala : dépistage, traitement ARV et vie avec le VIH</h1>
   <div class="article-meta">
     <span><i class="fas fa-user-md"></i> Dr Yannick Yvan Djieka</span>
-    <span><i class="fas fa-calendar"></i> 1 juin 2026</span>
+    <span><i class="fas fa-calendar"></i> 2 juillet 2026</span>
     <span><i class="fas fa-clock"></i> 6 min de lecture</span>
   </div>
 </div>
@@ -224,139 +201,154 @@
   <img src="photos/article-vih-sida-depistage-traitement.jpg" alt="VIH/SIDA à Douala : dépistage, traitement ARV et vie avec le VIH - Laboratoire Le Clair de la Plume Douala" class="article-img" fetchpriority="high">
 
   <div class="article-body">
-<h2>VIH/SIDA à Douala : Dépistage, Traitement ARV et Vie avec le VIH</h2>
+<p><strong>Le VIH/SIDA demeure un enjeu majeur de santé publique à Douala et dans toute l'Afrique centrale.</strong> Au Cameroun, la prévalence du VIH est estimée à environ 3,6% de la population adulte, avec des hotspots importants dans les grandes villes comme Douala. Cependant, grâce aux avancées médicales des deux dernières décennies, le diagnostic précoce et l'accès aux traitements antirétroviraux (ARV) transforment le VIH en une maladie chronique gérable. Cet article vous guide à travers le dépistage, les options thérapeutiques et la vie quotidienne avec le VIH à Douala.</p>
 
-<p>Le VIH (Virus de l'Immunodéficience Humaine) reste un enjeu majeur de santé publique au Cameroun et en Afrique centrale. Avec une prévalence estimée à <strong>3,6% chez les adultes au Cameroun</strong>, il est crucial de connaître les moyens de dépistage, les traitements disponibles et comment vivre dignement avec le VIH. Au Clair de la Plume, nous accompagnons les patients de Douala et ses environs dans ce parcours de santé avec expertise et bienveillance.</p>
+<h2>Comprendre le VIH et le SIDA à Douala</h2>
+
+<h3>Qu'est-ce que le VIH et le SIDA ?</h3>
+
+<p>Le <strong>VIH (Virus de l'Immunodéficience Humaine)</strong> est un virus qui attaque progressivement le système immunitaire en détruisant les lymphocytes CD4, des cellules essentielles de la défense de l'organisme. Sans traitement, cette destruction progressive conduit au SIDA (Syndrome d'Immunodéficience Acquise), caractérisé par une baisse critique des CD4 (moins de 200 cellules/mm³) et l'apparition d'infections opportunistes.</p>
+
+<p>Avec un traitement antirétroviral adapté et une bonne observance, une personne vivant avec le VIH peut maintenir une charge virale indétectable et une espérance de vie quasi normale. Le message clé : <strong>un VIH diagnostiqué tôt et bien traité n'est plus une maladie mortelle.</strong></p>
+
+<h3>Situation épidémiologique au Cameroun et à Douala</h3>
+
+<p>À Douala, capitale économique du Cameroun, la prévalence du VIH chez l'adulte se situe autour de 4,5%, légèrement supérieure à la moyenne nationale. Certaines populations clés (professionnels du sexe, hommes ayant des rapports avec des hommes, personnes incarcérées) présentent une prévalence significativement plus élevée. Cette situation reflète les défis liés à la mobilité urbaine, à l'accès à l'information et aux services de santé.</p>
+
+<p>Néanmoins, le Cameroun s'est engagé dans l'initiative ONUSIDA et a mis en place des programmes d'accès aux ARV gratuits ou fortement subventionnés pour les populations vulnérables. Douala dispose de plusieurs centres de diagnostic et de traitement agréés.</p>
 
 <div class="info-box">
-<p><strong>💡 À savoir :</strong> Aujourd'hui, les traitements antirétroviraux (ARV) permettent à une personne séropositive diagnostiquée tôt d'avoir une espérance de vie comparable à celle d'une personne non infectée. Le dépistage régulier est la clé du succès thérapeutique.</p>
+<p><strong>💡 À savoir :</strong> Contrairement aux idées reçues, le VIH ne se transmet que par voie sanguine (transfusion, partage de seringues), voie sexuelle non protégée, ou de la mère à l'enfant pendant la grossesse ou l'allaitement. Un contact social normal (mains, salive, sueur) ne transmet pas le virus.</p>
 </div>
 
-<h2>Dépistage du VIH : Les Méthodes Disponibles à Douala</h2>
+<h2>Le dépistage du VIH : Un acte de responsabilité et de liberté</h2>
 
-<p>Un diagnostic précoce est fondamental pour accéder rapidement aux soins et réduire la transmission. À Douala, plusieurs méthodes de dépistage sont proposées :</p>
+<h3>Types de dépistage disponibles à Douala</h3>
+
+<p>Plusieurs méthodes de dépistage sont disponibles au Clair de la Plume et dans les structures partenaires à Douala :</p>
 
 <ul>
-<li><strong>Test de dépistage rapide (TDR)</strong> : Résultats en 15 à 20 minutes, idéal pour un dépistage initial</li>
-<li><strong>Sérologie VIH classique</strong> : Détecte les anticorps anti-VIH dans le sang, plus spécifique</li>
-<li><strong>Test d'antigène (test combiné)</strong> : Détecte le virus et les anticorps, réduit la fenêtre de dépistage</li>
-<li><strong>Charge virale (ARN-VIH)</strong> : Mesure la quantité de virus dans le sang, essentielle pour suivre le traitement</li>
-<li><strong>Numération CD4</strong> : Évalue l'immunité, détermine le besoin de prophylaxie et de traitement</li>
+<li><strong>Test rapide (Immunochromatographie) :</strong> Résultat en 10-20 minutes, idéal pour un dépistage d'orientation en clinique ou centre de santé.</li>
+<li><strong>Test ELISA (4ème génération) :</strong> Détecte les anticorps ET l'antigène VIH p24, avec fenêtre sérologique réduite (18-45 jours après exposition).</li>
+<li><strong>Western Blot ou test de confirmation :</strong> Effectué en laboratoire central pour confirmer un résultat positif.</li>
+<li><strong>Test de charge virale (ARN-VIH) :</strong> Dosage quantitatif du virus, essentiel pour évaluer l'efficacité du traitement.</li>
+<li><strong>Test de numération CD4 :</strong> Mesure l'état immunitaire et guide l'instauration du traitement.</li>
 </ul>
 
-<p>L'<strong>accès au dépistage gratuit ou à bas coût</strong> a considérablement augmenté au Cameroun. Les structures de santé du district de Douala, incluant le Clair de la Plume, proposent des services de dépistage confidentiel et sans jugement.</p>
+<h3>Où se faire dépister à Douala et qui dépister ?</h3>
 
-<h2>Traitement Antirétroviral (ARV) : Principes et Efficacité</h2>
+<p>L'<strong>OMS et ONUSIDA recommandent un dépistage régulier</strong> pour tout adulte sexuellement actif, particulièrement :</p>
 
-<p>Depuis la découverte des antirétroviraux dans les années 1990, la prise en charge du VIH a révolutionné. Au Cameroun, les protocoles thérapeutiques suivent les recommandations de l'OMS et incluent généralement une <strong>trithérapie (association de trois molécules)</strong> qui supprime la réplication virale.</p>
+<ul>
+<li>Les personnes ayant eu une relation sexuelle non protégée récente.</li>
+<li>Les patients en attente de chirurgie ou de traitement spécialisé.</li>
+<li>Les couples en projet de procréation.</li>
+<li>Les populations clés (travailleurs du sexe, HSH, utilisateurs de drogues injectables).</li>
+<li>Toute personne présentant des symptômes évocateurs (fièvre prolongée, perte de poids, diarrhée chronique).</li>
+</ul>
+
+<p>À Douala, plusieurs options s'offrent à vous : hôpitaux de référence (Hôpital Central, Hôpital Laquintinie), centres de dépistage anonymes et gratuits (CNLS), cliniques privées, et bien sûr, <strong>le Clair de la Plume à Ndokoti</strong>, où vous bénéficierez d'un accueil discret, de résultats fiables et d'un conseil approprié.</p>
 
 <div class="table-wrap">
 <table>
 <thead>
 <tr>
 <th>Paramètre</th>
-<th>Seuil Normal</th>
-<th>Seuil d'Alerte</th>
-<th>Indication Thérapeutique</th>
+<th>Résultat Normal / Objectif sous ARV</th>
+<th>Résultat d'Alerte</th>
+<th>Interprétation</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>CD4 (cellules/mm³)</td>
+<td><strong>CD4 (cellules/mm³)</strong></td>
 <td class="good">&gt; 500</td>
-<td class="warn">200-500</td>
-<td>&lt; 200 = SIDA</td>
+<td class="warn">&lt; 200</td>
+<td>Mesure l'immunité ; guide l'indication d'ARV et de prophylaxie des OI</td>
 </tr>
 <tr>
-<td>Charge virale (copies/mL)</td>
-<td class="good">&lt; 50</td>
-<td class="warn">50-1000</td>
-<td>&gt; 1000 = Traitement à débuter</td>
+<td><strong>Charge virale VIH (copies/mL)</strong></td>
+<td class="good">&lt; 50 (indétectable)</td>
+<td class="warn">&gt; 100 000</td>
+<td>Quantité de virus ; &lt; 50 = patient non contagieux par voie sexuelle</td>
 </tr>
 <tr>
-<td>Délai de diagnostic au traitement</td>
-<td class="good">&lt; 2 semaines</td>
-<td class="warn">2-4 semaines</td>
-<td>Optimal = Commencer ARV rapidement</td>
+<td><strong>Test ELISA 4e génération</strong></td>
+<td class="good">Négatif</td>
+<td class="warn">Positif</td>
+<td>Première détection des anticorps et antigène ; à confirmer par Western Blot</td>
+</tr>
+<tr>
+<td><strong>Charge virale indétectable</strong></td>
+<td class="good">U=U*</td>
+<td class="warn">Virémie active</td>
+<td>*U=U : Indétectable = Intransmissible (vie sexuelle sans restriction)</td>
 </tr>
 </tbody>
 </table>
 </div>
 
-<p>Les principaux schémas thérapeutiques au Cameroun incluent :</p>
+<h2>Traitement antirétroviral et vie avec le VIH</h2>
+
+<h3>Les traitements antirétroviraux : Une révolution thérapeutique</h3>
+
+<p>Les <strong>antirétroviraux (ARV)</strong> sont des médicaments qui inhibent la réplication du VIH. Un traitement combiné efficace (3 médicaments au minimum) réduit la charge virale à un niveau indétectable en 2-6 mois chez la majorité des patients. Une charge virale indétectable signifie que le virus ne peut être transmis lors de rapports sexuels (<strong>« Indétectable = Intransmissible »</strong>, concept promu par l'ONUSIDA).</p>
+
+<p>Au Cameroun et à Douala, les régimes ARV sont normalisés et accessibles :</p>
 
 <ul>
-<li><strong>Inhibiteurs nucléosidiques de la reverse transcriptase (INTI)</strong> : AZT, 3TC, TDF</li>
-<li><strong>Inhibiteurs non-nucléosidiques (INTI)</strong> : EFV, NVP</li>
-<li><strong>Inhibiteurs de protéase (IP)</strong> : Lopinavir-ritonavir (très efficaces mais lourd)</li>
-<li><strong>Inhibiteurs d'intégrase</strong> : DTG (dolutégravir) - nouvelle génération, meilleure tolérance</li>
+<li><strong>Première ligne :</strong> TDF + FTC + EFV ou TDF + 3TC + DTG (ceux-ci sont généralement gratuits ou subventionnés pour les malades enregistrés).</li>
+<li><strong>Deuxième ligne :</strong> Utilisée en cas d'échec virologique ou de résistance, avec les inhibiteurs de protéase.</li>
+<li><strong>Simplification thérapeutique :</strong> Après stabilisation, passage à des régimes à dose unique quotidienne pour améliorer l'observance.</li>
 </ul>
 
-<p>En régime optimal, la charge virale devient <strong>indétectable en 3-6 mois</strong>. Une personne avec une charge virale indétectable (CV &lt; 50 copies/mL) n'est pratiquement pas contagieuse : c'est le principe "Indétectable = Intransmissible" (I=I).</p>
+<h3>L'observance thérapeutique : Clé du succès</h3>
 
-<h2>Vivre avec le VIH : Continuité de Soins et Qualité de Vie</h2>
+<p><strong>L'observance thérapeutique</strong> (c'est-à-dire prendre ses médicaments régulièrement et à la dose prescrite) est le facteur le plus important du succès du traitement. Une mauvaise observance entraîne une résistance virale, rendant le virus insensible aux médicaments, et compromet la transmission du virus à d'autres.</p>
 
-<p>Un diagnostic de VIH n'est plus une condamnation. Avec un accès régulier aux soins et une bonne adhérence aux traitements, une personne séropositive peut avoir une vie normale, productive et longue.</p>
-
-<h3>Suivi Médical Régulier</h3>
-
-<p>Le suivi médical inclut :</p>
+<p>Pour soutenir l'observance à Douala et dans la région, plusieurs stratégies sont mises en place :</p>
 
 <ul>
-<li>Consultation tous les 3 à 6 mois (plus fréquentes en début de traitement)</li>
-<li>Dosage CD4 et charge virale tous les 6-12 mois après suppression virale</li>
-<li>Dépistage des opportunistes (tuberculose, toxoplasmose) selon le niveau de CD4</li>
-<li>Suivi des effets secondaires des ARV</li>
-<li>Prévention de maladies concomitantes (HTA, diabète, maladies cardiaques)</li>
-</ul>
-
-<h3>Adhérence Thérapeutique et Observance</h3>
-
-<p>L'adhérence (prendre ses médicaments régulièrement aux bonnes doses et heures) est <strong>la clé du succès du traitement</strong>. Une mauvaise adhérence entraîne :</p>
-
-<ul>
-<li>Rebond de la charge virale</li>
-<li>Apparition de résistances aux ARV</li>
-<li>Besoin de changer de schéma thérapeutique</li>
-<li>Retour de l'immunodéficience</li>
-</ul>
-
-<p>Au Clair de la Plume, nous proposons des stratégies d'observance : rappels, éducation thérapeutique, soutien psychosocial et groupes de parole pour faciliter l'adhérence.</p>
-
-<h3>Santé Physique et Mentale</h3>
-
-<p>La stigmatisation liée au VIH reste une réalité au Cameroun. Nous accompagnons nos patients par :</p>
-
-<ul>
-<li>Counseling psychologique confidentiel</li>
-<li>Soutien nutritionnel (rôle crucial dans l'immunité)</li>
-<li>Prévention des complications (tuberculose, cancers liés au VIH)</li>
-<li>Prise en charge des comorbidités</li>
-<li>Intégration sociale et professionnelle</li>
+<li><strong>Counseling psychosocial :</strong> Éducation du patient et gestion des obstacles (stigma, effets secondaires, organisation pratique).</li>
+<li><strong>Support communautaire :</strong> Groupes d'entraide et associations d'PVVIH (personnes vivant avec le VIH) qui offrent soutien émotionnel et partage d'expérience.</li>
+<li><strong>Rappels médicamenteux :</strong> Via SMS ou appels des infirmiers des structures de suivi.</li>
+<li><strong>Visite à domicile :</strong> Pour les patients défaillants ou en détresse.</li>
+<li><strong>Formulations simplifiées :</strong> Comprimés uniques pour réduire le nombre de prises quotidiennes.</li>
 </ul>
 
 <div class="info-box">
-<p><strong>📌 Important :</strong> Une personne vivant avec le VIH sous traitement efficace (CV indétectable) peut avoir des enfants non infectés (par accouchement naturel ou FIV) et ne transmet pas le VIH à son partenaire par voie sexuelle. C'est possible et des couples hétérosexuels et homosexuels le vivent au Cameroun.</p>
+<p><strong>✓ Conseil pratique :</strong> Une personne vivant avec le VIH bien traitée peut avoir une vie tout à fait normale : travailler, étudier, se marier, avoir des enfants sans risque de transmission. La qualité de vie dépend avant tout du soutien social, de l'acceptation personnelle et de l'accès régulier aux soins.</p>
 </div>
 
-<h2>Pourquoi Choisir le Clair de la Plume pour Votre Dépistage et Suivi VIH ?</h2>
+<h3>La vie quotidienne avec le VIH à Douala</h3>
 
-<p>Au <strong>Laboratoire Le Clair de la Plume à Ndokoti, Douala</strong>, nous offrons une prise en charge complète et humanisée du VIH :</p>
+<p>Vivre avec le VIH à Douala pose des défis spécifiques : accès aux ARV, stigma social, craintes liées au statut sérologique. Cependant, un diagnostic précoce et un traitement bien suivi permettent une vie presque normale :</p>
 
 <ul>
-<li><strong>Expertise médicale</strong> : Équipe formée aux normes internationales et aux protocoles camerounais</li>
-<li><strong>Confidentialité garantie</strong> : Respect absolu du secret médical et absence de jugement</li>
-<li><strong>Laboratoire accréditéé</strong> : Tests fiables (CD4, charge virale, sérologies)</li>
-<li><strong>Accès aux ARV</strong> : Partenariats avec les pharmacies et programmes d'accès aux traitements</li>
-<li><strong>Suivi longitudinal</strong> : Accompagnement au long cours de vos patients</li>
-<li><strong>Counseling et soutien</strong> : Professionnels formés au conseil VIH pré et post-test</li>
-<li><strong>Localisation stratégique</strong> : Centre de Douala facilement accessible et discret</li>
+<li><strong>Activités professionnelles et scolaires :</strong> Le VIH seul ne justifie pas une mise à l'écart ni un arrêt de travail, sauf complications opportunistes.</li>
+<li><strong>Vie sexuelle et reproductive :</strong> Sous traitement antirétroviral efficace (charge virale indétectable), la transmission sexuelle est impossible. La parentalité est possible via des conseils d'accouchement sécurisé et de prévention de la transmission mère-enfant.</li>
+<li><strong>Santé psychologique :</strong> L'annonce du diagnostic peut être traumatisante. Une prise en charge psychologique et le soutien des pairs sont essentiels.</li>
+<li><strong>Suivi régulier :</strong> Visites médicales tous les 3-6 mois, dosages de CD4 et charge virale annuels (ou selon le stade) pour adapter le traitement.</li>
+<li><strong>Prévention des OI :</strong> Chez les patients avec CD4 &lt; 200, une prophylaxie contre le pneumocystose (Bactrim) est recommandée.</li>
 </ul>
 
-<p>Le dépistage du VIH est un acte de santé préventive crucial. Que vous souhaitiez un dépistage de routine, un suivi après résultat positif, ou un accompagnement médico-psychosocial, le Clair de la Plume vous accueille sans jugement. <strong>Votre santé, notre priorité.</strong></p>
+<h2>Pourquoi faire son test et son suivi au Clair de la Plume ?</h2>
+
+<p>Le <strong>Laboratoire Le Clair de la Plume à Ndokoti, Douala</strong>, vous offre une prise en charge complète et de qualité pour le dépistage et le suivi du VIH :</p>
+
+<ul>
+<li><strong>Confidentialité et discrétion garanties :</strong> Environnement professionnel et respectueux de votre intimité.</li>
+<li><strong>Tests de référence :</strong> Appareillage moderne (ELISA 4e génération, immunochromatographie rapide, dosages CD4 et charge virale si nécessaire).</li>
+<li><strong>Équipe qualifiée :</strong> Biologistes, infirmiers et conseillers formés à la prise en charge du VIH selon les normes OMS et camerounaises.</li>
+<li><strong>Résultats fiables et rapides :</strong> Respect des délais, interprétation claire et communication bienveillante.</li>
+<li><strong>Conseil pré et post-test :</strong> Éducation sur la transmission, la prévention (PrEP, PTME) et les ressources disponibles à Douala.</li>
+<li><strong>Suivi de proximité :</strong> Orientation vers les structures de traitement agrées et soutien continu.</li>
+<li><strong>Accessibilité :</strong> Localisation centrale à Ndokoti, facilement accessible depuis tous les quartiers de Douala.</li>
+</ul>
+
+<p><strong>Le dépistage du VIH est un geste de responsabilité envers soi-même et envers les autres.</strong> Ne laissez pas la peur ou le stigma vous empêcher de connaître votre statut sérologique. Un diagnostic positif détecté tôt et bien traité offre une qualité de vie et une espérance de vie comparables à celle d'une personne sans VIH. Rendez-vous au Clair de la Plume pour un dépistage confidentiel et un suivi médical de qualité.</p>
   </div>
 
-  
   <div class="author-card">
     <div class="author-avatar">
       <img src="photos/dr-bureau.jpg" alt="Dr Yannick Djieka" loading="lazy">
@@ -372,6 +364,7 @@
       <p class="author-bio">Fondateur du Laboratoire Le Clair de la Plume &agrave; Ndokoti, Douala. Dr Yannick Djieka accompagne les patients dans leur parcours de sant&eacute; reproductive et pr&eacute;ventive depuis 2014.</p>
     </div>
   </div>
+
   <div class="article-cta">
     <h3>Faites votre dépistage VIH</h3>
     <p>Résultat confidentiel en 20 minutes. Laboratoire Le Clair de la Plume, Douala.</p>
@@ -382,32 +375,9 @@
 
 </div>
 
-
-<section class="lire-aussi">
-  <div class="lire-aussi-inner">
-    <h3 class="lire-aussi-title"><i class="fas fa-book-open"></i> A lire aussi</h3>
-    <div class="lire-aussi-grid">
-      <a href="article-syphilis.html" class="lire-aussi-card">
-        <span class="lire-aussi-label">Syphilis</span>
-        <span class="lire-aussi-desc">Dépistage VDRL/TPHA et traitement</span>
-        <span class="lire-aussi-arrow">Lire l'article &#8594;</span>
-      </a>
-      <a href="article-hepatite-c.html" class="lire-aussi-card">
-        <span class="lire-aussi-label">Hépatite C</span>
-        <span class="lire-aussi-desc">Dépistage et traitement disponibles à Douala</span>
-        <span class="lire-aussi-arrow">Lire l'article &#8594;</span>
-      </a>
-      <a href="article-chlamydia.html" class="lire-aussi-card">
-        <span class="lire-aussi-label">Chlamydia</span>
-        <span class="lire-aussi-desc">L'infection silencieuse qui menace la fertilité</span>
-        <span class="lire-aussi-arrow">Lire l'article &#8594;</span>
-      </a>
-    </div>
-  </div>
-</section>
 <section class="related">
   <div class="related-inner">
-    <h2>Articles qui pourraient vous intéresser</h2>
+    <h2>Articles qui pourraient vous int&eacute;resser</h2>
     <div class="related-grid" id="relatedGrid">
       <p style="color:#94a3b8;font-size:.9rem;grid-column:1/-1;">Chargement...</p>
     </div>
@@ -417,7 +387,7 @@
 (function(){
   var CURRENT=document.querySelector('link[rel="canonical"]');
   var currentFile=CURRENT?CURRENT.href.split('/').pop():'';
-  var CATEGORY=document.querySelector('.article-cat')||document.querySelector('.blog-cat');
+  var CATEGORY=document.querySelector('.article-cat');
   var currentCat=CATEGORY?CATEGORY.textContent.trim():'';
   fetch('articles.json')
     .then(function(r){return r.json();})
@@ -437,11 +407,11 @@
           +'</div></div>';
       }).join('');
     })
-    .catch(function(){
-      document.getElementById('relatedGrid').innerHTML='';
-    });
+    .catch(function(){document.getElementById('relatedGrid').innerHTML='';});
 })();
-</script><footer class="article-footer">
+</script>
+
+<footer class="article-footer">
   <p>&copy; 2026 Le Clair de la Plume &mdash; Ndokoti, Douala, Cameroun &mdash; <a href="tel:+237683258315">+237 683 258 315</a></p>
   <p style="margin-top:6px;"><a href="index.html">Retour au site principal</a></p>
 </footer>
