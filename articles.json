@@ -1,5 +1,13 @@
 ﻿[
     {
+        "filename":  "article-hepatite-a.html",
+        "title":  "Hépatite A : contamination, sérologie et vaccination à Douala",
+        "category":  "Infections",
+        "date":  "20 juillet 2026",
+        "image":  "photos/article-hepatite-a-prevention-vaccination.jpg",
+        "summary":  "L\u0027hépatite A se transmet par l\u0027eau et les aliments contaminés. Fréquente en Afrique, elle est évitable par la vaccination. Voici tout ce qu\u0027il faut savoir."
+    },
+    {
         "filename":  "article-fer-serique.html",
         "title":  "Fer sérique et saturation de la transferrine : interpréter son bilan fer",
         "category":  "Bilan biologique",
