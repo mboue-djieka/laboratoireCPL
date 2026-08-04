@@ -1,5 +1,13 @@
 ﻿[
     {
+        "filename":  "article-rubeole-toxoplasmose.html",
+        "title":  "Rubéole et toxoplasmose en grossesse : risques et sérologies",
+        "category":  "Grossesse",
+        "date":  "4 août 2026",
+        "image":  "photos/article-rubeole-toxoplasmose-grossesse.jpg",
+        "summary":  "Deux infections qui peuvent gravement affecter votre bébé à naître. Voici comment les détecter et s\u0027en protéger pendant la grossesse."
+    },
+    {
         "filename":  "article-pre-eclampsie.html",
         "title":  "Pré-éclampsie : signes d\u0027alarme pendant la grossesse et surveillance",
         "category":  "Grossesse",
@@ -1042,7 +1050,7 @@
     {
         "filename":  "article-dysfonction-erectile.html",
         "title":  "Dysfonction érectile : causes, bilan hormonal et traitement à Douala",
-        "category":  "Santé masculine",
+        "category":  "Santé homme",
         "date":  "4 juin 2026",
         "image":  "photos/dr-bureau.jpg",
         "summary":  "1 homme sur 3 après 40 ans en souffre. 70% des cas ont une cause organique trouvable par bilan sanguin. Testostérone, glycémie, bilan lipidique : voici le bilan complet recommandé."
@@ -1122,7 +1130,7 @@
     {
         "filename":  "article-bilan-preopertaoire.html",
         "title":  "Bilan pré-opératoire à Douala : quels examens faire avant une opération ?",
-        "category":  "Chirurgie",
+        "category":  "Bilan biologique",
         "date":  "30 mai 2026",
         "image":  "photos/equipe-bleu.jpg",
         "summary":  "NFS, groupe sanguin, coagulation, créatinine : tout ce qu\u0027il faut faire avant une chirurgie."
@@ -1138,7 +1146,7 @@
     {
         "filename":  "article-hepatite-b-suivi.html",
         "title":  "Hépatite B à Douala : suivi biologique, vaccination et traitement antiviral",
-        "category":  "Foie",
+        "category":  "Infections",
         "date":  "30 mai 2026",
         "image":  "photos/equipe-inauguration.jpg",
         "summary":  "Ag HBs, Ac anti-HBs, charge virale : tout comprendre sur l\u0027hépatite B et son suivi au Cameroun."
@@ -1178,7 +1186,7 @@
     {
         "filename":  "article-drepanocytose.html",
         "title":  "Drépanocytose au Cameroun : comprendre, dépister et protéger ses enfants",
-        "category":  "Génétique",
+        "category":  "Maladies chroniques",
         "date":  "30 mai 2026",
         "image":  "photos/labo-equipements.jpg",
         "summary":  "Profils AA, AS, SS, SC : tout comprendre sur la drépanocytose et l\u0027électrophorèse de l\u0027hémoglobine."
@@ -1234,7 +1242,7 @@
     {
         "filename":  "article-depistage-ist.html",
         "title":  "Dépistage IST à Douala : qui doit se faire tester, quand et comment ?",
-        "category":  "Santé sexuelle",
+        "category":  "Infections",
         "date":  "29 mai 2026",
         "image":  "photos/prise-de-sang.jpg",
         "summary":  "VIH, syphilis, chlamydia, hépatites, gonorrhée : tout savoir sur le dépistage des IST à Douala."
@@ -1250,7 +1258,7 @@
     {
         "filename":  "article-bilan-prenuptial.html",
         "title":  "Bilan prénuptial à Douala : tout ce qu\u0027il faut analyser avant le mariage",
-        "category":  "Mariage \u0026 Santé",
+        "category":  "Bilan biologique",
         "date":  "29 mai 2026",
         "image":  "photos/equipe-inauguration.jpg",
         "summary":  "Groupe sanguin, drépanocytose, IST, hépatites, VIH : les examens essentiels pour se marier en toute sérénité."
