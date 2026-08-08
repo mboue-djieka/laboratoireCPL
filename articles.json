@@ -1,5 +1,13 @@
 ﻿[
     {
+        "filename":  "article-meningite.html",
+        "title":  "Méningite : reconnaître les signes d\u0027urgence et le diagnostic biologique",
+        "category":  "Infections",
+        "date":  "8 août 2026",
+        "image":  "photos/article-meningite-diagnostic-urgence.jpg",
+        "summary":  "La méningite peut tuer en quelques heures. Fièvre brutale, maux de tête violents, raideur de la nuque : ces signes imposent des soins immédiats."
+    },
+    {
         "filename":  "article-tuberculose.html",
         "title":  "Tuberculose au Cameroun : diagnostic biologique, IDR et QuantiFERON",
         "category":  "Infections",
