@@ -1,5 +1,13 @@
 ﻿[
     {
+        "filename":  "article-dengue.html",
+        "title":  "Dengue au Cameroun : diagnostic, TDR et prise en charge",
+        "category":  "Infections",
+        "date":  "8 août 2026",
+        "image":  "photos/article-dengue-diagnostic-douala.jpg",
+        "summary":  "La dengue est présente à Douala. Souvent confondue avec le paludisme, elle nécessite un diagnostic précis car son traitement est différent."
+    },
+    {
         "filename":  "article-meningite.html",
         "title":  "Méningite : reconnaître les signes d\u0027urgence et le diagnostic biologique",
         "category":  "Infections",
