@@ -1,1546 +1,687 @@
 ﻿[
     {
-        "filename":  "article-thyroide-femme.html",
-        "title":  "Thyroïde et santé de la femme : fatigue, poids, fertilité et bilan TSH",
-        "category":  "Hormones",
+        "filename":  "article-echographie-pelvienne.html",
+        "title":  "Échographie pelvienne : quand la faire et ce qu\u0027elle détecte",
+        "category":  "Échographie",
         "date":  "20 août 2026",
-        "image":  "photos/article-bilan-thyroide-femme.jpg",
-        "summary":  "La thyroïde est la glande la plus souvent déréglée chez la femme. Elle influence le poids, l\u0027humeur, les cycles et la fertilité. Voici quand faire un bilan."
-    },
-    {
-        "filename":  "article-hepatite-a.html",
-        "title":  "Hépatite A : contamination, sérologie et vaccination à Douala",
-        "category":  "Infections",
-        "date":  "19 août 2026",
-        "image":  "photos/article-hepatite-a-prevention-vaccination.jpg",
-        "summary":  "L\u0027hépatite A se transmet par l\u0027eau et les aliments contaminés. Fréquente en Afrique, elle est évitable par la vaccination. Voici tout ce qu\u0027il faut savoir."
-    },
-    {
-        "filename":  "article-fer-serique.html",
-        "title":  "Fer sérique et saturation de la transferrine : interpréter son bilan fer",
-        "category":  "Bilan biologique",
-        "date":  "19 août 2026",
-        "image":  "photos/article-taux-fer-serique.jpg",
-        "summary":  "La ferritine seule ne suffit pas toujours. Le fer sérique, la transferrine et la saturation donnent une image complète de votre statut martial."
-    },
-    {
-        "filename":  "article-syndrome-premenstruel.html",
-        "title":  "Syndrome prémenstruel : hormones, nutrition et solutions médicales",
-        "category":  "Santé femme",
-        "date":  "19 août 2026",
-        "image":  "photos/article-syndrome-premenstruel-hormones.jpg",
-        "summary":  "Irritabilité, gonflement, douleurs avant les règles : le SPM a des causes biologiques précises et des solutions efficaces. Voici le bilan à faire."
-    },
-    {
-        "filename":  "article-insuffisance-renale.html",
-        "title":  "Insuffisance rénale chronique : signes, stades et bilan de suivi",
-        "category":  "Maladies chroniques",
-        "date":  "18 août 2026",
-        "image":  "photos/article-insuffisance-renale-chronique.jpg",
-        "summary":  "L\u0027insuffisance rénale chronique progresse silencieusement. Diabète et hypertension en sont les causes principales. Le bilan permet de surveiller l\u0027évolution."
-    },
-    {
-        "filename":  "article-covid-sequelles.html",
-        "title":  "COVID-19 long : séquelles biologiques et bilan post-COVID",
-        "category":  "Infections",
-        "date":  "18 août 2026",
-        "image":  "photos/article-covid-sequelles-bilan.jpg",
-        "summary":  "Fatigue, essoufflement, brouillard mental persistants après la COVID : le syndrome post-COVID a des marqueurs biologiques détectables."
-    },
-    {
-        "filename":  "article-myome-fibrome.html",
-        "title":  "Myome utérin (fibrome) : diagnostic, bilan et quand traiter",
-        "category":  "Santé femme",
-        "date":  "18 août 2026",
-        "image":  "photos/article-myome-uterin-fibrome.jpg",
-        "summary":  "Les fibromes touchent 70% des femmes africaines avant 50 ans. La plupart ne nécessitent pas d\u0027opération. Voici quand consulter et quels examens faire."
-    },
-    {
-        "filename":  "article-streptocoque-b.html",
-        "title":  "Streptocoque B (SGB) en grossesse : dépistage et prévention néonatale",
-        "category":  "Grossesse",
-        "date":  "17 août 2026",
-        "image":  "photos/article-streptocoque-b-grossesse.jpg",
-        "summary":  "Le streptocoque B du groupe B peut provoquer une méningite grave chez le nouveau-né. Un prélèvement vaginal en fin de grossesse protège votre bébé."
-    },
-    {
-        "filename":  "article-candidose.html",
-        "title":  "Candidose vaginale récidivante : causes, diagnostic et traitement durable",
-        "category":  "Santé femme",
-        "date":  "17 août 2026",
-        "image":  "photos/article-candidose-recidivante.jpg",
-        "summary":  "Des mycoses vaginales qui reviennent toujours signalent un déséquilibre. Voici les causes à rechercher et comment briser le cycle des récidives."
-    },
-    {
-        "filename":  "article-herpes-genital.html",
-        "title":  "Herpès génital : diagnostic, traitement et vie intime",
-        "category":  "Infections",
-        "date":  "14 août 2026",
-        "image":  "photos/article-herpes-genital.jpg",
-        "summary":  "L\u0027herpès génital touche 1 adulte sur 6. Souvent sous-diagnostiqué, il peut être géré efficacement avec un traitement antiviral adapté."
-    },
-    {
-        "filename":  "article-leucemie-nfs.html",
-        "title":  "NFS anormale et leucémie : quand les globules blancs s\u0027affolent",
-        "category":  "Bilan biologique",
-        "date":  "14 août 2026",
-        "image":  "photos/article-leucemie-nfs-anormale.jpg",
-        "summary":  "Une prise de sang révèle parfois des globules blancs très anormaux. Fatigue extrême, infections répétées : voici quand une NFS doit vous alerter."
-    },
-    {
-        "filename":  "article-osteoporose.html",
-        "title":  "Ostéoporose : comprendre la densité osseuse et prévenir les fractures",
-        "category":  "Prévention",
-        "date":  "13 août 2026",
-        "image":  "photos/article-osteoporose-densite-osseuse.jpg",
-        "summary":  "L\u0027ostéoporose fragilise les os silencieusement. Les femmes après la ménopause sont particulièrement exposées. Voici le bilan à faire."
-    },
-    {
-        "filename":  "article-filariose.html",
-        "title":  "Filariose lymphatique au Cameroun : diagnostic et traitement",
-        "category":  "Infections",
-        "date":  "13 août 2026",
-        "image":  "photos/article-filariose-cameroun.jpg",
-        "summary":  "La filariose cause l\u0027éléphantiasis et la cécité des rivières. Cette maladie tropicale négligée est diagnostiquable au laboratoire à Douala."
-    },
-    {
-        "filename":  "article-fausse-couche-thrombophilie.html",
-        "title":  "Fausses couches à répétition : le bilan thrombophilie qui change tout",
-        "category":  "Grossesse",
-        "date":  "12 août 2026",
-        "image":  "photos/article-fausse-couche-bilan-thrombophilie.jpg",
-        "summary":  "2 ou 3 fausses couches successives nécessitent un bilan approfondi. La thrombophilie est une cause fréquente et traitable. Voici le bilan à faire."
-    },
-    {
-        "filename":  "article-kyste-ovarien.html",
-        "title":  "Kyste ovarien : types, surveillance biologique et quand opérer",
-        "category":  "Santé femme",
-        "date":  "12 août 2026",
-        "image":  "photos/article-kyste-ovarien-surveillance.jpg",
-        "summary":  "La majorité des kystes ovariens sont bénins et disparaissent seuls. Voici comment les distinguer des kystes qui nécessitent une intervention."
-    },
-    {
-        "filename":  "article-drepanocytose-grossesse.html",
-        "title":  "Drépanocytose et grossesse : suivi, risques et prise en charge à Douala",
-        "category":  "Grossesse",
-        "date":  "11 août 2026",
-        "image":  "photos/article-drepanocytose-grossesse-complications.jpg",
-        "summary":  "Une femme drépanocytaire enceinte nécessite un suivi rapproché. Voici les examens indispensables et les risques à surveiller tout au long de la grossesse."
-    },
-    {
-        "filename":  "article-ionogramme.html",
-        "title":  "Ionogramme sanguin : sodium, potassium, chlore — à quoi ça sert ?",
-        "category":  "Bilan biologique",
-        "date":  "11 août 2026",
-        "image":  "photos/article-ionogramme-sanguin.jpg",
-        "summary":  "L\u0027ionogramme mesure les électrolytes du sang. Crampres, faiblesse, palpitations : ces symptômes peuvent révéler un déséquilibre ionique."
-    },
-    {
-        "filename":  "article-crp-inflammation.html",
-        "title":  "CRP et VS : les marqueurs biologiques de l\u0027inflammation et de l\u0027infection",
-        "category":  "Bilan biologique",
-        "date":  "10 août 2026",
-        "image":  "photos/article-crp-marqueur-inflammation.jpg",
-        "summary":  "Fièvre, douleurs, fatigue inexpliquée : la CRP et la VS sont les premières analyses prescrites pour détecter une inflammation ou une infection."
-    },
-    {
-        "filename":  "article-inr-anticoagulants.html",
-        "title":  "INR et anticoagulants : surveiller votre traitement au laboratoire",
-        "category":  "Bilan biologique",
-        "date":  "10 août 2026",
-        "image":  "photos/article-inr-anticoagulants-surveillance.jpg",
-        "summary":  "Si vous êtes sous anticoagulant (Sintrom, Coumadine), l\u0027INR doit être contrôlé régulièrement pour éviter saignements et thromboses."
-    },
-    {
-        "filename":  "article-groupe-sanguin.html",
-        "title":  "Groupe sanguin et rhésus : importance avant chirurgie et grossesse",
-        "category":  "Bilan biologique",
-        "date":  "9 août 2026",
-        "image":  "photos/article-groupe-sanguin-rhesus.jpg",
-        "summary":  "Connaître son groupe sanguin et son rhésus est indispensable avant toute chirurgie ou grossesse. Voici pourquoi et comment ce test est réalisé."
-    },
-    {
-        "filename":  "article-amh-reserve-ovarienne.html",
-        "title":  "AMH et réserve ovarienne : comprendre votre capital fertilité",
-        "category":  "Fertilité",
-        "date":  "8 août 2026",
-        "image":  "photos/article-amh-reserve-ovarienne.jpg",
-        "summary":  "L\u0027hormone anti-müllérienne (AMH) mesure votre réserve d\u0027ovocytes. C\u0027est l\u0027examen de référence pour évaluer votre fertilité avant de commencer un projet bébé."
-    },
-    {
-        "filename":  "article-bilan-cardiaque.html",
-        "title":  "Bilan cardiaque : quels examens biologiques protègent votre cœur ?",
-        "category":  "Prévention",
-        "date":  "8 août 2026",
-        "image":  "photos/article-bilan-cardiaque-complet.jpg",
-        "summary":  "Les maladies cardiovasculaires sont la première cause de décès au monde. Un bilan biologique cardiaque régulier peut vous sauver la vie."
-    },
-    {
-        "filename":  "article-dengue.html",
-        "title":  "Dengue au Cameroun : diagnostic, TDR et prise en charge",
-        "category":  "Infections",
-        "date":  "8 août 2026",
-        "image":  "photos/article-dengue-diagnostic-douala.jpg",
-        "summary":  "La dengue est présente à Douala. Souvent confondue avec le paludisme, elle nécessite un diagnostic précis car son traitement est différent."
-    },
-    {
-        "filename":  "article-meningite.html",
-        "title":  "Méningite : reconnaître les signes d\u0027urgence et le diagnostic biologique",
-        "category":  "Infections",
-        "date":  "8 août 2026",
-        "image":  "photos/article-meningite-diagnostic-urgence.jpg",
-        "summary":  "La méningite peut tuer en quelques heures. Fièvre brutale, maux de tête violents, raideur de la nuque : ces signes imposent des soins immédiats."
-    },
-    {
-        "filename":  "article-tuberculose.html",
-        "title":  "Tuberculose au Cameroun : diagnostic biologique, IDR et QuantiFERON",
-        "category":  "Infections",
-        "date":  "8 août 2026",
-        "image":  "photos/article-tuberculose-diagnostic.jpg",
-        "summary":  "Le Cameroun reste un pays à forte prévalence de tuberculose. Voici comment se fait le diagnostic au laboratoire et quels signes doivent alerter."
-    },
-    {
-        "filename":  "article-obesite-bilan.html",
-        "title":  "Obésité et surpoids : le bilan biologique métabolique essentiel",
-        "category":  "Prévention",
-        "date":  "8 août 2026",
-        "image":  "photos/article-obesite-bilan-metabolique.jpg",
-        "summary":  "L\u0027obésité n\u0027est pas juste une question d\u0027esthétique. Elle impacte profondément votre biologie. Voici les examens à faire absolument."
-    },
-    {
-        "filename":  "article-varicocele.html",
-        "title":  "Varicocèle : impact sur la fertilité masculine et diagnostic",
-        "category":  "Fertilité",
-        "date":  "7 août 2026",
-        "image":  "photos/article-varicocele-fertilite-masculine.jpg",
-        "summary":  "La varicocèle est la cause la plus fréquente et la plus corrigible d\u0027infertilité masculine. Voici comment elle est diagnostiquée et traitée."
-    },
-    {
-        "filename":  "article-testosterone-homme.html",
-        "title":  "Testostérone basse chez l\u0027homme : signes, dosage et traitement",
-        "category":  "Santé homme",
-        "date":  "6 août 2026",
-        "image":  "photos/article-testosterone-homme.jpg",
-        "summary":  "Fatigue chronique, baisse de libido, prise de masse graisseuse : ces signes peuvent trahir un déficit en testostérone. Un dosage simple le confirme."
-    },
-    {
-        "filename":  "article-prolactine.html",
-        "title":  "Prolactine élevée : hyperprolactinémie, galactorrhée et fertilité",
-        "category":  "Hormones",
-        "date":  "6 août 2026",
-        "image":  "photos/article-prolactine-hyperprolactinemie.jpg",
-        "summary":  "Une prolactine trop élevée peut bloquer l\u0027ovulation et provoquer un écoulement lacté hors grossesse. Diagnostic simple, traitement efficace."
-    },
-    {
-        "filename":  "article-amenorrhee.html",
-        "title":  "Aménorrhée : absence de règles, causes hormonales et bilan",
-        "category":  "Santé femme",
-        "date":  "5 août 2026",
-        "image":  "photos/article-amenorrhee-causes-bilan.jpg",
-        "summary":  "Les règles absentes depuis plus de 3 mois méritent une investigation. Stress, hormones, SOPK ou autre cause : voici le bilan à faire."
-    },
-    {
-        "filename":  "article-chlamydia.html",
-        "title":  "Chlamydia : l\u0027infection silencieuse qui menace la fertilité",
-        "category":  "Infections",
-        "date":  "5 août 2026",
-        "image":  "photos/article-chlamydia-infertilite.jpg",
-        "summary":  "La chlamydia est souvent asymptomatique mais peut obstruer les trompes et provoquer l\u0027infertilité féminine. Un dépistage simple suffit."
-    },
-    {
-        "filename":  "article-gonorrhee.html",
-        "title":  "Gonorrhée (blennorragie) : symptômes, ECBU et traitement à Douala",
-        "category":  "Infections",
-        "date":  "5 août 2026",
-        "image":  "photos/article-gonorrhee-ecbu-traitement.jpg",
-        "summary":  "La gonorrhée est l\u0027IST bactérienne la plus fréquente. Elle peut devenir résistante aux antibiotiques. Voici comment la détecter et la traiter."
-    },
-    {
-        "filename":  "article-rubeole-toxoplasmose.html",
-        "title":  "Rubéole et toxoplasmose en grossesse : risques et sérologies",
-        "category":  "Grossesse",
-        "date":  "4 août 2026",
-        "image":  "photos/article-rubeole-toxoplasmose-grossesse.jpg",
-        "summary":  "Deux infections qui peuvent gravement affecter votre bébé à naître. Voici comment les détecter et s\u0027en protéger pendant la grossesse."
-    },
-    {
-        "filename":  "article-pre-eclampsie.html",
-        "title":  "Pré-éclampsie : signes d\u0027alarme pendant la grossesse et surveillance",
-        "category":  "Grossesse",
-        "date":  "4 août 2026",
-        "image":  "photos/article-pre-eclampsie-grossesse.jpg",
-        "summary":  "La pré-éclampsie est une urgence obstétricale qui tue encore beaucoup de femmes en Afrique. Les signes sont détectables avec une surveillance régulière."
-    },
-    {
-        "filename":  "article-bilan-preconceptionnel.html",
-        "title":  "Bilan préconceptionnel : se préparer médicalement à la grossesse",
-        "category":  "Grossesse",
-        "date":  "3 août 2026",
-        "image":  "photos/article-bilan-preconceptionnel-grossesse.jpg",
-        "summary":  "Avant de tomber enceinte, certains examens permettent d\u0027éviter des complications graves. Voici le bilan préconceptionnel idéal pour les couples."
-    },
-    {
-        "filename":  "article-steatose-hepatique.html",
-        "title":  "Stéatose hépatique (foie gras) : causes, bilan ASAT/ALAT et prévention",
-        "category":  "Maladies chroniques",
-        "date":  "3 août 2026",
-        "image":  "photos/article-steatose-hepatique-foie.jpg",
-        "summary":  "Le foie gras non alcoolique touche 25% des adultes en Afrique. Il évolue en silence vers la cirrhose. Un bilan hépatique simple suffit à le détecter."
-    },
-    {
-        "filename":  "article-bilan-homme-40-ans.html",
-        "title":  "Bilan de santé de l\u0027homme après 40 ans : les examens à ne pas manquer",
-        "category":  "Santé homme",
-        "date":  "3 août 2026",
-        "image":  "photos/article-bilan-sante-homme-40-ans.jpg",
-        "summary":  "Après 40 ans, certains examens deviennent indispensables pour l\u0027homme. Voici le bilan complet recommandé pour détecter précocement les risques."
-    },
-    {
-        "filename":  "article-syphilis.html",
-        "title":  "Syphilis à Douala : signes, dépistage VDRL/TPHA et traitement",
-        "category":  "Infections",
-        "date":  "2 août 2026",
-        "image":  "photos/article-syphilis-depistage-traitement.jpg",
-        "summary":  "La syphilis est en recrudescence en Afrique centrale. Elle se guérit totalement avec de la pénicilline si elle est détectée tôt."
-    },
-    {
-        "filename":  "article-endometriose.html",
-        "title":  "Endométriose : règles douloureuses, fertilité et prise en charge",
-        "category":  "Santé femme",
-        "date":  "2 août 2026",
-        "image":  "photos/article-endometriose-fertilite.jpg",
-        "summary":  "L\u0027endométriose touche 10% des femmes en âge de procréer. Des règles extrêmement douloureuses ne sont pas normales. Voici quand consulter."
-    },
-    {
-        "filename":  "article-sopk.html",
-        "title":  "SOPK : syndrome des ovaires polykystiques, diagnostic et fertilité",
-        "category":  "Fertilité",
-        "date":  "1 août 2026",
-        "image":  "photos/article-sopk-syndrome-ovaires-polykystiques.jpg",
-        "summary":  "Le SOPK est la première cause d\u0027infertilité féminine. Il touche 1 femme sur 10 et se traite efficacement quand il est diagnostiqué à temps."
-    },
-    {
-        "filename":  "article-acide-urique-goutte.html",
-        "title":  "Acide urique et crise de goutte : bilan, alimentation et traitement",
-        "category":  "Bilan biologique",
-        "date":  "1 août 2026",
-        "image":  "photos/article-acide-urique-goutte.jpg",
-        "summary":  "La goutte est la forme d\u0027arthrite la plus douloureuse. Elle est pourtant très facile à détecter avec un simple dosage de l\u0027acide urique."
-    },
-    {
-        "filename":  "article-hba1c.html",
-        "title":  "HbA1c : l\u0027examen clé pour surveiller votre diabète sur 3 mois",
-        "category":  "Maladies chroniques",
-        "date":  "31 juillet 2026",
-        "image":  "photos/article-hba1c-suivi-diabete.jpg",
-        "summary":  "L\u0027hémoglobine glyquée (HbA1c) révèle votre équilibre glycémique des 3 derniers mois. Un chiffre indispensable pour tout diabétique traité."
-    },
-    {
-        "filename":  "article-glycemie-diabete.html",
-        "title":  "Glycémie et diabète de type 2 : comprendre, prévenir, surveiller",
-        "category":  "Maladies chroniques",
-        "date":  "31 juillet 2026",
-        "image":  "photos/article-glycemie-diabete-type2.jpg",
-        "summary":  "Le diabète de type 2 s\u0027installe sur des années sans bruit. Une glycémie à jeun suffit à détecter un pré-diabète avant qu\u0027il ne devienne irréversible."
-    },
-    {
-        "filename":  "article-vitamine-d.html",
-        "title":  "Carence en vitamine D : symptômes, dosage sanguin et supplémentation",
-        "category":  "Prévention",
-        "date":  "30 juillet 2026",
-        "image":  "photos/article-vitamine-d-carence.jpg",
-        "summary":  "Paradoxalement, même sous le soleil africain, la carence en vitamine D est fréquente. Fatigue, douleurs osseuses, immunité faible : reconnaissez les signes."
-    },
-    {
-        "filename":  "article-menopause.html",
-        "title":  "Ménopause : signes, bilan hormonal et accompagnement médical",
-        "category":  "Santé femme",
-        "date":  "30 juillet 2026",
-        "image":  "photos/article-menopause-bilan-hormonal.jpg",
-        "summary":  "Bouffées de chaleur, troubles du sommeil, prise de poids : la ménopause se vit mieux avec un bilan hormonal adapté et un accompagnement médical."
-    },
-    {
-        "filename":  "article-vih-sida.html",
-        "title":  "VIH/SIDA à Douala : dépistage, traitement ARV et vie avec le VIH",
-        "category":  "Infections",
-        "date":  "29 juillet 2026",
-        "image":  "photos/article-vih-sida-depistage-traitement.jpg",
-        "summary":  "Avec un traitement ARV adapté, une personne vivant avec le VIH peut avoir une espérance de vie normale. Le dépistage précoce est la clé."
-    },
-    {
-        "filename":  "article-hepatite-c.html",
-        "title":  "Hépatite C : dépistage, symptômes et traitement à Douala",
-        "category":  "Infections",
-        "date":  "29 juillet 2026",
-        "image":  "photos/article-hepatite-c-depistage.jpg",
-        "summary":  "L\u0027hépatite C se guérit aujourd\u0027hui à plus de 95%. Mais des millions de personnes l\u0027ignorent. Voici ce qu\u0027il faut savoir sur le dépistage."
-    },
-    {
-        "filename":  "article-creatinine-bilan-renal.html",
-        "title":  "Créatinine et bilan rénal : comprendre et protéger vos reins",
-        "category":  "Bilan biologique",
-        "date":  "28 juillet 2026",
-        "image":  "photos/article-creatinine-bilan-renal.jpg",
-        "summary":  "Les reins filtrent 200 litres de sang par jour en silence. Un simple dosage de la créatinine suffit à détecter une insuffisance rénale débutante."
-    },
-    {
-        "filename":  "article-tension-arterielle.html",
-        "title":  "Tension artérielle : comprendre vos chiffres et prévenir l\u0027hypertension",
-        "category":  "Prévention",
-        "date":  "29 juillet 2026",
-        "image":  "photos/article-tension-arterielle-hypertension.jpg",
-        "summary":  "L\u0027hypertension touche 1 adulte sur 3 au Cameroun sans symptômes. Découvrez comment lire vos chiffres et agir avant les complications."
-    },
-    {
-        "filename":  "article-examens-urgence.html",
-        "title":  "Quand aller au laboratoire en urgence ? Les examens biologiques qui ne peuvent pas attendre",
-        "category":  "Prévention",
-        "date":  "28 juillet 2026",
-        "image":  "photos/article-examens-urgences-biologiques.jpg",
-        "summary":  "Certains symptômes réclament une analyse biologique immédiate. Connaître ces signes peut faire la différence entre une prise en charge à temps ou trop tard."
-    },
-    {
-        "filename":  "article-bilan-fertilite-couple.html",
-        "title":  "Bilan de fertilité en couple : ce que font les deux partenaires ensemble",
-        "category":  "Fertilité",
-        "date":  "27 juillet 2026",
-        "image":  "photos/article-bilan-fertilite-couple.jpg",
-        "summary":  "L\u0027infertilité est un problème de couple. Un bilan complet des deux partenaires est indispensable avant toute prise en charge. Voici ce qu\u0027il comprend."
-    },
-    {
-        "filename":  "article-albumine-nutrition.html",
-        "title":  "Albumine et protéines sériques : signes biologiques de malnutrition",
-        "category":  "Bilan biologique",
-        "date":  "27 juillet 2026",
-        "image":  "photos/article-albumine-malnutrition.jpg",
-        "summary":  "L\u0027albumine est le miroir de votre état nutritionnel. Chez les personnes âgées, les malades chroniques et les enfants, ce dosage peut changer la prise en charge."
-    },
-    {
-        "filename":  "article-marqueurs-tumoraux.html",
-        "title":  "Marqueurs tumoraux : ce qu\u0027ils révèlent et leurs limites en oncologie",
-        "category":  "Bilan biologique",
-        "date":  "26 juillet 2026",
-        "image":  "photos/article-marqueurs-tumoraux-cancer.jpg",
-        "summary":  "PSA, AFP, CA-125, ACE : les marqueurs tumoraux sont des outils de suivi puissants mais souvent mal compris. Voici comment les interpréter correctement."
-    },
-    {
-        "filename":  "article-bilan-sportif.html",
-        "title":  "Bilan biologique du sportif : énergie, récupération et performance",
-        "category":  "Prévention",
-        "date":  "25 juillet 2026",
-        "image":  "photos/article-bilan-nutrition-sportif.jpg",
-        "summary":  "Un athlète ou sportif régulier a des besoins biologiques spécifiques. Fer, magnésium, testostérone, thyroïde : le bilan sportif optimise votre performance."
-    },
-    {
-        "filename":  "article-palu-enfant.html",
-        "title":  "Paludisme grave chez l\u0027enfant : signes d\u0027alarme et diagnostic rapide",
-        "category":  "Infections",
-        "date":  "25 juillet 2026",
-        "image":  "photos/article-paludisme-grave-enfant.jpg",
-        "summary":  "Le paludisme grave chez l\u0027enfant peut tuer en 24h. Reconnaître les signes et faire le diagnostic en urgence peut sauver une vie à Douala."
-    },
-    {
-        "filename":  "article-dymenorrhee.html",
-        "title":  "Règles douloureuses (dysménorrhée) : quand consulter et quel bilan faire",
-        "category":  "Santé femme",
-        "date":  "24 juillet 2026",
-        "image":  "photos/article-dysmenorrhee-regles-douloureuses.jpg",
-        "summary":  "Des douleurs menstruelles qui paralysent ne sont pas normales. Elles peuvent signaler une endométriose, un fibrome ou un autre problème traitable."
-    },
-    {
-        "filename":  "article-bilan-immuno.html",
-        "title":  "Bilan immunologique : infections répétées, allergies et déficit immunitaire",
-        "category":  "Bilan biologique",
-        "date":  "24 juillet 2026",
-        "image":  "photos/article-bilan-immunologique.jpg",
-        "summary":  "Infections qui reviennent souvent, allergies sévères, guérison lente : votre système immunitaire envoie des signaux. Un bilan peut en expliquer la cause."
-    },
-    {
-        "filename":  "article-diabete-gestationnel.html",
-        "title":  "Diabète gestationnel : dépistage, glycémie et risques pour mère et bébé",
-        "category":  "Grossesse",
-        "date":  "21 juillet 2026",
-        "image":  "photos/article-diabete-gestationnel.jpg",
-        "summary":  "Le diabète gestationnel touche 10 à 15% des grossesses. Sans dépistage, il expose bébé et maman à des complications graves à l\u0027accouchement."
-    },
-    {
-        "filename":  "article-cortisol-stress.html",
-        "title":  "Cortisol et stress chronique : quand le stress détruit votre santé biologiquement",
-        "category":  "Hormones",
-        "date":  "20 juillet 2026",
-        "image":  "photos/article-cortisol-stress-chronique.jpg",
-        "summary":  "Le cortisol est l\u0027hormone du stress. Trop longtemps élevé, il détruit le système immunitaire, la mémoire et la fertilité. Un dosage révèle l\u0027état de votre corps."
-    },
-    {
-        "filename":  "article-thalassemie.html",
-        "title":  "Thalassémie au Cameroun : dépistage, diagnostic et conseil génétique",
-        "category":  "Bilan biologique",
-        "date":  "20 juillet 2026",
-        "image":  "photos/article-thalassemie-depistage.jpg",
-        "summary":  "Comme la drépanocytose, la thalassémie est une maladie héréditaire du sang. Peu connue en Afrique centrale, elle mérite d\u0027être recherchée avant une grossesse."
-    },
-    {
-        "filename":  "article-thyroide-femme.html",
-        "title":  "Thyroïde et santé de la femme : fatigue, poids, fertilité et bilan TSH",
-        "category":  "Hormones",
-        "date":  "19 juillet 2026",
-        "image":  "photos/article-bilan-thyroide-femme.jpg",
-        "summary":  "La thyroïde est la glande la plus souvent déréglée chez la femme. Elle influence le poids, l\u0027humeur, les cycles et la fertilité. Voici quand faire un bilan."
-    },
-    {
-        "filename":  "article-hepatite-a.html",
-        "title":  "Hépatite A : contamination, sérologie et vaccination à Douala",
-        "category":  "Infections",
-        "date":  "20 juillet 2026",
-        "image":  "photos/article-hepatite-a-prevention-vaccination.jpg",
-        "summary":  "L\u0027hépatite A se transmet par l\u0027eau et les aliments contaminés. Fréquente en Afrique, elle est évitable par la vaccination. Voici tout ce qu\u0027il faut savoir."
-    },
-    {
-        "filename":  "article-fer-serique.html",
-        "title":  "Fer sérique et saturation de la transferrine : interpréter son bilan fer",
-        "category":  "Bilan biologique",
-        "date":  "19 juillet 2026",
-        "image":  "photos/article-taux-fer-serique.jpg",
-        "summary":  "La ferritine seule ne suffit pas toujours. Le fer sérique, la transferrine et la saturation donnent une image complète de votre statut martial."
-    },
-    {
-        "filename":  "article-syndrome-premenstruel.html",
-        "title":  "Syndrome prémenstruel : hormones, nutrition et solutions médicales",
-        "category":  "Santé femme",
-        "date":  "19 juillet 2026",
-        "image":  "photos/article-syndrome-premenstruel-hormones.jpg",
-        "summary":  "Irritabilité, gonflement, douleurs avant les règles : le SPM a des causes biologiques précises et des solutions efficaces. Voici le bilan à faire."
-    },
-    {
-        "filename":  "article-insuffisance-renale.html",
-        "title":  "Insuffisance rénale chronique : signes, stades et bilan de suivi",
-        "category":  "Maladies chroniques",
-        "date":  "19 juillet 2026",
-        "image":  "photos/article-insuffisance-renale-chronique.jpg",
-        "summary":  "L\u0027insuffisance rénale chronique progresse silencieusement. Diabète et hypertension en sont les causes principales. Le bilan permet de surveiller l\u0027évolution."
-    },
-    {
-        "filename":  "article-covid-sequelles.html",
-        "title":  "COVID-19 long : séquelles biologiques et bilan post-COVID",
-        "category":  "Infections",
-        "date":  "18 juillet 2026",
-        "image":  "photos/article-covid-sequelles-bilan.jpg",
-        "summary":  "Fatigue, essoufflement, brouillard mental persistants après la COVID : le syndrome post-COVID a des marqueurs biologiques détectables."
-    },
-    {
-        "filename":  "article-myome-fibrome.html",
-        "title":  "Myome utérin (fibrome) : diagnostic, bilan et quand traiter",
-        "category":  "Santé femme",
-        "date":  "18 juillet 2026",
-        "image":  "photos/article-myome-uterin-fibrome.jpg",
-        "summary":  "Les fibromes touchent 70% des femmes africaines avant 50 ans. La plupart ne nécessitent pas d\u0027opération. Voici quand consulter et quels examens faire."
-    },
-    {
-        "filename":  "article-streptocoque-b.html",
-        "title":  "Streptocoque B (SGB) en grossesse : dépistage et prévention néonatale",
-        "category":  "Grossesse",
-        "date":  "17 juillet 2026",
-        "image":  "photos/article-streptocoque-b-grossesse.jpg",
-        "summary":  "Le streptocoque B du groupe B peut provoquer une méningite grave chez le nouveau-né. Un prélèvement vaginal en fin de grossesse protège votre bébé."
-    },
-    {
-        "filename":  "article-candidose.html",
-        "title":  "Candidose vaginale récidivante : causes, diagnostic et traitement durable",
-        "category":  "Santé femme",
-        "date":  "16 juillet 2026",
-        "image":  "photos/article-candidose-recidivante.jpg",
-        "summary":  "Des mycoses vaginales qui reviennent toujours signalent un déséquilibre. Voici les causes à rechercher et comment briser le cycle des récidives."
-    },
-    {
-        "filename":  "article-herpes-genital.html",
-        "title":  "Herpès génital : diagnostic, traitement et vie intime",
-        "category":  "Infections",
-        "date":  "16 juillet 2026",
-        "image":  "photos/article-herpes-genital.jpg",
-        "summary":  "L\u0027herpès génital touche 1 adulte sur 6. Souvent sous-diagnostiqué, il peut être géré efficacement avec un traitement antiviral adapté."
-    },
-    {
-        "filename":  "article-leucemie-nfs.html",
-        "title":  "NFS anormale et leucémie : quand les globules blancs s\u0027affolent",
-        "category":  "Bilan biologique",
-        "date":  "16 juillet 2026",
-        "image":  "photos/article-leucemie-nfs-anormale.jpg",
-        "summary":  "Une prise de sang révèle parfois des globules blancs très anormaux. Fatigue extrême, infections répétées : voici quand une NFS doit vous alerter."
-    },
-    {
-        "filename":  "article-osteoporose.html",
-        "title":  "Ostéoporose : comprendre la densité osseuse et prévenir les fractures",
-        "category":  "Prévention",
-        "date":  "16 juillet 2026",
-        "image":  "photos/article-osteoporose-densite-osseuse.jpg",
-        "summary":  "L\u0027ostéoporose fragilise les os silencieusement. Les femmes après la ménopause sont particulièrement exposées. Voici le bilan à faire."
-    },
-    {
-        "filename":  "article-filariose.html",
-        "title":  "Filariose lymphatique au Cameroun : diagnostic et traitement",
-        "category":  "Infections",
-        "date":  "15 juillet 2026",
-        "image":  "photos/article-filariose-cameroun.jpg",
-        "summary":  "La filariose cause l\u0027éléphantiasis et la cécité des rivières. Cette maladie tropicale négligée est diagnostiquable au laboratoire à Douala."
-    },
-    {
-        "filename":  "article-fausse-couche-thrombophilie.html",
-        "title":  "Fausses couches à répétition : le bilan thrombophilie qui change tout",
-        "category":  "Grossesse",
-        "date":  "15 juillet 2026",
-        "image":  "photos/article-fausse-couche-bilan-thrombophilie.jpg",
-        "summary":  "2 ou 3 fausses couches successives nécessitent un bilan approfondi. La thrombophilie est une cause fréquente et traitable. Voici le bilan à faire."
-    },
-    {
-        "filename":  "article-kyste-ovarien.html",
-        "title":  "Kyste ovarien : types, surveillance biologique et quand opérer",
-        "category":  "Santé femme",
-        "date":  "15 juillet 2026",
-        "image":  "photos/article-kyste-ovarien-surveillance.jpg",
-        "summary":  "La majorité des kystes ovariens sont bénins et disparaissent seuls. Voici comment les distinguer des kystes qui nécessitent une intervention."
-    },
-    {
-        "filename":  "article-drepanocytose-grossesse.html",
-        "title":  "Drépanocytose et grossesse : suivi, risques et prise en charge à Douala",
-        "category":  "Grossesse",
-        "date":  "15 juillet 2026",
-        "image":  "photos/article-drepanocytose-grossesse-complications.jpg",
-        "summary":  "Une femme drépanocytaire enceinte nécessite un suivi rapproché. Voici les examens indispensables et les risques à surveiller tout au long de la grossesse."
-    },
-    {
-        "filename":  "article-ionogramme.html",
-        "title":  "Ionogramme sanguin : sodium, potassium, chlore — à quoi ça sert ?",
-        "category":  "Bilan biologique",
-        "date":  "14 juillet 2026",
-        "image":  "photos/article-ionogramme-sanguin.jpg",
-        "summary":  "L\u0027ionogramme mesure les électrolytes du sang. Crampres, faiblesse, palpitations : ces symptômes peuvent révéler un déséquilibre ionique."
-    },
-    {
-        "filename":  "article-crp-inflammation.html",
-        "title":  "CRP et VS : les marqueurs biologiques de l\u0027inflammation et de l\u0027infection",
-        "category":  "Bilan biologique",
-        "date":  "13 juillet 2026",
-        "image":  "photos/article-crp-marqueur-inflammation.jpg",
-        "summary":  "Fièvre, douleurs, fatigue inexpliquée : la CRP et la VS sont les premières analyses prescrites pour détecter une inflammation ou une infection."
-    },
-    {
-        "filename":  "article-inr-anticoagulants.html",
-        "title":  "INR et anticoagulants : surveiller votre traitement au laboratoire",
-        "category":  "Bilan biologique",
-        "date":  "13 juillet 2026",
-        "image":  "photos/article-inr-anticoagulants-surveillance.jpg",
-        "summary":  "Si vous êtes sous anticoagulant (Sintrom, Coumadine), l\u0027INR doit être contrôlé régulièrement pour éviter saignements et thromboses."
-    },
-    {
-        "filename":  "article-groupe-sanguin.html",
-        "title":  "Groupe sanguin et rhésus : importance avant chirurgie et grossesse",
-        "category":  "Bilan biologique",
-        "date":  "13 juillet 2026",
-        "image":  "photos/article-groupe-sanguin-rhesus.jpg",
-        "summary":  "Connaître son groupe sanguin et son rhésus est indispensable avant toute chirurgie ou grossesse. Voici pourquoi et comment ce test est réalisé."
-    },
-    {
-        "filename":  "article-amh-reserve-ovarienne.html",
-        "title":  "AMH et réserve ovarienne : comprendre votre capital fertilité",
-        "category":  "Fertilité",
-        "date":  "13 juillet 2026",
-        "image":  "photos/article-amh-reserve-ovarienne.jpg",
-        "summary":  "L\u0027hormone anti-müllérienne (AMH) mesure votre réserve d\u0027ovocytes. C\u0027est l\u0027examen de référence pour évaluer votre fertilité avant de commencer un projet bébé."
-    },
-    {
-        "filename":  "article-bilan-cardiaque.html",
-        "title":  "Bilan cardiaque : quels examens biologiques protègent votre cœur ?",
-        "category":  "Prévention",
-        "date":  "12 juillet 2026",
-        "image":  "photos/article-bilan-cardiaque-complet.jpg",
-        "summary":  "Les maladies cardiovasculaires sont la première cause de décès au monde. Un bilan biologique cardiaque régulier peut vous sauver la vie."
-    },
-    {
-        "filename":  "article-dengue.html",
-        "title":  "Dengue au Cameroun : diagnostic, TDR et prise en charge",
-        "category":  "Infections",
-        "date":  "12 juillet 2026",
-        "image":  "photos/article-dengue-diagnostic-douala.jpg",
-        "summary":  "La dengue est présente à Douala. Souvent confondue avec le paludisme, elle nécessite un diagnostic précis car son traitement est différent."
-    },
-    {
-        "filename":  "article-meningite.html",
-        "title":  "Méningite : reconnaître les signes d\u0027urgence et le diagnostic biologique",
-        "category":  "Infections",
-        "date":  "11 juillet 2026",
-        "image":  "photos/article-meningite-diagnostic-urgence.jpg",
-        "summary":  "La méningite peut tuer en quelques heures. Fièvre brutale, maux de tête violents, raideur de la nuque : ces signes imposent des soins immédiats."
-    },
-    {
-        "filename":  "article-tuberculose.html",
-        "title":  "Tuberculose au Cameroun : diagnostic biologique, IDR et QuantiFERON",
-        "category":  "Infections",
-        "date":  "11 juillet 2026",
-        "image":  "photos/article-tuberculose-diagnostic.jpg",
-        "summary":  "Le Cameroun reste un pays à forte prévalence de tuberculose. Voici comment se fait le diagnostic au laboratoire et quels signes doivent alerter."
-    },
-    {
-        "filename":  "article-obesite-bilan.html",
-        "title":  "Obésité et surpoids : le bilan biologique métabolique essentiel",
-        "category":  "Prévention",
-        "date":  "10 juillet 2026",
-        "image":  "photos/article-obesite-bilan-metabolique.jpg",
-        "summary":  "L\u0027obésité n\u0027est pas juste une question d\u0027esthétique. Elle impacte profondément votre biologie. Voici les examens à faire absolument."
-    },
-    {
-        "filename":  "article-varicocele.html",
-        "title":  "Varicocèle : impact sur la fertilité masculine et diagnostic",
-        "category":  "Fertilité",
-        "date":  "10 juillet 2026",
-        "image":  "photos/article-varicocele-fertilite-masculine.jpg",
-        "summary":  "La varicocèle est la cause la plus fréquente et la plus corrigible d\u0027infertilité masculine. Voici comment elle est diagnostiquée et traitée."
-    },
-    {
-        "filename":  "article-testosterone-homme.html",
-        "title":  "Testostérone basse chez l\u0027homme : signes, dosage et traitement",
-        "category":  "Santé homme",
-        "date":  "10 juillet 2026",
-        "image":  "photos/article-testosterone-homme.jpg",
-        "summary":  "Fatigue chronique, baisse de libido, prise de masse graisseuse : ces signes peuvent trahir un déficit en testostérone. Un dosage simple le confirme."
-    },
-    {
-        "filename":  "article-prolactine.html",
-        "title":  "Prolactine élevée : hyperprolactinémie, galactorrhée et fertilité",
-        "category":  "Hormones",
-        "date":  "10 juillet 2026",
-        "image":  "photos/article-prolactine-hyperprolactinemie.jpg",
-        "summary":  "Une prolactine trop élevée peut bloquer l\u0027ovulation et provoquer un écoulement lacté hors grossesse. Diagnostic simple, traitement efficace."
-    },
-    {
-        "filename":  "article-amenorrhee.html",
-        "title":  "Aménorrhée : absence de règles, causes hormonales et bilan",
-        "category":  "Santé femme",
-        "date":  "9 juillet 2026",
-        "image":  "photos/article-amenorrhee-causes-bilan.jpg",
-        "summary":  "Les règles absentes depuis plus de 3 mois méritent une investigation. Stress, hormones, SOPK ou autre cause : voici le bilan à faire."
-    },
-    {
-        "filename":  "article-chlamydia.html",
-        "title":  "Chlamydia : l\u0027infection silencieuse qui menace la fertilité",
-        "category":  "Infections",
-        "date":  "9 juillet 2026",
-        "image":  "photos/article-chlamydia-infertilite.jpg",
-        "summary":  "La chlamydia est souvent asymptomatique mais peut obstruer les trompes et provoquer l\u0027infertilité féminine. Un dépistage simple suffit."
-    },
-    {
-        "filename":  "article-gonorrhee.html",
-        "title":  "Gonorrhée (blennorragie) : symptômes, ECBU et traitement à Douala",
-        "category":  "Infections",
-        "date":  "8 juillet 2026",
-        "image":  "photos/article-gonorrhee-ecbu-traitement.jpg",
-        "summary":  "La gonorrhée est l\u0027IST bactérienne la plus fréquente. Elle peut devenir résistante aux antibiotiques. Voici comment la détecter et la traiter."
-    },
-    {
-        "filename":  "article-rubeole-toxoplasmose.html",
-        "title":  "Rubéole et toxoplasmose en grossesse : risques et sérologies",
-        "category":  "Grossesse",
-        "date":  "7 juillet 2026",
-        "image":  "photos/article-rubeole-toxoplasmose-grossesse.jpg",
-        "summary":  "Deux infections qui peuvent gravement affecter votre bébé à naître. Voici comment les détecter et s\u0027en protéger pendant la grossesse."
-    },
-    {
-        "filename":  "article-pre-eclampsie.html",
-        "title":  "Pré-éclampsie : signes d\u0027alarme pendant la grossesse et surveillance",
-        "category":  "Grossesse",
-        "date":  "7 juillet 2026",
-        "image":  "photos/article-pre-eclampsie-grossesse.jpg",
-        "summary":  "La pré-éclampsie est une urgence obstétricale qui tue encore beaucoup de femmes en Afrique. Les signes sont détectables avec une surveillance régulière."
-    },
-    {
-        "filename":  "article-bilan-preconceptionnel.html",
-        "title":  "Bilan préconceptionnel : se préparer médicalement à la grossesse",
-        "category":  "Grossesse",
-        "date":  "7 juillet 2026",
-        "image":  "photos/article-bilan-preconceptionnel-grossesse.jpg",
-        "summary":  "Avant de tomber enceinte, certains examens permettent d\u0027éviter des complications graves. Voici le bilan préconceptionnel idéal pour les couples."
-    },
-    {
-        "filename":  "article-steatose-hepatique.html",
-        "title":  "Stéatose hépatique (foie gras) : causes, bilan ASAT/ALAT et prévention",
-        "category":  "Maladies chroniques",
-        "date":  "7 juillet 2026",
-        "image":  "photos/article-steatose-hepatique-foie.jpg",
-        "summary":  "Le foie gras non alcoolique touche 25% des adultes en Afrique. Il évolue en silence vers la cirrhose. Un bilan hépatique simple suffit à le détecter."
-    },
-    {
-        "filename":  "article-bilan-homme-40-ans.html",
-        "title":  "Bilan de santé de l\u0027homme après 40 ans : les examens à ne pas manquer",
-        "category":  "Santé homme",
-        "date":  "6 juillet 2026",
-        "image":  "photos/article-bilan-sante-homme-40-ans.jpg",
-        "summary":  "Après 40 ans, certains examens deviennent indispensables pour l\u0027homme. Voici le bilan complet recommandé pour détecter précocement les risques."
-    },
-    {
-        "filename":  "article-syphilis.html",
-        "title":  "Syphilis à Douala : signes, dépistage VDRL/TPHA et traitement",
-        "category":  "Infections",
-        "date":  "5 juillet 2026",
-        "image":  "photos/article-syphilis-depistage-traitement.jpg",
-        "summary":  "La syphilis est en recrudescence en Afrique centrale. Elle se guérit totalement avec de la pénicilline si elle est détectée tôt."
-    },
-    {
-        "filename":  "article-endometriose.html",
-        "title":  "Endométriose : règles douloureuses, fertilité et prise en charge",
-        "category":  "Santé femme",
-        "date":  "5 juillet 2026",
-        "image":  "photos/article-endometriose-fertilite.jpg",
-        "summary":  "L\u0027endométriose touche 10% des femmes en âge de procréer. Des règles extrêmement douloureuses ne sont pas normales. Voici quand consulter."
-    },
-    {
-        "filename":  "article-sopk.html",
-        "title":  "SOPK : syndrome des ovaires polykystiques, diagnostic et fertilité",
-        "category":  "Fertilité",
-        "date":  "5 juillet 2026",
-        "image":  "photos/article-sopk-syndrome-ovaires-polykystiques.jpg",
-        "summary":  "Le SOPK est la première cause d\u0027infertilité féminine. Il touche 1 femme sur 10 et se traite efficacement quand il est diagnostiqué à temps."
-    },
-    {
-        "filename":  "article-acide-urique-goutte.html",
-        "title":  "Acide urique et crise de goutte : bilan, alimentation et traitement",
-        "category":  "Bilan biologique",
-        "date":  "4 juillet 2026",
-        "image":  "photos/article-acide-urique-goutte.jpg",
-        "summary":  "La goutte est la forme d\u0027arthrite la plus douloureuse. Elle est pourtant très facile à détecter avec un simple dosage de l\u0027acide urique."
-    },
-    {
-        "filename":  "article-hba1c.html",
-        "title":  "HbA1c : l\u0027examen clé pour surveiller votre diabète sur 3 mois",
-        "category":  "Maladies chroniques",
-        "date":  "4 juillet 2026",
-        "image":  "photos/article-hba1c-suivi-diabete.jpg",
-        "summary":  "L\u0027hémoglobine glyquée (HbA1c) révèle votre équilibre glycémique des 3 derniers mois. Un chiffre indispensable pour tout diabétique traité."
-    },
-    {
-        "filename":  "article-glycemie-diabete.html",
-        "title":  "Glycémie et diabète de type 2 : comprendre, prévenir, surveiller",
-        "category":  "Maladies chroniques",
-        "date":  "3 juillet 2026",
-        "image":  "photos/article-glycemie-diabete-type2.jpg",
-        "summary":  "Le diabète de type 2 s\u0027installe sur des années sans bruit. Une glycémie à jeun suffit à détecter un pré-diabète avant qu\u0027il ne devienne irréversible."
-    },
-    {
-        "filename":  "article-vitamine-d.html",
-        "title":  "Carence en vitamine D : symptômes, dosage sanguin et supplémentation",
-        "category":  "Prévention",
-        "date":  "3 juillet 2026",
-        "image":  "photos/article-vitamine-d-carence.jpg",
-        "summary":  "Paradoxalement, même sous le soleil africain, la carence en vitamine D est fréquente. Fatigue, douleurs osseuses, immunité faible : reconnaissez les signes."
-    },
-    {
-        "filename":  "article-menopause.html",
-        "title":  "Ménopause : signes, bilan hormonal et accompagnement médical",
-        "category":  "Santé femme",
-        "date":  "2 juillet 2026",
-        "image":  "photos/article-menopause-bilan-hormonal.jpg",
-        "summary":  "Bouffées de chaleur, troubles du sommeil, prise de poids : la ménopause se vit mieux avec un bilan hormonal adapté et un accompagnement médical."
-    },
-    {
-        "filename":  "article-vih-sida.html",
-        "title":  "VIH/SIDA à Douala : dépistage, traitement ARV et vie avec le VIH",
-        "category":  "Infections",
-        "date":  "2 juillet 2026",
-        "image":  "photos/article-vih-sida-depistage-traitement.jpg",
-        "summary":  "Avec un traitement ARV adapté, une personne vivant avec le VIH peut avoir une espérance de vie normale. Le dépistage précoce est la clé."
-    },
-    {
-        "filename":  "article-hepatite-c.html",
-        "title":  "Hépatite C : dépistage, symptômes et traitement à Douala",
-        "category":  "Infections",
-        "date":  "2 juillet 2026",
-        "image":  "photos/article-hepatite-c-depistage.jpg",
-        "summary":  "L\u0027hépatite C se guérit aujourd\u0027hui à plus de 95%. Mais des millions de personnes l\u0027ignorent. Voici ce qu\u0027il faut savoir sur le dépistage."
-    },
-    {
-        "filename":  "article-creatinine-bilan-renal.html",
-        "title":  "Créatinine et bilan rénal : comprendre et protéger vos reins",
-        "category":  "Bilan biologique",
-        "date":  "2 juillet 2026",
-        "image":  "photos/article-creatinine-bilan-renal.jpg",
-        "summary":  "Les reins filtrent 200 litres de sang par jour en silence. Un simple dosage de la créatinine suffit à détecter une insuffisance rénale débutante."
-    },
-    {
-        "filename":  "article-tension-arterielle.html",
-        "title":  "Tension artérielle : comprendre vos chiffres et prévenir l\u0027hypertension",
-        "category":  "Prévention",
-        "date":  "1 juillet 2026",
-        "image":  "photos/article-tension-arterielle-hypertension.jpg",
-        "summary":  "L\u0027hypertension touche 1 adulte sur 3 au Cameroun sans symptômes. Découvrez comment lire vos chiffres et agir avant les complications."
-    },
-    {
-        "filename":  "article-examens-urgence.html",
-        "title":  "Quand aller au laboratoire en urgence ? Les examens biologiques qui ne peuvent pas attendre",
-        "category":  "Prévention",
-        "date":  "1 juillet 2026",
-        "image":  "photos/article-examens-urgences-biologiques.jpg",
-        "summary":  "Certains symptômes réclament une analyse biologique immédiate. Connaître ces signes peut faire la différence entre une prise en charge à temps ou trop tard."
-    },
-    {
-        "filename":  "article-bilan-fertilite-couple.html",
-        "title":  "Bilan de fertilité en couple : ce que font les deux partenaires ensemble",
-        "category":  "Fertilité",
-        "date":  "30 juin 2026",
-        "image":  "photos/article-bilan-fertilite-couple.jpg",
-        "summary":  "L\u0027infertilité est un problème de couple. Un bilan complet des deux partenaires est indispensable avant toute prise en charge. Voici ce qu\u0027il comprend."
-    },
-    {
-        "filename":  "article-albumine-nutrition.html",
-        "title":  "Albumine et protéines sériques : signes biologiques de malnutrition",
-        "category":  "Bilan biologique",
-        "date":  "30 juin 2026",
-        "image":  "photos/article-albumine-malnutrition.jpg",
-        "summary":  "L\u0027albumine est le miroir de votre état nutritionnel. Chez les personnes âgées, les malades chroniques et les enfants, ce dosage peut changer la prise en charge."
-    },
-    {
-        "filename":  "article-marqueurs-tumoraux.html",
-        "title":  "Marqueurs tumoraux : ce qu\u0027ils révèlent et leurs limites en oncologie",
-        "category":  "Bilan biologique",
-        "date":  "30 juin 2026",
-        "image":  "photos/article-marqueurs-tumoraux-cancer.jpg",
-        "summary":  "PSA, AFP, CA-125, ACE : les marqueurs tumoraux sont des outils de suivi puissants mais souvent mal compris. Voici comment les interpréter correctement."
-    },
-    {
-        "filename":  "article-bilan-sportif.html",
-        "title":  "Bilan biologique du sportif : énergie, récupération et performance",
-        "category":  "Prévention",
-        "date":  "29 juin 2026",
-        "image":  "photos/article-bilan-nutrition-sportif.jpg",
-        "summary":  "Un athlète ou sportif régulier a des besoins biologiques spécifiques. Fer, magnésium, testostérone, thyroïde : le bilan sportif optimise votre performance."
-    },
-    {
-        "filename":  "article-palu-enfant.html",
-        "title":  "Paludisme grave chez l\u0027enfant : signes d\u0027alarme et diagnostic rapide",
-        "category":  "Infections",
-        "date":  "29 juin 2026",
-        "image":  "photos/article-paludisme-grave-enfant.jpg",
-        "summary":  "Le paludisme grave chez l\u0027enfant peut tuer en 24h. Reconnaître les signes et faire le diagnostic en urgence peut sauver une vie à Douala."
-    },
-    {
-        "filename":  "article-dymenorrhee.html",
-        "title":  "Règles douloureuses (dysménorrhée) : quand consulter et quel bilan faire",
-        "category":  "Santé femme",
-        "date":  "28 juin 2026",
-        "image":  "photos/article-dysmenorrhee-regles-douloureuses.jpg",
-        "summary":  "Des douleurs menstruelles qui paralysent ne sont pas normales. Elles peuvent signaler une endométriose, un fibrome ou un autre problème traitable."
-    },
-    {
-        "filename":  "article-bilan-immuno.html",
-        "title":  "Bilan immunologique : infections répétées, allergies et déficit immunitaire",
-        "category":  "Bilan biologique",
-        "date":  "27 juin 2026",
-        "image":  "photos/article-bilan-immunologique.jpg",
-        "summary":  "Infections qui reviennent souvent, allergies sévères, guérison lente : votre système immunitaire envoie des signaux. Un bilan peut en expliquer la cause."
-    },
-    {
-        "filename":  "article-diabete-gestationnel.html",
-        "title":  "Diabète gestationnel : dépistage, glycémie et risques pour mère et bébé",
-        "category":  "Grossesse",
-        "date":  "27 juin 2026",
-        "image":  "photos/article-diabete-gestationnel.jpg",
-        "summary":  "Le diabète gestationnel touche 10 à 15% des grossesses. Sans dépistage, il expose bébé et maman à des complications graves à l\u0027accouchement."
-    },
-    {
-        "filename":  "article-perimenopause-orgasme.html",
-        "title":  "Périménopause et troubles de l\u0027orgasme : ce que personne ne vous dit à Douala",
-        "category":  "Santé femme",
-        "date":  "2026-06-27",
-        "image":  "photos/article-perimenopause-orgasme.png",
-        "summary":  "Baisse du plaisir, orgasme difficile, sécheresse vaginale : les femmes en périménopause à Douala vivent ça en silence. Causes hormonales et solutions concrètes."
-    },
-    {
-        "filename":  "article-thalassemie.html",
-        "title":  "Thalassémie au Cameroun : dépistage, diagnostic et conseil génétique",
-        "category":  "Bilan biologique",
-        "date":  "26 juin 2026",
-        "image":  "photos/article-thalassemie-depistage.jpg",
-        "summary":  "Comme la drépanocytose, la thalassémie est une maladie héréditaire du sang. Peu connue en Afrique centrale, elle mérite d\u0027être recherchée avant une grossesse."
-    },
-    {
-        "filename":  "article-thyroide-femme.html",
-        "title":  "Thyroïde et santé de la femme : fatigue, poids, fertilité et bilan TSH",
-        "category":  "Hormones",
-        "date":  "26 juin 2026",
-        "image":  "photos/article-bilan-thyroide-femme.jpg",
-        "summary":  "La thyroïde est la glande la plus souvent déréglée chez la femme. Elle influence le poids, l\u0027humeur, les cycles et la fertilité. Voici quand faire un bilan."
-    },
-    {
-        "filename":  "article-hepatite-a.html",
-        "title":  "Hépatite A : contamination, sérologie et vaccination à Douala",
-        "category":  "Infections",
-        "date":  "25 juin 2026",
-        "image":  "photos/article-hepatite-a-prevention-vaccination.jpg",
-        "summary":  "L\u0027hépatite A se transmet par l\u0027eau et les aliments contaminés. Fréquente en Afrique, elle est évitable par la vaccination. Voici tout ce qu\u0027il faut savoir."
-    },
-    {
-        "filename":  "article-fer-serique.html",
-        "title":  "Fer sérique et saturation de la transferrine : interpréter son bilan fer",
-        "category":  "Bilan biologique",
-        "date":  "25 juin 2026",
-        "image":  "photos/article-taux-fer-serique.jpg",
-        "summary":  "La ferritine seule ne suffit pas toujours. Le fer sérique, la transferrine et la saturation donnent une image complète de votre statut martial."
-    },
-    {
-        "filename":  "article-syndrome-premenstruel.html",
-        "title":  "Syndrome prémenstruel : hormones, nutrition et solutions médicales",
-        "category":  "Santé femme",
-        "date":  "25 juin 2026",
-        "image":  "photos/article-syndrome-premenstruel-hormones.jpg",
-        "summary":  "Irritabilité, gonflement, douleurs avant les règles : le SPM a des causes biologiques précises et des solutions efficaces. Voici le bilan à faire."
-    },
-    {
-        "filename":  "article-insuffisance-renale.html",
-        "title":  "Insuffisance rénale chronique : signes, stades et bilan de suivi",
-        "category":  "Maladies chroniques",
-        "date":  "24 juin 2026",
-        "image":  "photos/article-insuffisance-renale-chronique.jpg",
-        "summary":  "L\u0027insuffisance rénale chronique progresse silencieusement. Diabète et hypertension en sont les causes principales. Le bilan permet de surveiller l\u0027évolution."
-    },
-    {
-        "filename":  "article-covid-sequelles.html",
-        "title":  "COVID-19 long : séquelles biologiques et bilan post-COVID",
-        "category":  "Infections",
-        "date":  "24 juin 2026",
-        "image":  "photos/article-covid-sequelles-bilan.jpg",
-        "summary":  "Fatigue, essoufflement, brouillard mental persistants après la COVID : le syndrome post-COVID a des marqueurs biologiques détectables."
-    },
-    {
-        "filename":  "article-myome-fibrome.html",
-        "title":  "Myome utérin (fibrome) : diagnostic, bilan et quand traiter",
-        "category":  "Santé femme",
-        "date":  "22 juin 2026",
-        "image":  "photos/article-myome-uterin-fibrome.jpg",
-        "summary":  "Les fibromes touchent 70% des femmes africaines avant 50 ans. La plupart ne nécessitent pas d\u0027opération. Voici quand consulter et quels examens faire."
-    },
-    {
-        "filename":  "article-streptocoque-b.html",
-        "title":  "Streptocoque B (SGB) en grossesse : dépistage et prévention néonatale",
-        "category":  "Grossesse",
-        "date":  "23 juin 2026",
-        "image":  "photos/article-streptocoque-b-grossesse.jpg",
-        "summary":  "Le streptocoque B du groupe B peut provoquer une méningite grave chez le nouveau-né. Un prélèvement vaginal en fin de grossesse protège votre bébé."
-    },
-    {
-        "filename":  "article-candidose.html",
-        "title":  "Candidose vaginale récidivante : causes, diagnostic et traitement durable",
-        "category":  "Santé femme",
-        "date":  "23 juin 2026",
-        "image":  "photos/article-candidose-recidivante.jpg",
-        "summary":  "Des mycoses vaginales qui reviennent toujours signalent un déséquilibre. Voici les causes à rechercher et comment briser le cycle des récidives."
-    },
-    {
-        "filename":  "article-herpes-genital.html",
-        "title":  "Herpès génital : diagnostic, traitement et vie intime",
-        "category":  "Infections",
-        "date":  "23 juin 2026",
-        "image":  "photos/article-herpes-genital.jpg",
-        "summary":  "L\u0027herpès génital touche 1 adulte sur 6. Souvent sous-diagnostiqué, il peut être géré efficacement avec un traitement antiviral adapté."
-    },
-    {
-        "filename":  "article-leucemie-nfs.html",
-        "title":  "NFS anormale et leucémie : quand les globules blancs s\u0027affolent",
-        "category":  "Bilan biologique",
-        "date":  "22 juin 2026",
-        "image":  "photos/article-leucemie-nfs-anormale.jpg",
-        "summary":  "Une prise de sang révèle parfois des globules blancs très anormaux. Fatigue extrême, infections répétées : voici quand une NFS doit vous alerter."
-    },
-    {
-        "filename":  "article-osteoporose.html",
-        "title":  "Ostéoporose : comprendre la densité osseuse et prévenir les fractures",
-        "category":  "Prévention",
-        "date":  "22 juin 2026",
-        "image":  "photos/article-osteoporose-densite-osseuse.jpg",
-        "summary":  "L\u0027ostéoporose fragilise les os silencieusement. Les femmes après la ménopause sont particulièrement exposées. Voici le bilan à faire."
-    },
-    {
-        "filename":  "article-filariose.html",
-        "title":  "Filariose lymphatique au Cameroun : diagnostic et traitement",
-        "category":  "Infections",
-        "date":  "22 juin 2026",
-        "image":  "photos/article-filariose-cameroun.jpg",
-        "summary":  "La filariose cause l\u0027éléphantiasis et la cécité des rivières. Cette maladie tropicale négligée est diagnostiquable au laboratoire à Douala."
-    },
-    {
-        "filename":  "article-fausse-couche-thrombophilie.html",
-        "title":  "Fausses couches à répétition : le bilan thrombophilie qui change tout",
-        "category":  "Grossesse",
-        "date":  "22 juin 2026",
-        "image":  "photos/article-fausse-couche-bilan-thrombophilie.jpg",
-        "summary":  "2 ou 3 fausses couches successives nécessitent un bilan approfondi. La thrombophilie est une cause fréquente et traitable. Voici le bilan à faire."
-    },
-    {
-        "filename":  "article-kyste-ovarien.html",
-        "title":  "Kyste ovarien : types, surveillance biologique et quand opérer",
-        "category":  "Santé femme",
-        "date":  "20 juin 2026",
-        "image":  "photos/article-kyste-ovarien-surveillance.jpg",
-        "summary":  "La majorité des kystes ovariens sont bénins et disparaissent seuls. Voici comment les distinguer des kystes qui nécessitent une intervention."
-    },
-    {
-        "filename":  "article-spermogramme-douala.html",
-        "title":  "Spermogramme à Douala : bilan complet de fertilité masculine au Clair de la Plume",
-        "category":  "Fertilité masculine",
-        "date":  "20 juin 2026",
-        "image":  "photos/article-spermogramme-douala.jpg",
-        "summary":  "Spermogramme, spermocytogramme, spermoculture et consultation médicale en un seul pack à 24 997 FCFA. Résultats en 24h au Laboratoire Le Clair de la Plume, Ndokoti Douala."
-    },
-    {
-        "filename":  "article-ionogramme.html",
-        "title":  "Ionogramme sanguin : sodium, potassium, chlore — à quoi ça sert ?",
-        "category":  "Bilan biologique",
-        "date":  "19 juin 2026",
-        "image":  "photos/article-ionogramme-sanguin.jpg",
-        "summary":  "L\u0027ionogramme mesure les électrolytes du sang. Crampres, faiblesse, palpitations : ces symptômes peuvent révéler un déséquilibre ionique."
-    },
-    {
-        "filename":  "article-crp-inflammation.html",
-        "title":  "CRP et VS : les marqueurs biologiques de l\u0027inflammation et de l\u0027infection",
-        "category":  "Bilan biologique",
-        "date":  "19 juin 2026",
-        "image":  "photos/article-crp-marqueur-inflammation.jpg",
-        "summary":  "Fièvre, douleurs, fatigue inexpliquée : la CRP et la VS sont les premières analyses prescrites pour détecter une inflammation ou une infection."
-    },
-    {
-        "filename":  "article-inr-anticoagulants.html",
-        "title":  "INR et anticoagulants : surveiller votre traitement au laboratoire",
-        "category":  "Bilan biologique",
-        "date":  "18 juin 2026",
-        "image":  "photos/article-inr-anticoagulants-surveillance.jpg",
-        "summary":  "Si vous êtes sous anticoagulant (Sintrom, Coumadine), l\u0027INR doit être contrôlé régulièrement pour éviter saignements et thromboses."
-    },
-    {
-        "filename":  "article-groupe-sanguin.html",
-        "title":  "Groupe sanguin et rhésus : importance avant chirurgie et grossesse",
-        "category":  "Bilan biologique",
-        "date":  "17 juin 2026",
-        "image":  "photos/article-groupe-sanguin-rhesus.jpg",
-        "summary":  "Connaître son groupe sanguin et son rhésus est indispensable avant toute chirurgie ou grossesse. Voici pourquoi et comment ce test est réalisé."
-    },
-    {
-        "filename":  "article-amh-reserve-ovarienne.html",
-        "title":  "AMH et réserve ovarienne : comprendre votre capital fertilité",
-        "category":  "Fertilité",
-        "date":  "17 juin 2026",
-        "image":  "photos/article-amh-reserve-ovarienne.jpg",
-        "summary":  "L\u0027hormone anti-müllérienne (AMH) mesure votre réserve d\u0027ovocytes. C\u0027est l\u0027examen de référence pour évaluer votre fertilité avant de commencer un projet bébé."
-    },
-    {
-        "filename":  "article-bilan-cardiaque.html",
-        "title":  "Bilan cardiaque : quels examens biologiques protègent votre cœur ?",
-        "category":  "Prévention",
-        "date":  "16 juin 2026",
-        "image":  "photos/article-bilan-cardiaque-complet.jpg",
-        "summary":  "Les maladies cardiovasculaires sont la première cause de décès au monde. Un bilan biologique cardiaque régulier peut vous sauver la vie."
-    },
-    {
-        "filename":  "article-dengue.html",
-        "title":  "Dengue au Cameroun : diagnostic, TDR et prise en charge",
-        "category":  "Infections",
-        "date":  "16 juin 2026",
-        "image":  "photos/article-dengue-diagnostic-douala.jpg",
-        "summary":  "La dengue est présente à Douala. Souvent confondue avec le paludisme, elle nécessite un diagnostic précis car son traitement est différent."
-    },
-    {
-        "filename":  "article-meningite.html",
-        "title":  "Méningite : reconnaître les signes d\u0027urgence et le diagnostic biologique",
-        "category":  "Infections",
-        "date":  "16 juin 2026",
-        "image":  "photos/article-meningite-diagnostic-urgence.jpg",
-        "summary":  "La méningite peut tuer en quelques heures. Fièvre brutale, maux de tête violents, raideur de la nuque : ces signes imposent des soins immédiats."
-    },
-    {
-        "filename":  "article-tuberculose.html",
-        "title":  "Tuberculose au Cameroun : diagnostic biologique, IDR et QuantiFERON",
-        "category":  "Infections",
-        "date":  "15 juin 2026",
-        "image":  "photos/article-tuberculose-diagnostic.jpg",
-        "summary":  "Le Cameroun reste un pays à forte prévalence de tuberculose. Voici comment se fait le diagnostic au laboratoire et quels signes doivent alerter."
-    },
-    {
-        "filename":  "article-obesite-bilan.html",
-        "title":  "Obésité et surpoids : le bilan biologique métabolique essentiel",
-        "category":  "Prévention",
-        "date":  "14 juin 2026",
-        "image":  "photos/article-obesite-bilan-metabolique.jpg",
-        "summary":  "L\u0027obésité n\u0027est pas juste une question d\u0027esthétique. Elle impacte profondément votre biologie. Voici les examens à faire absolument."
-    },
-    {
-        "filename":  "article-varicocele.html",
-        "title":  "Varicocèle : impact sur la fertilité masculine et diagnostic",
-        "category":  "Fertilité",
-        "date":  "14 juin 2026",
-        "image":  "photos/article-varicocele-fertilite-masculine.jpg",
-        "summary":  "La varicocèle est la cause la plus fréquente et la plus corrigible d\u0027infertilité masculine. Voici comment elle est diagnostiquée et traitée."
-    },
-    {
-        "filename":  "article-testosterone-homme.html",
-        "title":  "Testostérone basse chez l\u0027homme : signes, dosage et traitement",
-        "category":  "Santé homme",
-        "date":  "13 juin 2026",
-        "image":  "photos/article-testosterone-homme.jpg",
-        "summary":  "Fatigue chronique, baisse de libido, prise de masse graisseuse : ces signes peuvent trahir un déficit en testostérone. Un dosage simple le confirme."
-    },
-    {
-        "filename":  "article-prolactine.html",
-        "title":  "Prolactine élevée : hyperprolactinémie, galactorrhée et fertilité",
-        "category":  "Hormones",
-        "date":  "13 juin 2026",
-        "image":  "photos/article-prolactine-hyperprolactinemie.jpg",
-        "summary":  "Une prolactine trop élevée peut bloquer l\u0027ovulation et provoquer un écoulement lacté hors grossesse. Diagnostic simple, traitement efficace."
-    },
-    {
-        "filename":  "article-amenorrhee.html",
-        "title":  "Aménorrhée : absence de règles, causes hormonales et bilan",
-        "category":  "Santé femme",
-        "date":  "12 juin 2026",
-        "image":  "photos/article-amenorrhee-causes-bilan.jpg",
-        "summary":  "Les règles absentes depuis plus de 3 mois méritent une investigation. Stress, hormones, SOPK ou autre cause : voici le bilan à faire."
-    },
-    {
-        "filename":  "article-chlamydia.html",
-        "title":  "Chlamydia : l\u0027infection silencieuse qui menace la fertilité",
-        "category":  "Infections",
-        "date":  "11 juin 2026",
-        "image":  "photos/dr-bureau.jpg",
-        "summary":  "La chlamydia est souvent asymptomatique mais peut obstruer les trompes et provoquer l\u0027infertilité féminine. Un dépistage simple suffit."
-    },
-    {
-        "filename":  "article-gonorrhee.html",
-        "title":  "Gonorrhée (blennorragie) : symptômes, ECBU et traitement à Douala",
-        "category":  "Infections",
-        "date":  "11 juin 2026",
-        "image":  "photos/technicienne-microscope-2.jpg",
-        "summary":  "La gonorrhée est l\u0027IST bactérienne la plus fréquente. Elle peut devenir résistante aux antibiotiques. Voici comment la détecter et la traiter."
-    },
-    {
-        "filename":  "article-rubeole-toxoplasmose.html",
-        "title":  "Rubéole et toxoplasmose en grossesse : risques et sérologies",
-        "category":  "Grossesse",
-        "date":  "10 juin 2026",
-        "image":  "photos/accueil-1.jpg",
-        "summary":  "Deux infections qui peuvent gravement affecter votre bébé à naître. Voici comment les détecter et s\u0027en protéger pendant la grossesse."
-    },
-    {
-        "filename":  "article-pre-eclampsie.html",
-        "title":  "Pré-éclampsie : signes d\u0027alarme pendant la grossesse et surveillance",
-        "category":  "Grossesse",
-        "date":  "9 juin 2026",
-        "image":  "photos/dr-bureau.jpg",
-        "summary":  "La pré-éclampsie est une urgence obstétricale qui tue encore beaucoup de femmes en Afrique. Les signes sont détectables avec une surveillance régulière."
-    },
-    {
-        "filename":  "article-bilan-preconceptionnel.html",
-        "title":  "Bilan préconceptionnel : se préparer médicalement à la grossesse",
-        "category":  "Grossesse",
-        "date":  "9 juin 2026",
-        "image":  "photos/technicienne-microscope-2.jpg",
-        "summary":  "Avant de tomber enceinte, certains examens permettent d\u0027éviter des complications graves. Voici le bilan préconceptionnel idéal pour les couples."
-    },
-    {
-        "filename":  "article-steatose-hepatique.html",
-        "title":  "Stéatose hépatique (foie gras) : causes, bilan ASAT/ALAT et prévention",
-        "category":  "Maladies chroniques",
-        "date":  "9 juin 2026",
-        "image":  "photos/accueil-1.jpg",
-        "summary":  "Le foie gras non alcoolique touche 25% des adultes en Afrique. Il évolue en silence vers la cirrhose. Un bilan hépatique simple suffit à le détecter."
-    },
-    {
-        "filename":  "article-bilan-homme-40-ans.html",
-        "title":  "Bilan de santé de l\u0027homme après 40 ans : les examens à ne pas manquer",
-        "category":  "Santé homme",
-        "date":  "9 juin 2026",
-        "image":  "photos/dr-bureau.jpg",
-        "summary":  "Après 40 ans, certains examens deviennent indispensables pour l\u0027homme. Voici le bilan complet recommandé pour détecter précocement les risques."
-    },
-    {
-        "filename":  "article-syphilis.html",
-        "title":  "Syphilis à Douala : signes, dépistage VDRL/TPHA et traitement",
-        "category":  "Infections",
-        "date":  "9 juin 2026",
-        "image":  "photos/technicienne-microscope-2.jpg",
-        "summary":  "La syphilis est en recrudescence en Afrique centrale. Elle se guérit totalement avec de la pénicilline si elle est détectée tôt."
-    },
-    {
-        "filename":  "article-ejaculation-precoce.html",
-        "title":  "Éjaculation précoce : causes biologiques, bilan et traitement à Douala",
-        "category":  "Santé homme",
-        "date":  "6 juin 2026",
-        "image":  "photos/dr-bureau.jpg",
-        "summary":  "1 homme sur 3 est concerné. Un bilan biologique ciblé peut tout changer. Découvrez les vraies causes et les solutions médicales disponibles à Douala."
-    },
-    {
-        "filename":  "article-endometriose.html",
-        "title":  "Endométriose : règles douloureuses, fertilité et prise en charge",
-        "category":  "Santé femme",
-        "date":  "6 juin 2026",
-        "image":  "photos/dr-bureau.jpg",
-        "summary":  "L\u0027endométriose touche 10% des femmes en âge de procréer. Des règles extrêmement douloureuses ne sont pas normales. Voici quand consulter."
-    },
-    {
-        "filename":  "article-sopk.html",
-        "title":  "SOPK : syndrome des ovaires polykystiques, diagnostic et fertilité",
-        "category":  "Fertilité",
-        "date":  "5 juin 2026",
-        "image":  "photos/technicienne-microscope-2.jpg",
-        "summary":  "Le SOPK est la première cause d\u0027infertilité féminine. Il touche 1 femme sur 10 et se traite efficacement quand il est diagnostiqué à temps."
-    },
-    {
-        "filename":  "article-acide-urique-goutte.html",
-        "title":  "Acide urique et crise de goutte : bilan, alimentation et traitement",
-        "category":  "Bilan biologique",
-        "date":  "5 juin 2026",
-        "image":  "photos/accueil-1.jpg",
-        "summary":  "La goutte est la forme d\u0027arthrite la plus douloureuse. Elle est pourtant très facile à détecter avec un simple dosage de l\u0027acide urique."
-    },
-    {
-        "filename":  "article-hba1c.html",
-        "title":  "HbA1c : l\u0027examen clé pour surveiller votre diabète sur 3 mois",
-        "category":  "Maladies chroniques",
-        "date":  "4 juin 2026",
-        "image":  "photos/dr-bureau.jpg",
-        "summary":  "L\u0027hémoglobine glyquée (HbA1c) révèle votre équilibre glycémique des 3 derniers mois. Un chiffre indispensable pour tout diabétique traité."
-    },
-    {
-        "filename":  "article-dysfonction-erectile.html",
-        "title":  "Dysfonction érectile : causes, bilan hormonal et traitement à Douala",
-        "category":  "Santé homme",
-        "date":  "4 juin 2026",
-        "image":  "photos/dr-bureau.jpg",
-        "summary":  "1 homme sur 3 après 40 ans en souffre. 70% des cas ont une cause organique trouvable par bilan sanguin. Testostérone, glycémie, bilan lipidique : voici le bilan complet recommandé."
-    },
-    {
-        "filename":  "article-acide-urique-goutte.html",
-        "title":  "Acide urique et crise de goutte : bilan, alimentation et traitement",
-        "category":  "Bilan biologique",
-        "date":  "4 juin 2026",
-        "image":  "photos/accueil-1.jpg",
-        "summary":  "La goutte est la forme d\u0027arthrite la plus douloureuse. Elle est pourtant très facile à détecter avec un simple dosage de l\u0027acide urique."
-    },
-    {
-        "filename":  "article-hba1c.html",
-        "title":  "HbA1c : l\u0027examen clé pour surveiller votre diabète sur 3 mois",
-        "category":  "Maladies chroniques",
-        "date":  "4 juin 2026",
-        "image":  "photos/dr-bureau.jpg",
-        "summary":  "L\u0027hémoglobine glyquée (HbA1c) révèle votre équilibre glycémique des 3 derniers mois. Un chiffre indispensable pour tout diabétique traité."
-    },
-    {
-        "filename":  "article-glycemie-diabete.html",
-        "title":  "Glycémie et diabète de type 2 : comprendre, prévenir, surveiller",
-        "category":  "Maladies chroniques",
-        "date":  "3 juin 2026",
-        "image":  "photos/technicienne-microscope-2.jpg",
-        "summary":  "Le diabète de type 2 s\u0027installe sur des années sans bruit. Une glycémie à jeun suffit à détecter un pré-diabète avant qu\u0027il ne devienne irréversible."
-    },
-    {
-        "filename":  "article-vitamine-d.html",
-        "title":  "Carence en vitamine D : symptômes, dosage sanguin et supplémentation",
-        "category":  "Prévention",
-        "date":  "2 juin 2026",
-        "image":  "photos/article-vitamine-d-carence.jpg",
-        "summary":  "Paradoxalement, même sous le soleil africain, la carence en vitamine D est fréquente. Fatigue, douleurs osseuses, immunité faible : reconnaissez les signes."
-    },
-    {
-        "filename":  "article-menopause.html",
-        "title":  "Ménopause : signes, bilan hormonal et accompagnement médical",
-        "category":  "Santé femme",
-        "date":  "2 juin 2026",
-        "image":  "photos/article-menopause-bilan-hormonal.jpg",
-        "summary":  "Bouffées de chaleur, troubles du sommeil, prise de poids : la ménopause se vit mieux avec un bilan hormonal adapté et un accompagnement médical."
-    },
-    {
-        "filename":  "article-vih-sida.html",
-        "title":  "VIH/SIDA à Douala : dépistage, traitement ARV et vie avec le VIH",
-        "category":  "Infections",
-        "date":  "1 juin 2026",
-        "image":  "photos/article-vih-sida-depistage-traitement.jpg",
-        "summary":  "Avec un traitement ARV adapté, une personne vivant avec le VIH peut avoir une espérance de vie normale."
-    },
-    {
-        "filename":  "article-hepatite-c.html",
-        "title":  "Hépatite C : dépistage, symptômes et traitement à Douala",
-        "category":  "Infections",
-        "date":  "1 juin 2026",
-        "image":  "photos/article-hepatite-c-depistage.jpg",
-        "summary":  "L\u0027hépatite C se guérit aujourd\u0027hui à plus de 95%. Mais des millions de personnes l\u0027ignorent."
-    },
-    {
-        "filename":  "article-creatinine-bilan-renal.html",
-        "title":  "Créatinine et bilan rénal : comprendre et protéger vos reins",
-        "category":  "Bilan biologique",
-        "date":  "1 juin 2026",
-        "image":  "photos/article-creatinine-bilan-renal.jpg",
-        "summary":  "Les reins filtrent 200 litres de sang par jour en silence. Un simple dosage de la créatinine suffit à détecter une insuffisance rénale débutante."
-    },
-    {
-        "filename":  "article-tension-arterielle.html",
-        "title":  "Tension artérielle : comprendre vos chiffres et prévenir l\u0027hypertension",
-        "category":  "Prévention",
-        "date":  "1 juin 2026",
-        "image":  "photos/accueil-1.jpg",
-        "summary":  "L\u0027hypertension touche 1 adulte sur 3 au Cameroun sans symptômes. Découvrez comment lire vos chiffres et agir avant les complications."
-    },
-    {
-        "filename":  "article-bilan-preopertaoire.html",
-        "title":  "Bilan pré-opératoire à Douala : quels examens faire avant une opération ?",
-        "category":  "Bilan biologique",
-        "date":  "30 mai 2026",
-        "image":  "photos/equipe-bleu.jpg",
-        "summary":  "NFS, groupe sanguin, coagulation, créatinine : tout ce qu\u0027il faut faire avant une chirurgie."
-    },
-    {
-        "filename":  "article-psa-prostate.html",
-        "title":  "PSA et cancer de la prostate à Douala : dépistage, valeurs normales et quand s\u0027inquiéter",
-        "category":  "Santé homme",
-        "date":  "30 mai 2026",
-        "image":  "photos/dr-portrait-pro.jpg",
-        "summary":  "Tout homme africain dès 40 ans devrait faire un PSA. Guide complet du dépistage à Douala."
-    },
-    {
-        "filename":  "article-hepatite-b-suivi.html",
-        "title":  "Hépatite B à Douala : suivi biologique, vaccination et traitement antiviral",
-        "category":  "Infections",
-        "date":  "30 mai 2026",
-        "image":  "photos/equipe-inauguration.jpg",
-        "summary":  "Ag HBs, Ac anti-HBs, charge virale : tout comprendre sur l\u0027hépatite B et son suivi au Cameroun."
-    },
-    {
-        "filename":  "article-typhoide.html",
-        "title":  "Typhoïde à Douala : symptômes, test Widal, hémoculture et traitement",
-        "category":  "Urgence",
-        "date":  "30 mai 2026",
-        "image":  "photos/technicienne-microscope.jpg",
-        "summary":  "Comment distinguer la typhoïde du paludisme ? Guide complet sur le diagnostic et le traitement."
-    },
-    {
-        "filename":  "article-cholesterol-bilan-lipidique.html",
-        "title":  "Cholestérol et bilan lipidique à Douala : LDL, HDL, triglycérides expliqués",
-        "category":  "Prévention",
-        "date":  "30 mai 2026",
-        "image":  "photos/labo-equipements.jpg",
-        "summary":  "Tout comprendre sur le cholestérol, les valeurs normales et comment protéger votre cœur à Douala."
-    },
-    {
-        "filename":  "article-infection-urinaire-ecbu.html",
-        "title":  "Infection urinaire à Douala : ECBU, symptômes, traitement et prévention",
-        "category":  "Analyses",
-        "date":  "30 mai 2026",
-        "image":  "photos/technicienne-microscope-2.jpg",
-        "summary":  "Brûlures urinaires, envies fréquentes : comment confirmer une infection urinaire et choisir le bon antibiotique."
-    },
-    {
-        "filename":  "article-anemie-carence-fer.html",
-        "title":  "Anémie et carence en fer à Douala : symptômes, diagnostic et traitement",
-        "category":  "Analyses",
-        "date":  "30 mai 2026",
-        "image":  "photos/prise-de-sang.jpg",
-        "summary":  "Fatigue, pâleur, essoufflement : ferritine, NFS et fer sérique pour confirmer une carence en fer."
-    },
-    {
-        "filename":  "article-drepanocytose.html",
-        "title":  "Drépanocytose au Cameroun : comprendre, dépister et protéger ses enfants",
-        "category":  "Maladies chroniques",
-        "date":  "30 mai 2026",
-        "image":  "photos/labo-equipements.jpg",
-        "summary":  "Profils AA, AS, SS, SC : tout comprendre sur la drépanocytose et l\u0027électrophorèse de l\u0027hémoglobine."
-    },
-    {
-        "filename":  "article-bilan-thyroidien.html",
-        "title":  "Bilan thyroïdien à Douala : TSH, T3, T4 et tout comprendre sur la thyroïde",
-        "category":  "Hormones",
-        "date":  "30 mai 2026",
-        "image":  "photos/dr-bureau.jpg",
-        "summary":  "Fatigue, prise de poids, palpitations : votre thyroïde est peut-être en cause. Guide complet."
-    },
-    {
-        "filename":  "article-cancer-col-frottis.html",
-        "title":  "Cancer du col de l\u0027utérus et frottis à Douala : tout ce que les femmes doivent savoir",
-        "category":  "Santé femme",
-        "date":  "29 mai 2026",
-        "image":  "photos/dr-portrait-pro.jpg",
-        "summary":  "HPV, frottis cervico-vaginal, résultats et prévention : le guide complet pour protéger votre santé."
-    },
-    {
-        "filename":  "article-nfs-bilan-sanguin.html",
-        "title":  "Comprendre sa NFS (prise de sang) à Douala : guide complet des résultats",
-        "category":  "Analyses",
-        "date":  "29 mai 2026",
-        "image":  "photos/prise-de-sang.jpg",
-        "summary":  "Globules rouges, blancs, plaquettes, hémoglobine : tout comprendre sur les résultats de votre bilan sanguin."
-    },
-    {
-        "filename":  "article-paludisme.html",
-        "title":  "Paludisme à Douala : diagnostic, tests et quand s\u0027inquiéter",
-        "category":  "Urgence",
-        "date":  "29 mai 2026",
-        "image":  "photos/technicienne-microscope.jpg",
-        "summary":  "TDR, goutte épaisse, signes de gravité : tout savoir sur le diagnostic du paludisme à Douala."
-    },
-    {
-        "filename":  "article-diabete-hta.html",
-        "title":  "Diabète et hypertension à Douala : dépistage, bilans et suivi biologique",
-        "category":  "Prévention",
-        "date":  "29 mai 2026",
-        "image":  "photos/labo-equipements.jpg",
-        "summary":  "Glycémie, HbA1c, créatinine, cholestérol : tout savoir sur le dépistage et le suivi du diabète et de l\u0027hypertension."
-    },
-    {
-        "filename":  "article-analyses-grossesse.html",
-        "title":  "Analyses pendant la grossesse à Douala : le guide complet par trimestre",
-        "category":  "Grossesse",
-        "date":  "29 mai 2026",
-        "image":  "photos/dr-portrait-souriant.jpg",
-        "summary":  "NFS, glycémie, toxoplasmose, hépatite B, VIH, diabète gestationnel : tous les examens prénataux expliqués."
-    },
-    {
-        "filename":  "article-depistage-ist.html",
-        "title":  "Dépistage IST à Douala : qui doit se faire tester, quand et comment ?",
-        "category":  "Infections",
-        "date":  "29 mai 2026",
-        "image":  "photos/prise-de-sang.jpg",
-        "summary":  "VIH, syphilis, chlamydia, hépatites, gonorrhée : tout savoir sur le dépistage des IST à Douala."
-    },
-    {
-        "filename":  "article-fertilite-feminine.html",
-        "title":  "Fertilité féminine à Douala : bilan, causes d\u0027infertilité et solutions",
-        "category":  "Fertilité",
-        "date":  "29 mai 2026",
-        "image":  "photos/technicienne-microscope.jpg",
-        "summary":  "AMH, bilan ovarien, trompes, SOPK : tout comprendre sur l\u0027infertilité féminine et les examens à faire."
-    },
-    {
-        "filename":  "article-bilan-prenuptial.html",
-        "title":  "Bilan prénuptial à Douala : tout ce qu\u0027il faut analyser avant le mariage",
-        "category":  "Bilan biologique",
-        "date":  "29 mai 2026",
-        "image":  "photos/equipe-inauguration.jpg",
-        "summary":  "Groupe sanguin, drépanocytose, IST, hépatites, VIH : les examens essentiels pour se marier en toute sérénité."
-    },
-    {
-        "filename":  "article-spermogramme.html",
-        "title":  "Tout comprendre sur le spermogramme : normes, interprétation et solutions",
-        "category":  "Fertilité",
-        "date":  "22 mai 2026",
-        "image":  "photos/technicienne-microscope-2.jpg",
-        "summary":  "Le spermogramme est l\u0027examen de référence pour évaluer la fertilité masculine. Voici ce que chaque paramètre signifie."
-    },
-    {
-        "filename":  "article-bilan-sante.html",
-        "title":  "5 bilans de santé essentiels à faire après 35 ans",
-        "category":  "Prévention",
-        "date":  "18 mai 2026",
-        "image":  "photos/accueil-1.jpg",
-        "summary":  "La prévention commence par un bilan régulier. Voici les 5 examens prioritaires à ne pas négliger passé 35 ans."
-    },
-    {
-        "filename":  "article-hormonal.html",
-        "title":  "Déséquilibre hormonal : signes à reconnaître et quand consulter",
-        "category":  "Hormones",
-        "date":  "14 mai 2026",
-        "image":  "photos/dr-bureau.jpg",
-        "summary":  "Fatigue, prise de poids, troubles du sommeil... Ces symptômes peuvent signaler un déséquilibre hormonal."
+        "image":  "photos/article-echographie-pelvienne.jpg",
+        "summary":  "Kystes, fibromes, grossesse débutante : l\u0027échographie pelvienne voit ce qu\u0027aucun symptôme ne raconte encore. Découvrez quand la demander et comment elle se déroule."
+    },
+    {
+        "value":  [
+                      {
+                          "filename":  "article-thyroide-femme.html",
+                          "title":  "Thyroïde et santé de la femme : fatigue, poids, fertilité et bilan TSH",
+                          "category":  "Hormones",
+                          "date":  "20 août 2026",
+                          "image":  "photos/article-bilan-thyroide-femme.jpg",
+                          "summary":  "La thyroïde est la glande la plus souvent déréglée chez la femme. Elle influence le poids, l\u0027humeur, les cycles et la fertilité. Voici quand faire un bilan."
+                      },
+                      {
+                          "filename":  "article-hepatite-a.html",
+                          "title":  "Hépatite A : contamination, sérologie et vaccination à Douala",
+                          "category":  "Infections",
+                          "date":  "19 août 2026",
+                          "image":  "photos/article-hepatite-a-prevention-vaccination.jpg",
+                          "summary":  "L\u0027hépatite A se transmet par l\u0027eau et les aliments contaminés. Fréquente en Afrique, elle est évitable par la vaccination. Voici tout ce qu\u0027il faut savoir."
+                      },
+                      {
+                          "filename":  "article-fer-serique.html",
+                          "title":  "Fer sérique et saturation de la transferrine : interpréter son bilan fer",
+                          "category":  "Bilan biologique",
+                          "date":  "19 août 2026",
+                          "image":  "photos/article-taux-fer-serique.jpg",
+                          "summary":  "La ferritine seule ne suffit pas toujours. Le fer sérique, la transferrine et la saturation donnent une image complète de votre statut martial."
+                      },
+                      {
+                          "filename":  "article-syndrome-premenstruel.html",
+                          "title":  "Syndrome prémenstruel : hormones, nutrition et solutions médicales",
+                          "category":  "Santé femme",
+                          "date":  "19 août 2026",
+                          "image":  "photos/article-syndrome-premenstruel-hormones.jpg",
+                          "summary":  "Irritabilité, gonflement, douleurs avant les règles : le SPM a des causes biologiques précises et des solutions efficaces. Voici le bilan à faire."
+                      },
+                      {
+                          "filename":  "article-insuffisance-renale.html",
+                          "title":  "Insuffisance rénale chronique : signes, stades et bilan de suivi",
+                          "category":  "Maladies chroniques",
+                          "date":  "18 août 2026",
+                          "image":  "photos/article-insuffisance-renale-chronique.jpg",
+                          "summary":  "L\u0027insuffisance rénale chronique progresse silencieusement. Diabète et hypertension en sont les causes principales. Le bilan permet de surveiller l\u0027évolution."
+                      },
+                      {
+                          "filename":  "article-covid-sequelles.html",
+                          "title":  "COVID-19 long : séquelles biologiques et bilan post-COVID",
+                          "category":  "Infections",
+                          "date":  "18 août 2026",
+                          "image":  "photos/article-covid-sequelles-bilan.jpg",
+                          "summary":  "Fatigue, essoufflement, brouillard mental persistants après la COVID : le syndrome post-COVID a des marqueurs biologiques détectables."
+                      },
+                      {
+                          "filename":  "article-myome-fibrome.html",
+                          "title":  "Myome utérin (fibrome) : diagnostic, bilan et quand traiter",
+                          "category":  "Santé femme",
+                          "date":  "18 août 2026",
+                          "image":  "photos/article-myome-uterin-fibrome.jpg",
+                          "summary":  "Les fibromes touchent 70% des femmes africaines avant 50 ans. La plupart ne nécessitent pas d\u0027opération. Voici quand consulter et quels examens faire."
+                      },
+                      {
+                          "filename":  "article-streptocoque-b.html",
+                          "title":  "Streptocoque B (SGB) en grossesse : dépistage et prévention néonatale",
+                          "category":  "Grossesse",
+                          "date":  "17 août 2026",
+                          "image":  "photos/article-streptocoque-b-grossesse.jpg",
+                          "summary":  "Le streptocoque B du groupe B peut provoquer une méningite grave chez le nouveau-né. Un prélèvement vaginal en fin de grossesse protège votre bébé."
+                      },
+                      {
+                          "filename":  "article-candidose.html",
+                          "title":  "Candidose vaginale récidivante : causes, diagnostic et traitement durable",
+                          "category":  "Santé femme",
+                          "date":  "17 août 2026",
+                          "image":  "photos/article-candidose-recidivante.jpg",
+                          "summary":  "Des mycoses vaginales qui reviennent toujours signalent un déséquilibre. Voici les causes à rechercher et comment briser le cycle des récidives."
+                      },
+                      {
+                          "filename":  "article-herpes-genital.html",
+                          "title":  "Herpès génital : diagnostic, traitement et vie intime",
+                          "category":  "Infections",
+                          "date":  "14 août 2026",
+                          "image":  "photos/article-herpes-genital.jpg",
+                          "summary":  "L\u0027herpès génital touche 1 adulte sur 6. Souvent sous-diagnostiqué, il peut être géré efficacement avec un traitement antiviral adapté."
+                      },
+                      {
+                          "filename":  "article-leucemie-nfs.html",
+                          "title":  "NFS anormale et leucémie : quand les globules blancs s\u0027affolent",
+                          "category":  "Bilan biologique",
+                          "date":  "14 août 2026",
+                          "image":  "photos/article-leucemie-nfs-anormale.jpg",
+                          "summary":  "Une prise de sang révèle parfois des globules blancs très anormaux. Fatigue extrême, infections répétées : voici quand une NFS doit vous alerter."
+                      },
+                      {
+                          "filename":  "article-osteoporose.html",
+                          "title":  "Ostéoporose : comprendre la densité osseuse et prévenir les fractures",
+                          "category":  "Prévention",
+                          "date":  "13 août 2026",
+                          "image":  "photos/article-osteoporose-densite-osseuse.jpg",
+                          "summary":  "L\u0027ostéoporose fragilise les os silencieusement. Les femmes après la ménopause sont particulièrement exposées. Voici le bilan à faire."
+                      },
+                      {
+                          "filename":  "article-filariose.html",
+                          "title":  "Filariose lymphatique au Cameroun : diagnostic et traitement",
+                          "category":  "Infections",
+                          "date":  "13 août 2026",
+                          "image":  "photos/article-filariose-cameroun.jpg",
+                          "summary":  "La filariose cause l\u0027éléphantiasis et la cécité des rivières. Cette maladie tropicale négligée est diagnostiquable au laboratoire à Douala."
+                      },
+                      {
+                          "filename":  "article-fausse-couche-thrombophilie.html",
+                          "title":  "Fausses couches à répétition : le bilan thrombophilie qui change tout",
+                          "category":  "Grossesse",
+                          "date":  "12 août 2026",
+                          "image":  "photos/article-fausse-couche-bilan-thrombophilie.jpg",
+                          "summary":  "2 ou 3 fausses couches successives nécessitent un bilan approfondi. La thrombophilie est une cause fréquente et traitable. Voici le bilan à faire."
+                      },
+                      {
+                          "filename":  "article-kyste-ovarien.html",
+                          "title":  "Kyste ovarien : types, surveillance biologique et quand opérer",
+                          "category":  "Santé femme",
+                          "date":  "12 août 2026",
+                          "image":  "photos/article-kyste-ovarien-surveillance.jpg",
+                          "summary":  "La majorité des kystes ovariens sont bénins et disparaissent seuls. Voici comment les distinguer des kystes qui nécessitent une intervention."
+                      },
+                      {
+                          "filename":  "article-drepanocytose-grossesse.html",
+                          "title":  "Drépanocytose et grossesse : suivi, risques et prise en charge à Douala",
+                          "category":  "Grossesse",
+                          "date":  "11 août 2026",
+                          "image":  "photos/article-drepanocytose-grossesse-complications.jpg",
+                          "summary":  "Une femme drépanocytaire enceinte nécessite un suivi rapproché. Voici les examens indispensables et les risques à surveiller tout au long de la grossesse."
+                      },
+                      {
+                          "filename":  "article-ionogramme.html",
+                          "title":  "Ionogramme sanguin : sodium, potassium, chlore — à quoi ça sert ?",
+                          "category":  "Bilan biologique",
+                          "date":  "11 août 2026",
+                          "image":  "photos/article-ionogramme-sanguin.jpg",
+                          "summary":  "L\u0027ionogramme mesure les électrolytes du sang. Crampres, faiblesse, palpitations : ces symptômes peuvent révéler un déséquilibre ionique."
+                      },
+                      {
+                          "filename":  "article-crp-inflammation.html",
+                          "title":  "CRP et VS : les marqueurs biologiques de l\u0027inflammation et de l\u0027infection",
+                          "category":  "Bilan biologique",
+                          "date":  "10 août 2026",
+                          "image":  "photos/article-crp-marqueur-inflammation.jpg",
+                          "summary":  "Fièvre, douleurs, fatigue inexpliquée : la CRP et la VS sont les premières analyses prescrites pour détecter une inflammation ou une infection."
+                      },
+                      {
+                          "filename":  "article-inr-anticoagulants.html",
+                          "title":  "INR et anticoagulants : surveiller votre traitement au laboratoire",
+                          "category":  "Bilan biologique",
+                          "date":  "10 août 2026",
+                          "image":  "photos/article-inr-anticoagulants-surveillance.jpg",
+                          "summary":  "Si vous êtes sous anticoagulant (Sintrom, Coumadine), l\u0027INR doit être contrôlé régulièrement pour éviter saignements et thromboses."
+                      },
+                      {
+                          "filename":  "article-groupe-sanguin.html",
+                          "title":  "Groupe sanguin et rhésus : importance avant chirurgie et grossesse",
+                          "category":  "Bilan biologique",
+                          "date":  "9 août 2026",
+                          "image":  "photos/article-groupe-sanguin-rhesus.jpg",
+                          "summary":  "Connaître son groupe sanguin et son rhésus est indispensable avant toute chirurgie ou grossesse. Voici pourquoi et comment ce test est réalisé."
+                      },
+                      {
+                          "filename":  "article-amh-reserve-ovarienne.html",
+                          "title":  "AMH et réserve ovarienne : comprendre votre capital fertilité",
+                          "category":  "Fertilité",
+                          "date":  "8 août 2026",
+                          "image":  "photos/article-amh-reserve-ovarienne.jpg",
+                          "summary":  "L\u0027hormone anti-müllérienne (AMH) mesure votre réserve d\u0027ovocytes. C\u0027est l\u0027examen de référence pour évaluer votre fertilité avant de commencer un projet bébé."
+                      },
+                      {
+                          "filename":  "article-bilan-cardiaque.html",
+                          "title":  "Bilan cardiaque : quels examens biologiques protègent votre cœur ?",
+                          "category":  "Prévention",
+                          "date":  "8 août 2026",
+                          "image":  "photos/article-bilan-cardiaque-complet.jpg",
+                          "summary":  "Les maladies cardiovasculaires sont la première cause de décès au monde. Un bilan biologique cardiaque régulier peut vous sauver la vie."
+                      },
+                      {
+                          "filename":  "article-dengue.html",
+                          "title":  "Dengue au Cameroun : diagnostic, TDR et prise en charge",
+                          "category":  "Infections",
+                          "date":  "8 août 2026",
+                          "image":  "photos/article-dengue-diagnostic-douala.jpg",
+                          "summary":  "La dengue est présente à Douala. Souvent confondue avec le paludisme, elle nécessite un diagnostic précis car son traitement est différent."
+                      },
+                      {
+                          "filename":  "article-meningite.html",
+                          "title":  "Méningite : reconnaître les signes d\u0027urgence et le diagnostic biologique",
+                          "category":  "Infections",
+                          "date":  "8 août 2026",
+                          "image":  "photos/article-meningite-diagnostic-urgence.jpg",
+                          "summary":  "La méningite peut tuer en quelques heures. Fièvre brutale, maux de tête violents, raideur de la nuque : ces signes imposent des soins immédiats."
+                      },
+                      {
+                          "filename":  "article-tuberculose.html",
+                          "title":  "Tuberculose au Cameroun : diagnostic biologique, IDR et QuantiFERON",
+                          "category":  "Infections",
+                          "date":  "8 août 2026",
+                          "image":  "photos/article-tuberculose-diagnostic.jpg",
+                          "summary":  "Le Cameroun reste un pays à forte prévalence de tuberculose. Voici comment se fait le diagnostic au laboratoire et quels signes doivent alerter."
+                      },
+                      {
+                          "filename":  "article-obesite-bilan.html",
+                          "title":  "Obésité et surpoids : le bilan biologique métabolique essentiel",
+                          "category":  "Prévention",
+                          "date":  "8 août 2026",
+                          "image":  "photos/article-obesite-bilan-metabolique.jpg",
+                          "summary":  "L\u0027obésité n\u0027est pas juste une question d\u0027esthétique. Elle impacte profondément votre biologie. Voici les examens à faire absolument."
+                      },
+                      {
+                          "filename":  "article-varicocele.html",
+                          "title":  "Varicocèle : impact sur la fertilité masculine et diagnostic",
+                          "category":  "Fertilité",
+                          "date":  "7 août 2026",
+                          "image":  "photos/article-varicocele-fertilite-masculine.jpg",
+                          "summary":  "La varicocèle est la cause la plus fréquente et la plus corrigible d\u0027infertilité masculine. Voici comment elle est diagnostiquée et traitée."
+                      },
+                      {
+                          "filename":  "article-testosterone-homme.html",
+                          "title":  "Testostérone basse chez l\u0027homme : signes, dosage et traitement",
+                          "category":  "Santé homme",
+                          "date":  "6 août 2026",
+                          "image":  "photos/article-testosterone-homme.jpg",
+                          "summary":  "Fatigue chronique, baisse de libido, prise de masse graisseuse : ces signes peuvent trahir un déficit en testostérone. Un dosage simple le confirme."
+                      },
+                      {
+                          "filename":  "article-prolactine.html",
+                          "title":  "Prolactine élevée : hyperprolactinémie, galactorrhée et fertilité",
+                          "category":  "Hormones",
+                          "date":  "6 août 2026",
+                          "image":  "photos/article-prolactine-hyperprolactinemie.jpg",
+                          "summary":  "Une prolactine trop élevée peut bloquer l\u0027ovulation et provoquer un écoulement lacté hors grossesse. Diagnostic simple, traitement efficace."
+                      },
+                      {
+                          "filename":  "article-amenorrhee.html",
+                          "title":  "Aménorrhée : absence de règles, causes hormonales et bilan",
+                          "category":  "Santé femme",
+                          "date":  "5 août 2026",
+                          "image":  "photos/article-amenorrhee-causes-bilan.jpg",
+                          "summary":  "Les règles absentes depuis plus de 3 mois méritent une investigation. Stress, hormones, SOPK ou autre cause : voici le bilan à faire."
+                      },
+                      {
+                          "filename":  "article-chlamydia.html",
+                          "title":  "Chlamydia : l\u0027infection silencieuse qui menace la fertilité",
+                          "category":  "Infections",
+                          "date":  "5 août 2026",
+                          "image":  "photos/article-chlamydia-infertilite.jpg",
+                          "summary":  "La chlamydia est souvent asymptomatique mais peut obstruer les trompes et provoquer l\u0027infertilité féminine. Un dépistage simple suffit."
+                      },
+                      {
+                          "filename":  "article-gonorrhee.html",
+                          "title":  "Gonorrhée (blennorragie) : symptômes, ECBU et traitement à Douala",
+                          "category":  "Infections",
+                          "date":  "5 août 2026",
+                          "image":  "photos/article-gonorrhee-ecbu-traitement.jpg",
+                          "summary":  "La gonorrhée est l\u0027IST bactérienne la plus fréquente. Elle peut devenir résistante aux antibiotiques. Voici comment la détecter et la traiter."
+                      },
+                      {
+                          "filename":  "article-rubeole-toxoplasmose.html",
+                          "title":  "Rubéole et toxoplasmose en grossesse : risques et sérologies",
+                          "category":  "Grossesse",
+                          "date":  "4 août 2026",
+                          "image":  "photos/article-rubeole-toxoplasmose-grossesse.jpg",
+                          "summary":  "Deux infections qui peuvent gravement affecter votre bébé à naître. Voici comment les détecter et s\u0027en protéger pendant la grossesse."
+                      },
+                      {
+                          "filename":  "article-pre-eclampsie.html",
+                          "title":  "Pré-éclampsie : signes d\u0027alarme pendant la grossesse et surveillance",
+                          "category":  "Grossesse",
+                          "date":  "4 août 2026",
+                          "image":  "photos/article-pre-eclampsie-grossesse.jpg",
+                          "summary":  "La pré-éclampsie est une urgence obstétricale qui tue encore beaucoup de femmes en Afrique. Les signes sont détectables avec une surveillance régulière."
+                      },
+                      {
+                          "filename":  "article-bilan-preconceptionnel.html",
+                          "title":  "Bilan préconceptionnel : se préparer médicalement à la grossesse",
+                          "category":  "Grossesse",
+                          "date":  "3 août 2026",
+                          "image":  "photos/article-bilan-preconceptionnel-grossesse.jpg",
+                          "summary":  "Avant de tomber enceinte, certains examens permettent d\u0027éviter des complications graves. Voici le bilan préconceptionnel idéal pour les couples."
+                      },
+                      {
+                          "filename":  "article-steatose-hepatique.html",
+                          "title":  "Stéatose hépatique (foie gras) : causes, bilan ASAT/ALAT et prévention",
+                          "category":  "Maladies chroniques",
+                          "date":  "3 août 2026",
+                          "image":  "photos/article-steatose-hepatique-foie.jpg",
+                          "summary":  "Le foie gras non alcoolique touche 25% des adultes en Afrique. Il évolue en silence vers la cirrhose. Un bilan hépatique simple suffit à le détecter."
+                      },
+                      {
+                          "filename":  "article-bilan-homme-40-ans.html",
+                          "title":  "Bilan de santé de l\u0027homme après 40 ans : les examens à ne pas manquer",
+                          "category":  "Santé homme",
+                          "date":  "3 août 2026",
+                          "image":  "photos/article-bilan-sante-homme-40-ans.jpg",
+                          "summary":  "Après 40 ans, certains examens deviennent indispensables pour l\u0027homme. Voici le bilan complet recommandé pour détecter précocement les risques."
+                      },
+                      {
+                          "filename":  "article-syphilis.html",
+                          "title":  "Syphilis à Douala : signes, dépistage VDRL/TPHA et traitement",
+                          "category":  "Infections",
+                          "date":  "2 août 2026",
+                          "image":  "photos/article-syphilis-depistage-traitement.jpg",
+                          "summary":  "La syphilis est en recrudescence en Afrique centrale. Elle se guérit totalement avec de la pénicilline si elle est détectée tôt."
+                      },
+                      {
+                          "filename":  "article-endometriose.html",
+                          "title":  "Endométriose : règles douloureuses, fertilité et prise en charge",
+                          "category":  "Santé femme",
+                          "date":  "2 août 2026",
+                          "image":  "photos/article-endometriose-fertilite.jpg",
+                          "summary":  "L\u0027endométriose touche 10% des femmes en âge de procréer. Des règles extrêmement douloureuses ne sont pas normales. Voici quand consulter."
+                      },
+                      {
+                          "filename":  "article-sopk.html",
+                          "title":  "SOPK : syndrome des ovaires polykystiques, diagnostic et fertilité",
+                          "category":  "Fertilité",
+                          "date":  "1 août 2026",
+                          "image":  "photos/article-sopk-syndrome-ovaires-polykystiques.jpg",
+                          "summary":  "Le SOPK est la première cause d\u0027infertilité féminine. Il touche 1 femme sur 10 et se traite efficacement quand il est diagnostiqué à temps."
+                      },
+                      {
+                          "filename":  "article-acide-urique-goutte.html",
+                          "title":  "Acide urique et crise de goutte : bilan, alimentation et traitement",
+                          "category":  "Bilan biologique",
+                          "date":  "1 août 2026",
+                          "image":  "photos/article-acide-urique-goutte.jpg",
+                          "summary":  "La goutte est la forme d\u0027arthrite la plus douloureuse. Elle est pourtant très facile à détecter avec un simple dosage de l\u0027acide urique."
+                      },
+                      {
+                          "filename":  "article-hba1c.html",
+                          "title":  "HbA1c : l\u0027examen clé pour surveiller votre diabète sur 3 mois",
+                          "category":  "Maladies chroniques",
+                          "date":  "31 juillet 2026",
+                          "image":  "photos/article-hba1c-suivi-diabete.jpg",
+                          "summary":  "L\u0027hémoglobine glyquée (HbA1c) révèle votre équilibre glycémique des 3 derniers mois. Un chiffre indispensable pour tout diabétique traité."
+                      },
+                      {
+                          "filename":  "article-glycemie-diabete.html",
+                          "title":  "Glycémie et diabète de type 2 : comprendre, prévenir, surveiller",
+                          "category":  "Maladies chroniques",
+                          "date":  "31 juillet 2026",
+                          "image":  "photos/article-glycemie-diabete-type2.jpg",
+                          "summary":  "Le diabète de type 2 s\u0027installe sur des années sans bruit. Une glycémie à jeun suffit à détecter un pré-diabète avant qu\u0027il ne devienne irréversible."
+                      },
+                      {
+                          "filename":  "article-vitamine-d.html",
+                          "title":  "Carence en vitamine D : symptômes, dosage sanguin et supplémentation",
+                          "category":  "Prévention",
+                          "date":  "30 juillet 2026",
+                          "image":  "photos/article-vitamine-d-carence.jpg",
+                          "summary":  "Paradoxalement, même sous le soleil africain, la carence en vitamine D est fréquente. Fatigue, douleurs osseuses, immunité faible : reconnaissez les signes."
+                      },
+                      {
+                          "filename":  "article-menopause.html",
+                          "title":  "Ménopause : signes, bilan hormonal et accompagnement médical",
+                          "category":  "Santé femme",
+                          "date":  "30 juillet 2026",
+                          "image":  "photos/article-menopause-bilan-hormonal.jpg",
+                          "summary":  "Bouffées de chaleur, troubles du sommeil, prise de poids : la ménopause se vit mieux avec un bilan hormonal adapté et un accompagnement médical."
+                      },
+                      {
+                          "filename":  "article-vih-sida.html",
+                          "title":  "VIH/SIDA à Douala : dépistage, traitement ARV et vie avec le VIH",
+                          "category":  "Infections",
+                          "date":  "29 juillet 2026",
+                          "image":  "photos/article-vih-sida-depistage-traitement.jpg",
+                          "summary":  "Avec un traitement ARV adapté, une personne vivant avec le VIH peut avoir une espérance de vie normale. Le dépistage précoce est la clé."
+                      },
+                      {
+                          "filename":  "article-hepatite-c.html",
+                          "title":  "Hépatite C : dépistage, symptômes et traitement à Douala",
+                          "category":  "Infections",
+                          "date":  "29 juillet 2026",
+                          "image":  "photos/article-hepatite-c-depistage.jpg",
+                          "summary":  "L\u0027hépatite C se guérit aujourd\u0027hui à plus de 95%. Mais des millions de personnes l\u0027ignorent. Voici ce qu\u0027il faut savoir sur le dépistage."
+                      },
+                      {
+                          "filename":  "article-creatinine-bilan-renal.html",
+                          "title":  "Créatinine et bilan rénal : comprendre et protéger vos reins",
+                          "category":  "Bilan biologique",
+                          "date":  "28 juillet 2026",
+                          "image":  "photos/article-creatinine-bilan-renal.jpg",
+                          "summary":  "Les reins filtrent 200 litres de sang par jour en silence. Un simple dosage de la créatinine suffit à détecter une insuffisance rénale débutante."
+                      },
+                      {
+                          "filename":  "article-tension-arterielle.html",
+                          "title":  "Tension artérielle : comprendre vos chiffres et prévenir l\u0027hypertension",
+                          "category":  "Prévention",
+                          "date":  "29 juillet 2026",
+                          "image":  "photos/article-tension-arterielle-hypertension.jpg",
+                          "summary":  "L\u0027hypertension touche 1 adulte sur 3 au Cameroun sans symptômes. Découvrez comment lire vos chiffres et agir avant les complications."
+                      },
+                      {
+                          "filename":  "article-examens-urgence.html",
+                          "title":  "Quand aller au laboratoire en urgence ? Les examens biologiques qui ne peuvent pas attendre",
+                          "category":  "Prévention",
+                          "date":  "28 juillet 2026",
+                          "image":  "photos/article-examens-urgences-biologiques.jpg",
+                          "summary":  "Certains symptômes réclament une analyse biologique immédiate. Connaître ces signes peut faire la différence entre une prise en charge à temps ou trop tard."
+                      },
+                      {
+                          "filename":  "article-bilan-fertilite-couple.html",
+                          "title":  "Bilan de fertilité en couple : ce que font les deux partenaires ensemble",
+                          "category":  "Fertilité",
+                          "date":  "27 juillet 2026",
+                          "image":  "photos/article-bilan-fertilite-couple.jpg",
+                          "summary":  "L\u0027infertilité est un problème de couple. Un bilan complet des deux partenaires est indispensable avant toute prise en charge. Voici ce qu\u0027il comprend."
+                      },
+                      {
+                          "filename":  "article-albumine-nutrition.html",
+                          "title":  "Albumine et protéines sériques : signes biologiques de malnutrition",
+                          "category":  "Bilan biologique",
+                          "date":  "27 juillet 2026",
+                          "image":  "photos/article-albumine-malnutrition.jpg",
+                          "summary":  "L\u0027albumine est le miroir de votre état nutritionnel. Chez les personnes âgées, les malades chroniques et les enfants, ce dosage peut changer la prise en charge."
+                      },
+                      {
+                          "filename":  "article-marqueurs-tumoraux.html",
+                          "title":  "Marqueurs tumoraux : ce qu\u0027ils révèlent et leurs limites en oncologie",
+                          "category":  "Bilan biologique",
+                          "date":  "26 juillet 2026",
+                          "image":  "photos/article-marqueurs-tumoraux-cancer.jpg",
+                          "summary":  "PSA, AFP, CA-125, ACE : les marqueurs tumoraux sont des outils de suivi puissants mais souvent mal compris. Voici comment les interpréter correctement."
+                      },
+                      {
+                          "filename":  "article-bilan-sportif.html",
+                          "title":  "Bilan biologique du sportif : énergie, récupération et performance",
+                          "category":  "Prévention",
+                          "date":  "25 juillet 2026",
+                          "image":  "photos/article-bilan-nutrition-sportif.jpg",
+                          "summary":  "Un athlète ou sportif régulier a des besoins biologiques spécifiques. Fer, magnésium, testostérone, thyroïde : le bilan sportif optimise votre performance."
+                      },
+                      {
+                          "filename":  "article-palu-enfant.html",
+                          "title":  "Paludisme grave chez l\u0027enfant : signes d\u0027alarme et diagnostic rapide",
+                          "category":  "Infections",
+                          "date":  "25 juillet 2026",
+                          "image":  "photos/article-paludisme-grave-enfant.jpg",
+                          "summary":  "Le paludisme grave chez l\u0027enfant peut tuer en 24h. Reconnaître les signes et faire le diagnostic en urgence peut sauver une vie à Douala."
+                      },
+                      {
+                          "filename":  "article-dymenorrhee.html",
+                          "title":  "Règles douloureuses (dysménorrhée) : quand consulter et quel bilan faire",
+                          "category":  "Santé femme",
+                          "date":  "24 juillet 2026",
+                          "image":  "photos/article-dysmenorrhee-regles-douloureuses.jpg",
+                          "summary":  "Des douleurs menstruelles qui paralysent ne sont pas normales. Elles peuvent signaler une endométriose, un fibrome ou un autre problème traitable."
+                      },
+                      {
+                          "filename":  "article-bilan-immuno.html",
+                          "title":  "Bilan immunologique : infections répétées, allergies et déficit immunitaire",
+                          "category":  "Bilan biologique",
+                          "date":  "24 juillet 2026",
+                          "image":  "photos/article-bilan-immunologique.jpg",
+                          "summary":  "Infections qui reviennent souvent, allergies sévères, guérison lente : votre système immunitaire envoie des signaux. Un bilan peut en expliquer la cause."
+                      },
+                      {
+                          "filename":  "article-diabete-gestationnel.html",
+                          "title":  "Diabète gestationnel : dépistage, glycémie et risques pour mère et bébé",
+                          "category":  "Grossesse",
+                          "date":  "21 juillet 2026",
+                          "image":  "photos/article-diabete-gestationnel.jpg",
+                          "summary":  "Le diabète gestationnel touche 10 à 15% des grossesses. Sans dépistage, il expose bébé et maman à des complications graves à l\u0027accouchement."
+                      },
+                      {
+                          "filename":  "article-cortisol-stress.html",
+                          "title":  "Cortisol et stress chronique : quand le stress détruit votre santé biologiquement",
+                          "category":  "Hormones",
+                          "date":  "20 juillet 2026",
+                          "image":  "photos/article-cortisol-stress-chronique.jpg",
+                          "summary":  "Le cortisol est l\u0027hormone du stress. Trop longtemps élevé, il détruit le système immunitaire, la mémoire et la fertilité. Un dosage révèle l\u0027état de votre corps."
+                      },
+                      {
+                          "filename":  "article-thalassemie.html",
+                          "title":  "Thalassémie au Cameroun : dépistage, diagnostic et conseil génétique",
+                          "category":  "Bilan biologique",
+                          "date":  "20 juillet 2026",
+                          "image":  "photos/article-thalassemie-depistage.jpg",
+                          "summary":  "Comme la drépanocytose, la thalassémie est une maladie héréditaire du sang. Peu connue en Afrique centrale, elle mérite d\u0027être recherchée avant une grossesse."
+                      },
+                      {
+                          "filename":  "article-perimenopause-orgasme.html",
+                          "title":  "Périménopause et troubles de l\u0027orgasme : ce que personne ne vous dit à Douala",
+                          "category":  "Santé femme",
+                          "date":  "2026-06-27",
+                          "image":  "photos/article-perimenopause-orgasme.png",
+                          "summary":  "Baisse du plaisir, orgasme difficile, sécheresse vaginale : les femmes en périménopause à Douala vivent ça en silence. Causes hormonales et solutions concrètes."
+                      },
+                      {
+                          "filename":  "article-spermogramme-douala.html",
+                          "title":  "Spermogramme à Douala : bilan complet de fertilité masculine au Clair de la Plume",
+                          "category":  "Fertilité masculine",
+                          "date":  "20 juin 2026",
+                          "image":  "photos/article-spermogramme-douala.jpg",
+                          "summary":  "Spermogramme, spermocytogramme, spermoculture et consultation médicale en un seul pack à 24 997 FCFA. Résultats en 24h au Laboratoire Le Clair de la Plume, Ndokoti Douala."
+                      },
+                      {
+                          "filename":  "article-ejaculation-precoce.html",
+                          "title":  "Éjaculation précoce : causes biologiques, bilan et traitement à Douala",
+                          "category":  "Santé homme",
+                          "date":  "6 juin 2026",
+                          "image":  "photos/dr-bureau.jpg",
+                          "summary":  "1 homme sur 3 est concerné. Un bilan biologique ciblé peut tout changer. Découvrez les vraies causes et les solutions médicales disponibles à Douala."
+                      },
+                      {
+                          "filename":  "article-dysfonction-erectile.html",
+                          "title":  "Dysfonction érectile : causes, bilan hormonal et traitement à Douala",
+                          "category":  "Santé homme",
+                          "date":  "4 juin 2026",
+                          "image":  "photos/dr-bureau.jpg",
+                          "summary":  "1 homme sur 3 après 40 ans en souffre. 70% des cas ont une cause organique trouvable par bilan sanguin. Testostérone, glycémie, bilan lipidique : voici le bilan complet recommandé."
+                      },
+                      {
+                          "filename":  "article-bilan-preopertaoire.html",
+                          "title":  "Bilan pré-opératoire à Douala : quels examens faire avant une opération ?",
+                          "category":  "Bilan biologique",
+                          "date":  "30 mai 2026",
+                          "image":  "photos/equipe-bleu.jpg",
+                          "summary":  "NFS, groupe sanguin, coagulation, créatinine : tout ce qu\u0027il faut faire avant une chirurgie."
+                      },
+                      {
+                          "filename":  "article-psa-prostate.html",
+                          "title":  "PSA et cancer de la prostate à Douala : dépistage, valeurs normales et quand s\u0027inquiéter",
+                          "category":  "Santé homme",
+                          "date":  "30 mai 2026",
+                          "image":  "photos/dr-portrait-pro.jpg",
+                          "summary":  "Tout homme africain dès 40 ans devrait faire un PSA. Guide complet du dépistage à Douala."
+                      },
+                      {
+                          "filename":  "article-hepatite-b-suivi.html",
+                          "title":  "Hépatite B à Douala : suivi biologique, vaccination et traitement antiviral",
+                          "category":  "Infections",
+                          "date":  "30 mai 2026",
+                          "image":  "photos/equipe-inauguration.jpg",
+                          "summary":  "Ag HBs, Ac anti-HBs, charge virale : tout comprendre sur l\u0027hépatite B et son suivi au Cameroun."
+                      },
+                      {
+                          "filename":  "article-typhoide.html",
+                          "title":  "Typhoïde à Douala : symptômes, test Widal, hémoculture et traitement",
+                          "category":  "Urgence",
+                          "date":  "30 mai 2026",
+                          "image":  "photos/technicienne-microscope.jpg",
+                          "summary":  "Comment distinguer la typhoïde du paludisme ? Guide complet sur le diagnostic et le traitement."
+                      },
+                      {
+                          "filename":  "article-cholesterol-bilan-lipidique.html",
+                          "title":  "Cholestérol et bilan lipidique à Douala : LDL, HDL, triglycérides expliqués",
+                          "category":  "Prévention",
+                          "date":  "30 mai 2026",
+                          "image":  "photos/labo-equipements.jpg",
+                          "summary":  "Tout comprendre sur le cholestérol, les valeurs normales et comment protéger votre cœur à Douala."
+                      },
+                      {
+                          "filename":  "article-infection-urinaire-ecbu.html",
+                          "title":  "Infection urinaire à Douala : ECBU, symptômes, traitement et prévention",
+                          "category":  "Analyses",
+                          "date":  "30 mai 2026",
+                          "image":  "photos/technicienne-microscope-2.jpg",
+                          "summary":  "Brûlures urinaires, envies fréquentes : comment confirmer une infection urinaire et choisir le bon antibiotique."
+                      },
+                      {
+                          "filename":  "article-anemie-carence-fer.html",
+                          "title":  "Anémie et carence en fer à Douala : symptômes, diagnostic et traitement",
+                          "category":  "Analyses",
+                          "date":  "30 mai 2026",
+                          "image":  "photos/prise-de-sang.jpg",
+                          "summary":  "Fatigue, pâleur, essoufflement : ferritine, NFS et fer sérique pour confirmer une carence en fer."
+                      },
+                      {
+                          "filename":  "article-drepanocytose.html",
+                          "title":  "Drépanocytose au Cameroun : comprendre, dépister et protéger ses enfants",
+                          "category":  "Maladies chroniques",
+                          "date":  "30 mai 2026",
+                          "image":  "photos/labo-equipements.jpg",
+                          "summary":  "Profils AA, AS, SS, SC : tout comprendre sur la drépanocytose et l\u0027électrophorèse de l\u0027hémoglobine."
+                      },
+                      {
+                          "filename":  "article-bilan-thyroidien.html",
+                          "title":  "Bilan thyroïdien à Douala : TSH, T3, T4 et tout comprendre sur la thyroïde",
+                          "category":  "Hormones",
+                          "date":  "30 mai 2026",
+                          "image":  "photos/dr-bureau.jpg",
+                          "summary":  "Fatigue, prise de poids, palpitations : votre thyroïde est peut-être en cause. Guide complet."
+                      },
+                      {
+                          "filename":  "article-cancer-col-frottis.html",
+                          "title":  "Cancer du col de l\u0027utérus et frottis à Douala : tout ce que les femmes doivent savoir",
+                          "category":  "Santé femme",
+                          "date":  "29 mai 2026",
+                          "image":  "photos/dr-portrait-pro.jpg",
+                          "summary":  "HPV, frottis cervico-vaginal, résultats et prévention : le guide complet pour protéger votre santé."
+                      },
+                      {
+                          "filename":  "article-nfs-bilan-sanguin.html",
+                          "title":  "Comprendre sa NFS (prise de sang) à Douala : guide complet des résultats",
+                          "category":  "Analyses",
+                          "date":  "29 mai 2026",
+                          "image":  "photos/prise-de-sang.jpg",
+                          "summary":  "Globules rouges, blancs, plaquettes, hémoglobine : tout comprendre sur les résultats de votre bilan sanguin."
+                      },
+                      {
+                          "filename":  "article-paludisme.html",
+                          "title":  "Paludisme à Douala : diagnostic, tests et quand s\u0027inquiéter",
+                          "category":  "Urgence",
+                          "date":  "29 mai 2026",
+                          "image":  "photos/technicienne-microscope.jpg",
+                          "summary":  "TDR, goutte épaisse, signes de gravité : tout savoir sur le diagnostic du paludisme à Douala."
+                      },
+                      {
+                          "filename":  "article-diabete-hta.html",
+                          "title":  "Diabète et hypertension à Douala : dépistage, bilans et suivi biologique",
+                          "category":  "Prévention",
+                          "date":  "29 mai 2026",
+                          "image":  "photos/labo-equipements.jpg",
+                          "summary":  "Glycémie, HbA1c, créatinine, cholestérol : tout savoir sur le dépistage et le suivi du diabète et de l\u0027hypertension."
+                      },
+                      {
+                          "filename":  "article-analyses-grossesse.html",
+                          "title":  "Analyses pendant la grossesse à Douala : le guide complet par trimestre",
+                          "category":  "Grossesse",
+                          "date":  "29 mai 2026",
+                          "image":  "photos/dr-portrait-souriant.jpg",
+                          "summary":  "NFS, glycémie, toxoplasmose, hépatite B, VIH, diabète gestationnel : tous les examens prénataux expliqués."
+                      },
+                      {
+                          "filename":  "article-depistage-ist.html",
+                          "title":  "Dépistage IST à Douala : qui doit se faire tester, quand et comment ?",
+                          "category":  "Infections",
+                          "date":  "29 mai 2026",
+                          "image":  "photos/prise-de-sang.jpg",
+                          "summary":  "VIH, syphilis, chlamydia, hépatites, gonorrhée : tout savoir sur le dépistage des IST à Douala."
+                      },
+                      {
+                          "filename":  "article-fertilite-feminine.html",
+                          "title":  "Fertilité féminine à Douala : bilan, causes d\u0027infertilité et solutions",
+                          "category":  "Fertilité",
+                          "date":  "29 mai 2026",
+                          "image":  "photos/technicienne-microscope.jpg",
+                          "summary":  "AMH, bilan ovarien, trompes, SOPK : tout comprendre sur l\u0027infertilité féminine et les examens à faire."
+                      },
+                      {
+                          "filename":  "article-bilan-prenuptial.html",
+                          "title":  "Bilan prénuptial à Douala : tout ce qu\u0027il faut analyser avant le mariage",
+                          "category":  "Bilan biologique",
+                          "date":  "29 mai 2026",
+                          "image":  "photos/equipe-inauguration.jpg",
+                          "summary":  "Groupe sanguin, drépanocytose, IST, hépatites, VIH : les examens essentiels pour se marier en toute sérénité."
+                      },
+                      {
+                          "filename":  "article-spermogramme.html",
+                          "title":  "Tout comprendre sur le spermogramme : normes, interprétation et solutions",
+                          "category":  "Fertilité",
+                          "date":  "22 mai 2026",
+                          "image":  "photos/technicienne-microscope-2.jpg",
+                          "summary":  "Le spermogramme est l\u0027examen de référence pour évaluer la fertilité masculine. Voici ce que chaque paramètre signifie."
+                      },
+                      {
+                          "filename":  "article-bilan-sante.html",
+                          "title":  "5 bilans de santé essentiels à faire après 35 ans",
+                          "category":  "Prévention",
+                          "date":  "18 mai 2026",
+                          "image":  "photos/accueil-1.jpg",
+                          "summary":  "La prévention commence par un bilan régulier. Voici les 5 examens prioritaires à ne pas négliger passé 35 ans."
+                      },
+                      {
+                          "filename":  "article-hormonal.html",
+                          "title":  "Déséquilibre hormonal : signes à reconnaître et quand consulter",
+                          "category":  "Hormones",
+                          "date":  "14 mai 2026",
+                          "image":  "photos/dr-bureau.jpg",
+                          "summary":  "Fatigue, prise de poids, troubles du sommeil... Ces symptômes peuvent signaler un déséquilibre hormonal."
+                      }
+                  ],
+        "Count":  84
     }
 ]
