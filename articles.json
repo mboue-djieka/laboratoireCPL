@@ -1,25 +1,25 @@
 ﻿[
     {
-        "filename":  "article-echographie-thyroidienne.html",
-        "title":  "Échographie thyroïdienne : nodules, goitre et quand s\u0027inquiéter",
+        "filename":  "article-echographie-prostatique.html",
+        "title":  "Échographie de la prostate : dépistage et suivi chez l\u0027homme après 50 ans",
         "category":  "Échographie",
-        "date":  "22 août 2026",
-        "image":  "photos/article-echographie-thyroidienne.jpg",
-        "summary":  "Un nodule thyroïdien se sent rarement au doigt. L\u0027échographie le voit dès quelques millimètres, bien avant qu\u0027un bilan sanguin seul ne s\u0027inquiète."
+        "date":  "23 août 2026",
+        "image":  "photos/article-echographie-prostatique.jpg",
+        "summary":  "Associée au PSA sanguin, l\u0027échographie prostatique complète le dépistage chez l\u0027homme après 50 ans. Voici ce qu\u0027elle révèle et pourquoi les deux examens se complètent."
     },
     {
         "value":  [
                       {
-                          "filename":  "article-echographie-abdominale.html",
-                          "title":  "Échographie abdominale : quels organes elle explore et comment se préparer",
+                          "filename":  "article-echographie-thyroidienne.html",
+                          "title":  "Échographie thyroïdienne : nodules, goitre et quand s\u0027inquiéter",
                           "category":  "Échographie",
-                          "date":  "21 août 2026",
-                          "image":  "photos/article-echographie-abdominale.jpg",
-                          "summary":  "Foie, vésicule, reins, rate : l\u0027échographie abdominale explore en 20 minutes ce qu\u0027une prise de sang seule ne peut pas montrer. Préparation et déroulement expliqués."
+                          "date":  "22 août 2026",
+                          "image":  "photos/article-echographie-thyroidienne.jpg",
+                          "summary":  "Un nodule thyroïdien se sent rarement au doigt. L\u0027échographie le voit dès quelques millimètres, bien avant qu\u0027un bilan sanguin seul ne s\u0027inquiète."
                       },
                       {
                           "value":  [
-                                        "@{filename=article-echographie-grossesse.html; title=Échographie de grossesse : les 3 examens essentiels par trimestre; category=Échographie; date=21 août 2026; image=photos/article-echographie-grossesse-trimestres.jpg; summary=Datation, morphologie, croissance : chaque trimestre de grossesse a son échographie clé. Voici pourquoi aucune des trois ne doit être sautée.}",
+                                        "@{filename=article-echographie-abdominale.html; title=Échographie abdominale : quels organes elle explore et comment se préparer; category=Échographie; date=21 août 2026; image=photos/article-echographie-abdominale.jpg; summary=Foie, vésicule, reins, rate : l\u0027échographie abdominale explore en 20 minutes ce qu\u0027une prise de sang seule ne peut pas montrer. Préparation et déroulement expliqués.}",
                                         "@{value=System.Object[]; Count=2}"
                                     ],
                           "Count":  2
