@@ -1,25 +1,25 @@
 ﻿[
     {
-        "filename":  "article-echographie-prostatique.html",
-        "title":  "Échographie de la prostate : dépistage et suivi chez l\u0027homme après 50 ans",
+        "filename":  "article-echographie-cardiaque.html",
+        "title":  "Échographie cardiaque : quand elle est nécessaire et ce qu\u0027elle mesure",
         "category":  "Échographie",
         "date":  "23 août 2026",
-        "image":  "photos/article-echographie-prostatique.jpg",
-        "summary":  "Associée au PSA sanguin, l\u0027échographie prostatique complète le dépistage chez l\u0027homme après 50 ans. Voici ce qu\u0027elle révèle et pourquoi les deux examens se complètent."
+        "image":  "photos/article-echographie-cardiaque.jpg",
+        "summary":  "Essoufflement, souffle au cœur, hypertension ancienne : l\u0027échographie cardiaque montre en direct ce qu\u0027aucun bilan sanguin ne peut mesurer sur le cœur qui bat."
     },
     {
         "value":  [
                       {
-                          "filename":  "article-echographie-thyroidienne.html",
-                          "title":  "Échographie thyroïdienne : nodules, goitre et quand s\u0027inquiéter",
+                          "filename":  "article-echographie-prostatique.html",
+                          "title":  "Échographie de la prostate : dépistage et suivi chez l\u0027homme après 50 ans",
                           "category":  "Échographie",
-                          "date":  "22 août 2026",
-                          "image":  "photos/article-echographie-thyroidienne.jpg",
-                          "summary":  "Un nodule thyroïdien se sent rarement au doigt. L\u0027échographie le voit dès quelques millimètres, bien avant qu\u0027un bilan sanguin seul ne s\u0027inquiète."
+                          "date":  "23 août 2026",
+                          "image":  "photos/article-echographie-prostatique.jpg",
+                          "summary":  "Associée au PSA sanguin, l\u0027échographie prostatique complète le dépistage chez l\u0027homme après 50 ans. Voici ce qu\u0027elle révèle et pourquoi les deux examens se complètent."
                       },
                       {
                           "value":  [
-                                        "@{filename=article-echographie-abdominale.html; title=Échographie abdominale : quels organes elle explore et comment se préparer; category=Échographie; date=21 août 2026; image=photos/article-echographie-abdominale.jpg; summary=Foie, vésicule, reins, rate : l\u0027échographie abdominale explore en 20 minutes ce qu\u0027une prise de sang seule ne peut pas montrer. Préparation et déroulement expliqués.}",
+                                        "@{filename=article-echographie-thyroidienne.html; title=Échographie thyroïdienne : nodules, goitre et quand s\u0027inquiéter; category=Échographie; date=22 août 2026; image=photos/article-echographie-thyroidienne.jpg; summary=Un nodule thyroïdien se sent rarement au doigt. L\u0027échographie le voit dès quelques millimètres, bien avant qu\u0027un bilan sanguin seul ne s\u0027inquiète.}",
                                         "@{value=System.Object[]; Count=2}"
                                     ],
                           "Count":  2
