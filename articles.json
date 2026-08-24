@@ -1,25 +1,25 @@
 ﻿[
     {
-        "filename":  "article-cortisol-stress.html",
-        "title":  "Cortisol et stress chronique : quand le stress détruit votre santé biologiquement",
-        "category":  "Hormones",
+        "filename":  "article-douleurs-rapports-sexuels.html",
+        "title":  "Douleurs pendant les rapports sexuels : causes, bilans et complications",
+        "category":  "Santé intime",
         "date":  "24 août 2026",
-        "image":  "photos/article-cortisol-stress-chronique.jpg",
-        "summary":  "Le cortisol est l\u0027hormone du stress. Trop longtemps élevé, il détruit le système immunitaire, la mémoire et la fertilité. Un dosage révèle l\u0027état de votre corps."
+        "image":  "photos/dr-bureau.jpg",
+        "summary":  "Douleur pendant les rapports chez l\u0027homme ou la femme n\u0027est jamais anodine. Découvrez les causes possibles, les bilans à faire et les complications à éviter."
     },
     {
         "value":  [
                       {
-                          "filename":  "article-thalassemie.html",
-                          "title":  "Thalassémie au Cameroun : dépistage, diagnostic et conseil génétique",
-                          "category":  "Bilan biologique",
+                          "filename":  "article-cortisol-stress.html",
+                          "title":  "Cortisol et stress chronique : quand le stress détruit votre santé biologiquement",
+                          "category":  "Hormones",
                           "date":  "24 août 2026",
-                          "image":  "photos/article-thalassemie-depistage.jpg",
-                          "summary":  "Comme la drépanocytose, la thalassémie est une maladie héréditaire du sang. Peu connue en Afrique centrale, elle mérite d\u0027être recherchée avant une grossesse."
+                          "image":  "photos/article-cortisol-stress-chronique.jpg",
+                          "summary":  "Le cortisol est l\u0027hormone du stress. Trop longtemps élevé, il détruit le système immunitaire, la mémoire et la fertilité. Un dosage révèle l\u0027état de votre corps."
                       },
                       {
                           "value":  [
-                                        "@{filename=article-echographie-cardiaque.html; title=Échographie cardiaque : quand elle est nécessaire et ce qu\u0027elle mesure; category=Échographie; date=23 août 2026; image=photos/article-echographie-cardiaque.jpg; summary=Essoufflement, souffle au cœur, hypertension ancienne : l\u0027échographie cardiaque montre en direct ce qu\u0027aucun bilan sanguin ne peut mesurer sur le cœur qui bat.}",
+                                        "@{filename=article-thalassemie.html; title=Thalassémie au Cameroun : dépistage, diagnostic et conseil génétique; category=Bilan biologique; date=24 août 2026; image=photos/article-thalassemie-depistage.jpg; summary=Comme la drépanocytose, la thalassémie est une maladie héréditaire du sang. Peu connue en Afrique centrale, elle mérite d\u0027être recherchée avant une grossesse.}",
                                         "@{value=System.Object[]; Count=2}"
                                     ],
                           "Count":  2
