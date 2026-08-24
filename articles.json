@@ -1,25 +1,25 @@
 ﻿[
     {
-        "filename":  "article-thalassemie.html",
-        "title":  "Thalassémie au Cameroun : dépistage, diagnostic et conseil génétique",
-        "category":  "Bilan biologique",
+        "filename":  "article-cortisol-stress.html",
+        "title":  "Cortisol et stress chronique : quand le stress détruit votre santé biologiquement",
+        "category":  "Hormones",
         "date":  "24 août 2026",
-        "image":  "photos/article-thalassemie-depistage.jpg",
-        "summary":  "Comme la drépanocytose, la thalassémie est une maladie héréditaire du sang. Peu connue en Afrique centrale, elle mérite d\u0027être recherchée avant une grossesse."
+        "image":  "photos/article-cortisol-stress-chronique.jpg",
+        "summary":  "Le cortisol est l\u0027hormone du stress. Trop longtemps élevé, il détruit le système immunitaire, la mémoire et la fertilité. Un dosage révèle l\u0027état de votre corps."
     },
     {
         "value":  [
                       {
-                          "filename":  "article-echographie-cardiaque.html",
-                          "title":  "Échographie cardiaque : quand elle est nécessaire et ce qu\u0027elle mesure",
-                          "category":  "Échographie",
-                          "date":  "23 août 2026",
-                          "image":  "photos/article-echographie-cardiaque.jpg",
-                          "summary":  "Essoufflement, souffle au cœur, hypertension ancienne : l\u0027échographie cardiaque montre en direct ce qu\u0027aucun bilan sanguin ne peut mesurer sur le cœur qui bat."
+                          "filename":  "article-thalassemie.html",
+                          "title":  "Thalassémie au Cameroun : dépistage, diagnostic et conseil génétique",
+                          "category":  "Bilan biologique",
+                          "date":  "24 août 2026",
+                          "image":  "photos/article-thalassemie-depistage.jpg",
+                          "summary":  "Comme la drépanocytose, la thalassémie est une maladie héréditaire du sang. Peu connue en Afrique centrale, elle mérite d\u0027être recherchée avant une grossesse."
                       },
                       {
                           "value":  [
-                                        "@{filename=article-echographie-prostatique.html; title=Échographie de la prostate : dépistage et suivi chez l\u0027homme après 50 ans; category=Échographie; date=23 août 2026; image=photos/article-echographie-prostatique.jpg; summary=Associée au PSA sanguin, l\u0027échographie prostatique complète le dépistage chez l\u0027homme après 50 ans. Voici ce qu\u0027elle révèle et pourquoi les deux examens se complètent.}",
+                                        "@{filename=article-echographie-cardiaque.html; title=Échographie cardiaque : quand elle est nécessaire et ce qu\u0027elle mesure; category=Échographie; date=23 août 2026; image=photos/article-echographie-cardiaque.jpg; summary=Essoufflement, souffle au cœur, hypertension ancienne : l\u0027échographie cardiaque montre en direct ce qu\u0027aucun bilan sanguin ne peut mesurer sur le cœur qui bat.}",
                                         "@{value=System.Object[]; Count=2}"
                                     ],
                           "Count":  2
