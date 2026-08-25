@@ -1,25 +1,25 @@
 ﻿[
     {
-        "filename":  "article-diabete-gestationnel.html",
-        "title":  "Diabète gestationnel : dépistage, glycémie et risques pour mère et bébé",
-        "category":  "Grossesse",
+        "filename":  "article-bilan-immuno.html",
+        "title":  "Bilan immunologique : infections répétées, allergies et déficit immunitaire",
+        "category":  "Bilan biologique",
         "date":  "25 août 2026",
-        "image":  "photos/article-diabete-gestationnel.jpg",
-        "summary":  "Le diabète gestationnel touche 10 à 15% des grossesses. Sans dépistage, il expose bébé et maman à des complications graves à l\u0027accouchement."
+        "image":  "photos/article-bilan-immunologique.jpg",
+        "summary":  "Infections qui reviennent souvent, allergies sévères, guérison lente : votre système immunitaire envoie des signaux. Un bilan peut en expliquer la cause."
     },
     {
         "value":  [
                       {
-                          "filename":  "article-douleurs-rapports-sexuels.html",
-                          "title":  "Douleurs pendant les rapports sexuels : causes, bilans et complications",
-                          "category":  "Santé intime",
-                          "date":  "24 août 2026",
-                          "image":  "photos/dr-bureau.jpg",
-                          "summary":  "Douleur pendant les rapports chez l\u0027homme ou la femme n\u0027est jamais anodine. Découvrez les causes possibles, les bilans à faire et les complications à éviter."
+                          "filename":  "article-diabete-gestationnel.html",
+                          "title":  "Diabète gestationnel : dépistage, glycémie et risques pour mère et bébé",
+                          "category":  "Grossesse",
+                          "date":  "25 août 2026",
+                          "image":  "photos/article-diabete-gestationnel.jpg",
+                          "summary":  "Le diabète gestationnel touche 10 à 15% des grossesses. Sans dépistage, il expose bébé et maman à des complications graves à l\u0027accouchement."
                       },
                       {
                           "value":  [
-                                        "@{filename=article-cortisol-stress.html; title=Cortisol et stress chronique : quand le stress détruit votre santé biologiquement; category=Hormones; date=24 août 2026; image=photos/article-cortisol-stress-chronique.jpg; summary=Le cortisol est l\u0027hormone du stress. Trop longtemps élevé, il détruit le système immunitaire, la mémoire et la fertilité. Un dosage révèle l\u0027état de votre corps.}",
+                                        "@{filename=article-douleurs-rapports-sexuels.html; title=Douleurs pendant les rapports sexuels : causes, bilans et complications; category=Santé intime; date=24 août 2026; image=photos/dr-bureau.jpg; summary=Douleur pendant les rapports chez l\u0027homme ou la femme n\u0027est jamais anodine. Découvrez les causes possibles, les bilans à faire et les complications à éviter.}",
                                         "@{value=System.Object[]; Count=2}"
                                     ],
                           "Count":  2
