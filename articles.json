@@ -1,25 +1,25 @@
 ﻿[
     {
-        "filename":  "article-dymenorrhee.html",
-        "title":  "Règles douloureuses (dysménorrhée) : quand consulter et quel bilan faire",
-        "category":  "Santé femme",
+        "filename":  "article-palu-enfant.html",
+        "title":  "Paludisme grave chez l\u0027enfant : signes d\u0027alarme et diagnostic rapide",
+        "category":  "Infections",
         "date":  "26 août 2026",
-        "image":  "photos/article-dysmenorrhee-regles-douloureuses.jpg",
-        "summary":  "Des douleurs menstruelles qui paralysent ne sont pas normales. Elles peuvent signaler une endométriose, un fibrome ou un autre problème traitable."
+        "image":  "photos/article-paludisme-grave-enfant.jpg",
+        "summary":  "Le paludisme grave chez l\u0027enfant peut tuer en 24h. Reconnaître les signes et faire le diagnostic en urgence peut sauver une vie à Douala."
     },
     {
         "value":  [
                       {
-                          "filename":  "article-bilan-immuno.html",
-                          "title":  "Bilan immunologique : infections répétées, allergies et déficit immunitaire",
-                          "category":  "Bilan biologique",
-                          "date":  "25 août 2026",
-                          "image":  "photos/article-bilan-immunologique.jpg",
-                          "summary":  "Infections qui reviennent souvent, allergies sévères, guérison lente : votre système immunitaire envoie des signaux. Un bilan peut en expliquer la cause."
+                          "filename":  "article-dymenorrhee.html",
+                          "title":  "Règles douloureuses (dysménorrhée) : quand consulter et quel bilan faire",
+                          "category":  "Santé femme",
+                          "date":  "26 août 2026",
+                          "image":  "photos/article-dysmenorrhee-regles-douloureuses.jpg",
+                          "summary":  "Des douleurs menstruelles qui paralysent ne sont pas normales. Elles peuvent signaler une endométriose, un fibrome ou un autre problème traitable."
                       },
                       {
                           "value":  [
-                                        "@{filename=article-diabete-gestationnel.html; title=Diabète gestationnel : dépistage, glycémie et risques pour mère et bébé; category=Grossesse; date=25 août 2026; image=photos/article-diabete-gestationnel.jpg; summary=Le diabète gestationnel touche 10 à 15% des grossesses. Sans dépistage, il expose bébé et maman à des complications graves à l\u0027accouchement.}",
+                                        "@{filename=article-bilan-immuno.html; title=Bilan immunologique : infections répétées, allergies et déficit immunitaire; category=Bilan biologique; date=25 août 2026; image=photos/article-bilan-immunologique.jpg; summary=Infections qui reviennent souvent, allergies sévères, guérison lente : votre système immunitaire envoie des signaux. Un bilan peut en expliquer la cause.}",
                                         "@{value=System.Object[]; Count=2}"
                                     ],
                           "Count":  2
