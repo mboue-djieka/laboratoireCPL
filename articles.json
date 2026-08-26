@@ -1,25 +1,25 @@
 ﻿[
     {
-        "filename":  "article-bilan-immuno.html",
-        "title":  "Bilan immunologique : infections répétées, allergies et déficit immunitaire",
-        "category":  "Bilan biologique",
-        "date":  "25 août 2026",
-        "image":  "photos/article-bilan-immunologique.jpg",
-        "summary":  "Infections qui reviennent souvent, allergies sévères, guérison lente : votre système immunitaire envoie des signaux. Un bilan peut en expliquer la cause."
+        "filename":  "article-dymenorrhee.html",
+        "title":  "Règles douloureuses (dysménorrhée) : quand consulter et quel bilan faire",
+        "category":  "Santé femme",
+        "date":  "26 août 2026",
+        "image":  "photos/article-dysmenorrhee-regles-douloureuses.jpg",
+        "summary":  "Des douleurs menstruelles qui paralysent ne sont pas normales. Elles peuvent signaler une endométriose, un fibrome ou un autre problème traitable."
     },
     {
         "value":  [
                       {
-                          "filename":  "article-diabete-gestationnel.html",
-                          "title":  "Diabète gestationnel : dépistage, glycémie et risques pour mère et bébé",
-                          "category":  "Grossesse",
+                          "filename":  "article-bilan-immuno.html",
+                          "title":  "Bilan immunologique : infections répétées, allergies et déficit immunitaire",
+                          "category":  "Bilan biologique",
                           "date":  "25 août 2026",
-                          "image":  "photos/article-diabete-gestationnel.jpg",
-                          "summary":  "Le diabète gestationnel touche 10 à 15% des grossesses. Sans dépistage, il expose bébé et maman à des complications graves à l\u0027accouchement."
+                          "image":  "photos/article-bilan-immunologique.jpg",
+                          "summary":  "Infections qui reviennent souvent, allergies sévères, guérison lente : votre système immunitaire envoie des signaux. Un bilan peut en expliquer la cause."
                       },
                       {
                           "value":  [
-                                        "@{filename=article-douleurs-rapports-sexuels.html; title=Douleurs pendant les rapports sexuels : causes, bilans et complications; category=Santé intime; date=24 août 2026; image=photos/dr-bureau.jpg; summary=Douleur pendant les rapports chez l\u0027homme ou la femme n\u0027est jamais anodine. Découvrez les causes possibles, les bilans à faire et les complications à éviter.}",
+                                        "@{filename=article-diabete-gestationnel.html; title=Diabète gestationnel : dépistage, glycémie et risques pour mère et bébé; category=Grossesse; date=25 août 2026; image=photos/article-diabete-gestationnel.jpg; summary=Le diabète gestationnel touche 10 à 15% des grossesses. Sans dépistage, il expose bébé et maman à des complications graves à l\u0027accouchement.}",
                                         "@{value=System.Object[]; Count=2}"
                                     ],
                           "Count":  2
