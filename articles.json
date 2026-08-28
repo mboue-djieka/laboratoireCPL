@@ -1,25 +1,25 @@
 ﻿[
     {
-        "filename":  "article-bilan-rentree-scolaire.html",
-        "title":  "Rentrée scolaire à Douala : le bilan de santé que la plupart des parents oublient de faire à leur enfant",
-        "category":  "Prévention",
+        "filename":  "article-albumine-nutrition.html",
+        "title":  "Albumine et protéines sériques : signes biologiques de malnutrition",
+        "category":  "Bilan biologique",
         "date":  "28 août 2026",
-        "image":  "photos/article-bilan-rentree-scolaire.jpg",
-        "summary":  "Fatigue, mauvaises notes, distraction en classe : la cause est parfois médicale. Les examens à faire avant la rentrée pour la santé de votre enfant, au Clair de la Plume à Douala."
+        "image":  "photos/article-albumine-malnutrition.jpg",
+        "summary":  "L\u0027albumine est le miroir de votre état nutritionnel. Chez les personnes âgées, les malades chroniques et les enfants, ce dosage peut changer la prise en charge."
     },
     {
         "value":  [
                       {
-                          "filename":  "article-marqueurs-tumoraux.html",
-                          "title":  "Marqueurs tumoraux : ce qu\u0027ils révèlent et leurs limites en oncologie",
-                          "category":  "Bilan biologique",
-                          "date":  "27 août 2026",
-                          "image":  "photos/article-marqueurs-tumoraux-cancer.jpg",
-                          "summary":  "PSA, AFP, CA-125, ACE : les marqueurs tumoraux sont des outils de suivi puissants mais souvent mal compris. Voici comment les interpréter correctement."
+                          "filename":  "article-bilan-rentree-scolaire.html",
+                          "title":  "Rentrée scolaire à Douala : le bilan de santé que la plupart des parents oublient de faire à leur enfant",
+                          "category":  "Prévention",
+                          "date":  "28 août 2026",
+                          "image":  "photos/article-bilan-rentree-scolaire.jpg",
+                          "summary":  "Fatigue, mauvaises notes, distraction en classe : la cause est parfois médicale. Les examens à faire avant la rentrée pour la santé de votre enfant, au Clair de la Plume à Douala."
                       },
                       {
                           "value":  [
-                                        "@{filename=article-bilan-sportif.html; title=Bilan biologique du sportif : énergie, récupération et performance; category=Prévention; date=27 août 2026; image=photos/article-bilan-nutrition-sportif.jpg; summary=Un athlète ou sportif régulier a des besoins biologiques spécifiques. Fer, magnésium, testostérone, thyroïde : le bilan sportif optimise votre performance.}",
+                                        "@{filename=article-marqueurs-tumoraux.html; title=Marqueurs tumoraux : ce qu\u0027ils révèlent et leurs limites en oncologie; category=Bilan biologique; date=27 août 2026; image=photos/article-marqueurs-tumoraux-cancer.jpg; summary=PSA, AFP, CA-125, ACE : les marqueurs tumoraux sont des outils de suivi puissants mais souvent mal compris. Voici comment les interpréter correctement.}",
                                         "@{value=System.Object[]; Count=2}"
                                     ],
                           "Count":  2
