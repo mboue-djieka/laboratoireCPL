@@ -1,8 +1,18 @@
-﻿{
-    "filename":  "article-albumine-nutrition.html",
-    "title":  "Albumine et protéines sériques : signes biologiques de malnutrition",
-    "category":  "Bilan biologique",
-    "date":  "28 août 2026",
-    "image":  "photos/article-albumine-malnutrition.jpg",
-    "summary":  "L\u0027albumine est le miroir de votre état nutritionnel. Chez les personnes âgées, les malades chroniques et les enfants, ce dosage peut changer la prise en charge."
-}
+﻿[
+    {
+        "filename":  "article-bilan-fertilite-couple.html",
+        "title":  "Bilan de fertilité en couple : ce que font les deux partenaires ensemble",
+        "category":  "Fertilité",
+        "date":  "28 août 2026",
+        "image":  "photos/article-bilan-fertilite-couple.jpg",
+        "summary":  "L\u0027infertilité est un problème de couple. Un bilan complet des deux partenaires est indispensable avant toute prise en charge. Voici ce qu\u0027il comprend."
+    },
+    {
+        "filename":  "article-albumine-nutrition.html",
+        "title":  "Albumine et protéines sériques : signes biologiques de malnutrition",
+        "category":  "Bilan biologique",
+        "date":  "28 août 2026",
+        "image":  "photos/article-albumine-malnutrition.jpg",
+        "summary":  "L\u0027albumine est le miroir de votre état nutritionnel. Chez les personnes âgées, les malades chroniques et les enfants, ce dosage peut changer la prise en charge."
+    }
+]
