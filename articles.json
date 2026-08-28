@@ -1,25 +1,25 @@
 ﻿[
     {
-        "filename":  "article-marqueurs-tumoraux.html",
-        "title":  "Marqueurs tumoraux : ce qu\u0027ils révèlent et leurs limites en oncologie",
-        "category":  "Bilan biologique",
-        "date":  "27 août 2026",
-        "image":  "photos/article-marqueurs-tumoraux-cancer.jpg",
-        "summary":  "PSA, AFP, CA-125, ACE : les marqueurs tumoraux sont des outils de suivi puissants mais souvent mal compris. Voici comment les interpréter correctement."
+        "filename":  "article-bilan-rentree-scolaire.html",
+        "title":  "Rentrée scolaire à Douala : le bilan de santé que la plupart des parents oublient de faire à leur enfant",
+        "category":  "Prévention",
+        "date":  "28 août 2026",
+        "image":  "photos/article-bilan-rentree-scolaire.jpg",
+        "summary":  "Fatigue, mauvaises notes, distraction en classe : la cause est parfois médicale. Les examens à faire avant la rentrée pour la santé de votre enfant, au Clair de la Plume à Douala."
     },
     {
         "value":  [
                       {
-                          "filename":  "article-bilan-sportif.html",
-                          "title":  "Bilan biologique du sportif : énergie, récupération et performance",
-                          "category":  "Prévention",
+                          "filename":  "article-marqueurs-tumoraux.html",
+                          "title":  "Marqueurs tumoraux : ce qu\u0027ils révèlent et leurs limites en oncologie",
+                          "category":  "Bilan biologique",
                           "date":  "27 août 2026",
-                          "image":  "photos/article-bilan-nutrition-sportif.jpg",
-                          "summary":  "Un athlète ou sportif régulier a des besoins biologiques spécifiques. Fer, magnésium, testostérone, thyroïde : le bilan sportif optimise votre performance."
+                          "image":  "photos/article-marqueurs-tumoraux-cancer.jpg",
+                          "summary":  "PSA, AFP, CA-125, ACE : les marqueurs tumoraux sont des outils de suivi puissants mais souvent mal compris. Voici comment les interpréter correctement."
                       },
                       {
                           "value":  [
-                                        "@{filename=article-palu-enfant.html; title=Paludisme grave chez l\u0027enfant : signes d\u0027alarme et diagnostic rapide; category=Infections; date=26 août 2026; image=photos/article-paludisme-grave-enfant.jpg; summary=Le paludisme grave chez l\u0027enfant peut tuer en 24h. Reconnaître les signes et faire le diagnostic en urgence peut sauver une vie à Douala.}",
+                                        "@{filename=article-bilan-sportif.html; title=Bilan biologique du sportif : énergie, récupération et performance; category=Prévention; date=27 août 2026; image=photos/article-bilan-nutrition-sportif.jpg; summary=Un athlète ou sportif régulier a des besoins biologiques spécifiques. Fer, magnésium, testostérone, thyroïde : le bilan sportif optimise votre performance.}",
                                         "@{value=System.Object[]; Count=2}"
                                     ],
                           "Count":  2
