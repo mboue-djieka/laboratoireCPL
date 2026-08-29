@@ -1,29 +1,28 @@
 ﻿[
     {
-        "filename":  "article-examens-urgence.html",
-        "title":  "Quand aller au laboratoire en urgence ? Les examens biologiques qui ne peuvent pas attendre",
-        "category":  "Prévention",
+        "filename":  "article-beta-hcg.html",
+        "title":  "Bêta-hCG : le dosage sanguin qui confirme la grossesse avant tout retard visible",
+        "category":  "Grossesse",
         "date":  "29 août 2026",
-        "image":  "photos/article-examens-urgences-biologiques.jpg",
-        "summary":  "Certains symptômes réclament une analyse biologique immédiate. Connaître ces signes peut faire la différence entre une prise en charge à temps ou trop tard."
+        "image":  "photos/article-beta-hcg-grossesse.jpg",
+        "summary":  "Un test urinaire dit oui ou non. Le dosage sanguin de bêta-hCG dit depuis quand, et si le taux évolue normalement. Voici la différence qui compte."
     },
     {
         "value":  [
                       {
-                          "filename":  "article-bilan-fertilite-couple.html",
-                          "title":  "Bilan de fertilité en couple : ce que font les deux partenaires ensemble",
-                          "category":  "Fertilité",
-                          "date":  "28 août 2026",
-                          "image":  "photos/article-bilan-fertilite-couple.jpg",
-                          "summary":  "L\u0027infertilité est un problème de couple. Un bilan complet des deux partenaires est indispensable avant toute prise en charge. Voici ce qu\u0027il comprend."
+                          "filename":  "article-examens-urgence.html",
+                          "title":  "Quand aller au laboratoire en urgence ? Les examens biologiques qui ne peuvent pas attendre",
+                          "category":  "Prévention",
+                          "date":  "29 août 2026",
+                          "image":  "photos/article-examens-urgences-biologiques.jpg",
+                          "summary":  "Certains symptômes réclament une analyse biologique immédiate. Connaître ces signes peut faire la différence entre une prise en charge à temps ou trop tard."
                       },
                       {
-                          "filename":  "article-albumine-nutrition.html",
-                          "title":  "Albumine et protéines sériques : signes biologiques de malnutrition",
-                          "category":  "Bilan biologique",
-                          "date":  "28 août 2026",
-                          "image":  "photos/article-albumine-malnutrition.jpg",
-                          "summary":  "L\u0027albumine est le miroir de votre état nutritionnel. Chez les personnes âgées, les malades chroniques et les enfants, ce dosage peut changer la prise en charge."
+                          "value":  [
+                                        "@{filename=article-bilan-fertilite-couple.html; title=Bilan de fertilité en couple : ce que font les deux partenaires ensemble; category=Fertilité; date=28 août 2026; image=photos/article-bilan-fertilite-couple.jpg; summary=L\u0027infertilité est un problème de couple. Un bilan complet des deux partenaires est indispensable avant toute prise en charge. Voici ce qu\u0027il comprend.}",
+                                        "@{filename=article-albumine-nutrition.html; title=Albumine et protéines sériques : signes biologiques de malnutrition; category=Bilan biologique; date=28 août 2026; image=photos/article-albumine-malnutrition.jpg; summary=L\u0027albumine est le miroir de votre état nutritionnel. Chez les personnes âgées, les malades chroniques et les enfants, ce dosage peut changer la prise en charge.}"
+                                    ],
+                          "Count":  2
                       }
                   ],
         "Count":  2
