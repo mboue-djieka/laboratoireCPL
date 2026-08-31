@@ -1,25 +1,25 @@
 ﻿[
     {
-        "filename":  "article-bilan-coagulation.html",
-        "title":  "Bilan de coagulation : TP, TCA et risque hémorragique avant une chirurgie",
+        "filename":  "article-vitamine-b12.html",
+        "title":  "Vitamine B12 et folates : la carence qui imite la fatigue et la dépression",
         "category":  "Bilan biologique",
-        "date":  "30 août 2026",
-        "image":  "photos/article-bilan-coagulation-tp-tca.jpg",
-        "summary":  "Avant toute chirurgie, le bilan de coagulation dit si le sang coagule normalement. TP, TCA et plaquettes expliqués simplement, sans jargon."
+        "date":  "31 août 2026",
+        "image":  "photos/article-vitamine-b12-folates.jpg",
+        "summary":  "Fatigue, fourmillements, troubles de la mémoire : une carence en B12 ou en folates se confond souvent avec autre chose. Un simple dosage sanguin tranche."
     },
     {
         "value":  [
                       {
-                          "filename":  "article-bilan-hepatique.html",
-                          "title":  "Bilan hépatique complet : transaminases, bilirubine et gamma GT expliqués",
+                          "filename":  "article-bilan-coagulation.html",
+                          "title":  "Bilan de coagulation : TP, TCA et risque hémorragique avant une chirurgie",
                           "category":  "Bilan biologique",
                           "date":  "30 août 2026",
-                          "image":  "photos/article-bilan-hepatique-complet.jpg",
-                          "summary":  "ASAT, ALAT, bilirubine, gamma GT : quatre chiffres qui racontent l\u0027état réel de votre foie, bien avant qu\u0027une jaunisse ou une fatigue ne s\u0027installe."
+                          "image":  "photos/article-bilan-coagulation-tp-tca.jpg",
+                          "summary":  "Avant toute chirurgie, le bilan de coagulation dit si le sang coagule normalement. TP, TCA et plaquettes expliqués simplement, sans jargon."
                       },
                       {
                           "value":  [
-                                        "@{filename=article-beta-hcg.html; title=Bêta-hCG : le dosage sanguin qui confirme la grossesse avant tout retard visible; category=Grossesse; date=29 août 2026; image=photos/article-beta-hcg-grossesse.jpg; summary=Un test urinaire dit oui ou non. Le dosage sanguin de bêta-hCG dit depuis quand, et si le taux évolue normalement. Voici la différence qui compte.}",
+                                        "@{filename=article-bilan-hepatique.html; title=Bilan hépatique complet : transaminases, bilirubine et gamma GT expliqués; category=Bilan biologique; date=30 août 2026; image=photos/article-bilan-hepatique-complet.jpg; summary=ASAT, ALAT, bilirubine, gamma GT : quatre chiffres qui racontent l\u0027état réel de votre foie, bien avant qu\u0027une jaunisse ou une fatigue ne s\u0027installe.}",
                                         "@{value=System.Object[]; Count=2}"
                                     ],
                           "Count":  2
