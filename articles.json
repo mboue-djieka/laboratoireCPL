@@ -1,25 +1,25 @@
 ﻿[
     {
-        "filename":  "article-bilan-allergologique.html",
-        "title":  "Bilan allergologique : IgE totales et recherche d\u0027allergènes en pratique",
-        "category":  "Bilan biologique",
-        "date":  "1 septembre 2026",
-        "image":  "photos/article-bilan-allergologique-ige.jpg",
-        "summary":  "Éternuements chroniques, eczéma inexpliqué : le dosage des IgE totales et spécifiques aide à identifier ce qui déclenche vraiment la réaction."
+        "filename":  "article-pcv-antibiogramme.html",
+        "title":  "PCV et antibiogramme : comprendre son prélèvement vaginal et son traitement",
+        "category":  "Santé femme",
+        "date":  "2 septembre 2026",
+        "image":  "photos/article-pcv-antibiogramme-infections-vaginales.jpg",
+        "summary":  "Pertes inhabituelles, odeur, irritation : le PCV identifie le germe responsable, l\u0027antibiogramme dit quel traitement fonctionnera vraiment dessus."
     },
     {
         "value":  [
                       {
-                          "filename":  "article-parasitologie-selles.html",
-                          "title":  "Examen parasitologique des selles : amibiase et parasites intestinaux à Douala",
-                          "category":  "Infections",
+                          "filename":  "article-bilan-allergologique.html",
+                          "title":  "Bilan allergologique : IgE totales et recherche d\u0027allergènes en pratique",
+                          "category":  "Bilan biologique",
                           "date":  "1 septembre 2026",
-                          "image":  "photos/article-parasitologie-selles-amibiase.jpg",
-                          "summary":  "Diarrhée chronique, ballonnements persistants : un simple examen des selles retrouve souvent l\u0027amibe ou le parasite que rien d\u0027autre n\u0027avait détecté."
+                          "image":  "photos/article-bilan-allergologique-ige.jpg",
+                          "summary":  "Éternuements chroniques, eczéma inexpliqué : le dosage des IgE totales et spécifiques aide à identifier ce qui déclenche vraiment la réaction."
                       },
                       {
                           "value":  [
-                                        "@{filename=article-calcemie.html; title=Calcémie et bilan phosphocalcique : comprendre le calcium dans le sang; category=Bilan biologique; date=31 août 2026; image=photos/article-calcemie-bilan-phosphocalcique.jpg; summary=Crampes, fatigue osseuse, calculs rénaux : le calcium sanguin en dit long sur les os et les reins. Voici ce que révèle un bilan phosphocalcique.}",
+                                        "@{filename=article-parasitologie-selles.html; title=Examen parasitologique des selles : amibiase et parasites intestinaux à Douala; category=Infections; date=1 septembre 2026; image=photos/article-parasitologie-selles-amibiase.jpg; summary=Diarrhée chronique, ballonnements persistants : un simple examen des selles retrouve souvent l\u0027amibe ou le parasite que rien d\u0027autre n\u0027avait détecté.}",
                                         "@{value=System.Object[]; Count=2}"
                                     ],
                           "Count":  2
