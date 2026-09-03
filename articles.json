@@ -1,25 +1,25 @@
 ﻿[
     {
-        "filename":  "article-bilan-pretransfusionnel.html",
-        "title":  "Bilan pré-transfusionnel : les examens obligatoires avant une transfusion sanguine",
-        "category":  "Bilan biologique",
-        "date":  "2 septembre 2026",
-        "image":  "photos/article-bilan-pretransfusionnel.jpg",
-        "summary":  "Groupe sanguin, rhésus, RAI, sérologies : avant toute transfusion, une série d\u0027examens précis sécurise le geste. Voici pourquoi chacun compte."
+        "filename":  "article-tension-arterielle.html",
+        "title":  "Tension artérielle : comprendre vos chiffres et prévenir l\u0027hypertension",
+        "category":  "Prévention",
+        "date":  "3 septembre 2026",
+        "image":  "photos/article-tension-arterielle-hypertension.jpg",
+        "summary":  "L\u0027hypertension touche 1 adulte sur 3 au Cameroun sans symptômes. Découvrez comment lire vos chiffres et agir avant les complications."
     },
     {
         "value":  [
                       {
-                          "filename":  "article-pcv-antibiogramme.html",
-                          "title":  "PCV et antibiogramme : comprendre son prélèvement vaginal et son traitement",
-                          "category":  "Santé femme",
+                          "filename":  "article-bilan-pretransfusionnel.html",
+                          "title":  "Bilan pré-transfusionnel : les examens obligatoires avant une transfusion sanguine",
+                          "category":  "Bilan biologique",
                           "date":  "2 septembre 2026",
-                          "image":  "photos/article-pcv-antibiogramme-infections-vaginales.jpg",
-                          "summary":  "Pertes inhabituelles, odeur, irritation : le PCV identifie le germe responsable, l\u0027antibiogramme dit quel traitement fonctionnera vraiment dessus."
+                          "image":  "photos/article-bilan-pretransfusionnel.jpg",
+                          "summary":  "Groupe sanguin, rhésus, RAI, sérologies : avant toute transfusion, une série d\u0027examens précis sécurise le geste. Voici pourquoi chacun compte."
                       },
                       {
                           "value":  [
-                                        "@{filename=article-bilan-allergologique.html; title=Bilan allergologique : IgE totales et recherche d\u0027allergènes en pratique; category=Bilan biologique; date=1 septembre 2026; image=photos/article-bilan-allergologique-ige.jpg; summary=Éternuements chroniques, eczéma inexpliqué : le dosage des IgE totales et spécifiques aide à identifier ce qui déclenche vraiment la réaction.}",
+                                        "@{filename=article-pcv-antibiogramme.html; title=PCV et antibiogramme : comprendre son prélèvement vaginal et son traitement; category=Santé femme; date=2 septembre 2026; image=photos/article-pcv-antibiogramme-infections-vaginales.jpg; summary=Pertes inhabituelles, odeur, irritation : le PCV identifie le germe responsable, l\u0027antibiogramme dit quel traitement fonctionnera vraiment dessus.}",
                                         "@{value=System.Object[]; Count=2}"
                                     ],
                           "Count":  2
