@@ -1323,7 +1323,24 @@
     }
     .social-fb-title { font-weight: 800; color: var(--primary); font-size: .95rem; }
     .social-fb-sub   { font-size: .78rem; color: var(--gray); margin-top: 2px; }
-    .fb-plugin-wrap  { padding: 12px; }
+    .fb-posts-wrap   { padding: 14px; display: flex; flex-direction: column; gap: 10px; }
+    .fb-post-card {
+      display: flex; gap: 12px; text-decoration: none; color: inherit;
+      padding: 10px; border-radius: var(--radius-sm);
+      border: 1px solid var(--gray-light); transition: var(--transition);
+    }
+    .fb-post-card:hover { border-color: var(--secondary); box-shadow: var(--shadow); }
+    .fb-post-img {
+      width: 72px; height: 72px; border-radius: var(--radius-sm);
+      object-fit: cover; flex-shrink: 0; background: var(--gray-light);
+    }
+    .fb-post-body { flex: 1; min-width: 0; }
+    .fb-post-text {
+      font-size: .85rem; color: var(--dark); line-height: 1.4;
+      display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+    }
+    .fb-post-date { font-size: .72rem; color: var(--gray); margin-top: 6px; }
+    .fb-posts-empty { font-size: .85rem; color: var(--gray); padding: 8px; }
     .social-card {
       background: white;
       border-radius: var(--radius);
@@ -1368,7 +1385,7 @@
     .instagram-btn      { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
     .instagram-btn:hover { opacity: .88; }
 
-    @media (max-width: 900px) { .social-grid { grid-template-columns: 1fr; } .social-fb-embed .fb-plugin-wrap { overflow-x: auto; } }
+    @media (max-width: 900px) { .social-grid { grid-template-columns: 1fr; } }
 
     /* ============================================================
        FAQ
@@ -2934,8 +2951,6 @@
       <p class="section-sub">Conseils santé, actualités du labo, campagnes de prévention et coulisses de notre équipe.</p>
     </div>
 
-    <div id="fb-root"></div>
-
     <div class="social-grid">
 
       <!-- COLONNE GAUCHE : Facebook Page Plugin -->
@@ -2949,17 +2964,30 @@
             <div class="social-fb-sub">Nos dernières publications Facebook</div>
           </div>
         </div>
-        <div class="fb-plugin-wrap">
-          <div class="fb-page"
-            data-href="https://www.facebook.com/664911753377609"
-            data-tabs="timeline"
-            data-width="500"
-            data-height="500"
-            data-small-header="true"
-            data-adapt-container-width="true"
-            data-hide-cover="false"
-            data-show-facepile="false">
-          </div>
+        <div class="fb-posts-wrap" id="fbPostsWrap">
+          <!-- FB_POSTS_START -->
+      <a class="fb-post-card" href="https://www.facebook.com/122197141604903904/posts/122207440826903904" target="_blank" rel="noopener">
+        <img class="fb-post-img" src="https://external-los4-1.xx.fbcdn.net/emg1/v/t13/15510009570293086324?url=https%3A%2F%2Fleclairdelaplume-labo.com%2Fphotos%2Flogo.png&fb_obo=1&utld=leclairdelaplume-labo.com&edm=AKIiGfEEAAAA&_nc_gid=8hV2seWiPbuge3V7gendvA&_nc_oc=Adqp1OTBhPM_OS-hEcmXMiqNjuT__iQiJ_GrswBwyXJxfBfsNy9YOpYRizzicFbqi_XQYtqXgG6KO60TauZ1M7jn&ccb=13-1&stp=dst-emg0_fr_q75_tt6&ur=50234c&_nc_sid=64c8fc&oh=06_Q3_CAf_I7Bx8a5SfEdOW4GvEIc6Ivc255dvKCtq4TjGu0046&oe=6A9B2209" alt="Publication Facebook Le Clair de la Plume" loading="lazy" onerror="this.style.display='none'">
+        <div class="fb-post-body">
+          <div class="fb-post-text">🔬 Le conseil santé du jour, signé Dr Yannick Djieka Tension artérielle : comprendre vos chiffres et prévenir l'hypertension L'hypertension...</div>
+          <div class="fb-post-date">3 septembre</div>
+        </div>
+      </a>
+      <a class="fb-post-card" href="https://www.facebook.com/122197141604903904/posts/122207369180903904" target="_blank" rel="noopener">
+        <img class="fb-post-img" src="photos/logo.png" alt="Publication Facebook Le Clair de la Plume" loading="lazy" onerror="this.style.display='none'">
+        <div class="fb-post-body">
+          <div class="fb-post-text">🔬 Nouvel article sur le blog du Laboratoire Le Clair de la Plume Bilan pré-transfusionnel : les examens obligatoires avant une transfusion...</div>
+          <div class="fb-post-date">2 septembre</div>
+        </div>
+      </a>
+      <a class="fb-post-card" href="https://www.facebook.com/122197141604903904/posts/122207362664903904" target="_blank" rel="noopener">
+        <img class="fb-post-img" src="https://scontent-los4-1.xx.fbcdn.net/v/t39.30808-6/792237290_122207362646903904_5984926595376049704_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=AYiD15dpr30Q7kNvwF69PYA&_nc_oc=Adreiry6fysOxKoCwh7mVyKnxwir9P_QyXQZLFfOcFRpQxERIWYoMDqK0S_-RdDa1zSpFVnthaJDs-E6SbupwtI5&_nc_zt=23&_nc_ht=scontent-los4-1.xx&edm=AKIiGfEEAAAA&_nc_gid=8hV2seWiPbuge3V7gendvA&_nc_tpa=Q5bMBQLIz6SJpcGgOFMuxb322yOeW5XvH6uQMnqcbAIexeBz_NqVT4zFBe48Uqmx-wsLfw0MsKzp6LLSVg&oh=00_AQILLvcjOjzxs331YGZ6-vfjNBpUE360EAPac1OfiaYrXQ&oe=6A9F19DF" alt="Publication Facebook Le Clair de la Plume" loading="lazy" onerror="this.style.display='none'">
+        <div class="fb-post-body">
+          <div class="fb-post-text">🦠 Pertes vaginales, odeur, démangeaisons : savez-vous vraiment ce qui est en cause ? Un traitement efficace commence d'abord par un...</div>
+          <div class="fb-post-date">2 septembre</div>
+        </div>
+      </a>
+<!-- FB_POSTS_END -->
         </div>
       </div>
 
@@ -3463,10 +3491,6 @@
   });
 </script>
 
-<!-- Facebook SDK -->
-<script async defer crossorigin="anonymous"
-  src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v19.0">
-</script>
 
 <!-- SOCIAL PROOF TOAST -->
 <style>
