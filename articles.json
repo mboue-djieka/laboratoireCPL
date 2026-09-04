@@ -1,25 +1,25 @@
 ﻿[
     {
-        "filename":  "article-creatinine-bilan-renal.html",
-        "title":  "Créatinine et bilan rénal : comprendre et protéger vos reins",
-        "category":  "Bilan biologique",
-        "date":  "3 septembre 2026",
-        "image":  "photos/article-creatinine-bilan-renal.jpg",
-        "summary":  "Les reins filtrent 200 litres de sang par jour en silence. Un simple dosage de la créatinine suffit à détecter une insuffisance rénale débutante."
+        "filename":  "article-hepatite-c.html",
+        "title":  "Hépatite C : dépistage, symptômes et traitement à Douala",
+        "category":  "Infections",
+        "date":  "4 septembre 2026",
+        "image":  "photos/article-hepatite-c-depistage.jpg",
+        "summary":  "L\u0027hépatite C se guérit aujourd\u0027hui à plus de 95%. Mais des millions de personnes l\u0027ignorent. Voici ce qu\u0027il faut savoir sur le dépistage."
     },
     {
         "value":  [
                       {
-                          "filename":  "article-tension-arterielle.html",
-                          "title":  "Tension artérielle : comprendre vos chiffres et prévenir l\u0027hypertension",
-                          "category":  "Prévention",
+                          "filename":  "article-creatinine-bilan-renal.html",
+                          "title":  "Créatinine et bilan rénal : comprendre et protéger vos reins",
+                          "category":  "Bilan biologique",
                           "date":  "3 septembre 2026",
-                          "image":  "photos/article-tension-arterielle-hypertension.jpg",
-                          "summary":  "L\u0027hypertension touche 1 adulte sur 3 au Cameroun sans symptômes. Découvrez comment lire vos chiffres et agir avant les complications."
+                          "image":  "photos/article-creatinine-bilan-renal.jpg",
+                          "summary":  "Les reins filtrent 200 litres de sang par jour en silence. Un simple dosage de la créatinine suffit à détecter une insuffisance rénale débutante."
                       },
                       {
                           "value":  [
-                                        "@{filename=article-bilan-pretransfusionnel.html; title=Bilan pré-transfusionnel : les examens obligatoires avant une transfusion sanguine; category=Bilan biologique; date=2 septembre 2026; image=photos/article-bilan-pretransfusionnel.jpg; summary=Groupe sanguin, rhésus, RAI, sérologies : avant toute transfusion, une série d\u0027examens précis sécurise le geste. Voici pourquoi chacun compte.}",
+                                        "@{filename=article-tension-arterielle.html; title=Tension artérielle : comprendre vos chiffres et prévenir l\u0027hypertension; category=Prévention; date=3 septembre 2026; image=photos/article-tension-arterielle-hypertension.jpg; summary=L\u0027hypertension touche 1 adulte sur 3 au Cameroun sans symptômes. Découvrez comment lire vos chiffres et agir avant les complications.}",
                                         "@{value=System.Object[]; Count=2}"
                                     ],
                           "Count":  2
