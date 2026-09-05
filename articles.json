@@ -1,25 +1,25 @@
 ﻿[
     {
-        "filename":  "article-vih-sida.html",
-        "title":  "VIH/SIDA à Douala : dépistage, traitement ARV et vie avec le VIH",
-        "category":  "Infections",
-        "date":  "4 septembre 2026",
-        "image":  "photos/article-vih-sida-depistage-traitement.jpg",
-        "summary":  "Avec un traitement ARV adapté, une personne vivant avec le VIH peut avoir une espérance de vie normale. Le dépistage précoce est la clé."
+        "filename":  "article-menopause.html",
+        "title":  "Ménopause : signes, bilan hormonal et accompagnement médical",
+        "category":  "Santé femme",
+        "date":  "5 septembre 2026",
+        "image":  "photos/article-menopause-bilan-hormonal.jpg",
+        "summary":  "Bouffées de chaleur, troubles du sommeil, prise de poids : la ménopause se vit mieux avec un bilan hormonal adapté et un accompagnement médical."
     },
     {
         "value":  [
                       {
-                          "filename":  "article-hepatite-c.html",
-                          "title":  "Hépatite C : dépistage, symptômes et traitement à Douala",
+                          "filename":  "article-vih-sida.html",
+                          "title":  "VIH/SIDA à Douala : dépistage, traitement ARV et vie avec le VIH",
                           "category":  "Infections",
                           "date":  "4 septembre 2026",
-                          "image":  "photos/article-hepatite-c-depistage.jpg",
-                          "summary":  "L\u0027hépatite C se guérit aujourd\u0027hui à plus de 95%. Mais des millions de personnes l\u0027ignorent. Voici ce qu\u0027il faut savoir sur le dépistage."
+                          "image":  "photos/article-vih-sida-depistage-traitement.jpg",
+                          "summary":  "Avec un traitement ARV adapté, une personne vivant avec le VIH peut avoir une espérance de vie normale. Le dépistage précoce est la clé."
                       },
                       {
                           "value":  [
-                                        "@{filename=article-creatinine-bilan-renal.html; title=Créatinine et bilan rénal : comprendre et protéger vos reins; category=Bilan biologique; date=3 septembre 2026; image=photos/article-creatinine-bilan-renal.jpg; summary=Les reins filtrent 200 litres de sang par jour en silence. Un simple dosage de la créatinine suffit à détecter une insuffisance rénale débutante.}",
+                                        "@{filename=article-hepatite-c.html; title=Hépatite C : dépistage, symptômes et traitement à Douala; category=Infections; date=4 septembre 2026; image=photos/article-hepatite-c-depistage.jpg; summary=L\u0027hépatite C se guérit aujourd\u0027hui à plus de 95%. Mais des millions de personnes l\u0027ignorent. Voici ce qu\u0027il faut savoir sur le dépistage.}",
                                         "@{value=System.Object[]; Count=2}"
                                     ],
                           "Count":  2
