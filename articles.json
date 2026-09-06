@@ -1,25 +1,25 @@
 ﻿[
     {
-        "filename":  "article-vitamine-d.html",
-        "title":  "Carence en vitamine D : symptômes, dosage sanguin et supplémentation",
-        "category":  "Prévention",
+        "filename":  "article-glycemie-diabete.html",
+        "title":  "Glycémie et diabète de type 2 : comprendre, prévenir, surveiller",
+        "category":  "Maladies chroniques",
         "date":  "6 septembre 2026",
-        "image":  "photos/article-vitamine-d-carence.jpg",
-        "summary":  "Paradoxalement, même sous le soleil africain, la carence en vitamine D est fréquente. Fatigue, douleurs osseuses, immunité faible : reconnaissez les signes."
+        "image":  "photos/article-glycemie-diabete-type2.jpg",
+        "summary":  "Le diabète de type 2 s\u0027installe sur des années sans bruit. Une glycémie à jeun suffit à détecter un pré-diabète avant qu\u0027il ne devienne irréversible."
     },
     {
         "value":  [
                       {
-                          "filename":  "article-menopause.html",
-                          "title":  "Ménopause : signes, bilan hormonal et accompagnement médical",
-                          "category":  "Santé femme",
-                          "date":  "5 septembre 2026",
-                          "image":  "photos/article-menopause-bilan-hormonal.jpg",
-                          "summary":  "Bouffées de chaleur, troubles du sommeil, prise de poids : la ménopause se vit mieux avec un bilan hormonal adapté et un accompagnement médical."
+                          "filename":  "article-vitamine-d.html",
+                          "title":  "Carence en vitamine D : symptômes, dosage sanguin et supplémentation",
+                          "category":  "Prévention",
+                          "date":  "6 septembre 2026",
+                          "image":  "photos/article-vitamine-d-carence.jpg",
+                          "summary":  "Paradoxalement, même sous le soleil africain, la carence en vitamine D est fréquente. Fatigue, douleurs osseuses, immunité faible : reconnaissez les signes."
                       },
                       {
                           "value":  [
-                                        "@{filename=article-vih-sida.html; title=VIH/SIDA à Douala : dépistage, traitement ARV et vie avec le VIH; category=Infections; date=4 septembre 2026; image=photos/article-vih-sida-depistage-traitement.jpg; summary=Avec un traitement ARV adapté, une personne vivant avec le VIH peut avoir une espérance de vie normale. Le dépistage précoce est la clé.}",
+                                        "@{filename=article-menopause.html; title=Ménopause : signes, bilan hormonal et accompagnement médical; category=Santé femme; date=5 septembre 2026; image=photos/article-menopause-bilan-hormonal.jpg; summary=Bouffées de chaleur, troubles du sommeil, prise de poids : la ménopause se vit mieux avec un bilan hormonal adapté et un accompagnement médical.}",
                                         "@{value=System.Object[]; Count=2}"
                                     ],
                           "Count":  2
