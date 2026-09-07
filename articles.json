@@ -1,30 +1,42 @@
-﻿[
-    {
-        "filename":  "article-hba1c.html",
-        "title":  "HbA1c : l\u0027examen clé pour surveiller votre diabète sur 3 mois",
-        "category":  "Maladies chroniques",
-        "date":  "7 septembre 2026",
-        "image":  "photos/article-hba1c-suivi-diabete.jpg",
-        "summary":  "L\u0027hémoglobine glyquée (HbA1c) révèle votre équilibre glycémique des 3 derniers mois. Un chiffre indispensable pour tout diabétique traité."
-    },
-    {
-        "value":  [
-                      {
-                          "filename":  "article-glycemie-diabete.html",
-                          "title":  "Glycémie et diabète de type 2 : comprendre, prévenir, surveiller",
-                          "category":  "Maladies chroniques",
-                          "date":  "6 septembre 2026",
-                          "image":  "photos/article-glycemie-diabete-type2.jpg",
-                          "summary":  "Le diabète de type 2 s\u0027installe sur des années sans bruit. Une glycémie à jeun suffit à détecter un pré-diabète avant qu\u0027il ne devienne irréversible."
-                      },
-                      {
-                          "value":  [
-                                        "@{filename=article-vitamine-d.html; title=Carence en vitamine D : symptômes, dosage sanguin et supplémentation; category=Prévention; date=6 septembre 2026; image=photos/article-vitamine-d-carence.jpg; summary=Paradoxalement, même sous le soleil africain, la carence en vitamine D est fréquente. Fatigue, douleurs osseuses, immunité faible : reconnaissez les signes.}",
-                                        "@{value=System.Object[]; Count=2}"
-                                    ],
-                          "Count":  2
-                      }
-                  ],
-        "Count":  2
-    }
+[
+  {
+    "filename": "article-sopk-alimentation.html",
+    "title": "SOPK et alimentation : que mettre dans son assiette ?",
+    "category": "Santé femme",
+    "date": "7 septembre 2026",
+    "image": "photos/article-sopk-alimentation.jpg",
+    "summary": "Après un diagnostic de SOPK, faut-il supprimer le riz, le plantain ou les fruits ? Découvrez une méthode simple pour composer des repas adaptés sans régime extrême."
+  },
+  {
+    "filename": "article-hba1c.html",
+    "title": "HbA1c : l'examen clé pour surveiller votre diabète sur 3 mois",
+    "category": "Maladies chroniques",
+    "date": "7 septembre 2026",
+    "image": "photos/article-hba1c-suivi-diabete.jpg",
+    "summary": "L'hémoglobine glyquée (HbA1c) révèle votre équilibre glycémique des 3 derniers mois. Un chiffre indispensable pour tout diabétique traité."
+  },
+  {
+    "filename": "article-glycemie-diabete.html",
+    "title": "Glycémie et diabète de type 2 : comprendre, prévenir, surveiller",
+    "category": "Maladies chroniques",
+    "date": "6 septembre 2026",
+    "image": "photos/article-glycemie-diabete-type2.jpg",
+    "summary": "Le diabète de type 2 s'installe sur des années sans bruit. Une glycémie à jeun suffit à détecter un pré-diabète avant qu'il ne devienne irréversible."
+  },
+  {
+    "filename": "article-vitamine-d.html",
+    "title": "Carence en vitamine D : symptômes, dosage sanguin et supplémentation",
+    "category": "Prévention",
+    "date": "6 septembre 2026",
+    "image": "photos/article-vitamine-d-carence.jpg",
+    "summary": "Même sous le soleil africain, la carence en vitamine D est fréquente. Reconnaissez les signes et découvrez le dosage utile."
+  },
+  {
+    "filename": "article-sopk.html",
+    "title": "SOPK : syndrome des ovaires polykystiques, diagnostic et fertilité",
+    "category": "Fertilité",
+    "date": "1 août 2026",
+    "image": "photos/article-sopk-syndrome-ovaires-polykystiques.jpg",
+    "summary": "Le SOPK touche de nombreuses femmes et se prend mieux en charge quand il est diagnostiqué à temps."
+  }
 ]
